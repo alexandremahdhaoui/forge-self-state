@@ -1,0 +1,33 @@
+{
+  "revision": "63893d9e3038",
+  "stage": "publish",
+  "substage": "default",
+  "engine": "here",
+  "status": "passed",
+  "startedAt": "2026-08-23T20:12:11.093996828Z",
+  "duration": 1.530283572,
+  "output": "$ forge test run publish-members (in forge-self-register)\nRunning tests: stage=publish-members, name=publish-members-20260823-201211\n\nTest Results:\nStatus: passed\nTotal: 1\nPassed: 1\nFailed: 0\nCoverage: 0.0%\nSourced 0 environment variables from .envrc\ngo: github.com/alexandremahdhaoui/forge@v0.0.0-20260823190121-455591864daa requires go \u003e= 1.25.0; switching to go1.26.7\n2026/08/23 20:12:11 Running tests for stage publish-members using generic-test-runner\n2026/08/23 20:12:11 Running tests: stage=publish-members name=publish-members-20260823-201211 command=sh\n2026/08/23 20:12:12 Stdout: publish-members: provenance 63893d9e3038\nadopted internal/github.com/alexandremahdhaoui/forge/0/1787515931: published by proof: revision 63893d9e3038\nadopted internal/github.com/alexandremahdhaoui/forge-ci/0/1787515931: published by proof: revision 63893d9e3038\nadopted internal/github.com/alexandremahdhaoui/forge-factory/0/1787515931: published by proof: revision 63893d9e3038\nup-to-date internal/github.com/alexandremahdhaoui/forge-register/0/1787515932: track 0 is already at v0.1.0-dev.a7444b58d3eb\nup-to-date internal/github.com/alexandremahdhaoui/forge-ci-spec/0/1787515932: track 0 is already at v0.1.0-dev.740b2f4f635f\nup-to-date internal/github.com/alexandremahdhaoui/forge-revision-spec/0/1787515932: track 0 is already at v0.1.0-dev.8c3d8ac96932\nup-to-date internal/github.com/alexandremahdhaoui/forge-register-spec/0/1787515932: track 0 is already at v0.1.0-dev.3dce5712332b\npublish-members: every member is on the internal track at 63893d9e3038\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "13ef6fc8-5c3e-4f6e-ab63-44a19a4fc6d9",
+        "stage": "publish-members",
+        "status": "passed",
+        "startTime": "2026-08-23T20:12:12.614435383Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-08-23T20:12:12.620041094Z",
+        "updatedAt": "2026-08-23T20:12:12.620041094Z"
+      }
+    ]
+  }
+}

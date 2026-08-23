@@ -1,0 +1,33 @@
+{
+  "revision": "87e695b90369",
+  "stage": "publish",
+  "substage": "default",
+  "engine": "here",
+  "status": "passed",
+  "startedAt": "2026-08-23T21:37:06.881445971Z",
+  "duration": 5.169897649,
+  "output": "$ forge test run publish-members (in forge-self-register)\nRunning tests: stage=publish-members, name=publish-members-20260823-213706\n\nTest Results:\nStatus: passed\nTotal: 1\nPassed: 1\nFailed: 0\nCoverage: 0.0%\nSourced 0 environment variables from .envrc\ngo: github.com/alexandremahdhaoui/forge@v0.0.0-20260823200742-a007b5393f1a requires go \u003e= 1.25.0; switching to go1.26.7\n2026/08/23 21:37:10 Running tests for stage publish-members using generic-test-runner\n2026/08/23 21:37:10 Running tests: stage=publish-members name=publish-members-20260823-213706 command=sh\n2026/08/23 21:37:12 Stdout: publish-members: provenance 87e695b90369\nadopted internal/github.com/alexandremahdhaoui/forge/0/1787521030: published by proof: revision 87e695b90369\nadopted internal/github.com/alexandremahdhaoui/forge-ci/0/1787521030: published by proof: revision 87e695b90369\nadopted internal/github.com/alexandremahdhaoui/forge-factory/0/1787521030: published by proof: revision 87e695b90369\nadopted internal/github.com/alexandremahdhaoui/forge-register/0/1787521031: published by proof: revision 87e695b90369\nadopted internal/github.com/alexandremahdhaoui/forge-ci-spec/0/1787521031: published by proof: revision 87e695b90369\nadopted internal/github.com/alexandremahdhaoui/forge-revision-spec/0/1787521031: published by proof: revision 87e695b90369\nadopted internal/github.com/alexandremahdhaoui/forge-register-spec/0/1787521031: published by proof: revision 87e695b90369\npublish-members: every member is on the internal track at 87e695b90369\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "2ccbeac1-b64e-4691-a1b4-724b7e3e4170",
+        "stage": "publish-members",
+        "status": "passed",
+        "startTime": "2026-08-23T21:37:12.039704033Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-08-23T21:37:12.046869253Z",
+        "updatedAt": "2026-08-23T21:37:12.046869253Z"
+      }
+    ]
+  }
+}
