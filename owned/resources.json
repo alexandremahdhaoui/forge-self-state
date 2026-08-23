@@ -1,0 +1,18 @@
+[
+  {
+    "resource": "directory/forge-self-state",
+    "manager": "local"
+  },
+  {
+    "resource": "directory/forge-self-state/owned",
+    "manager": "local"
+  },
+  {
+    "resource": "directory/forge-self-state/revisions",
+    "manager": "local"
+  },
+  {
+    "resource": "directory/forge-self-state/runs",
+    "manager": "local"
+  }
+]
