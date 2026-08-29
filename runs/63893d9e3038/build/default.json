@@ -1,0 +1,944 @@
+{
+  "revision": "63893d9e3038",
+  "stage": "build",
+  "substage": "default",
+  "engine": "here",
+  "status": "passed",
+  "startedAt": "2026-08-23T20:11:53.715664891Z",
+  "duration": 17.223332608,
+  "output": "$ forge test run unit (in forge-factory)\nRunning tests: stage=unit, name=unit-20260823-201154\n\nTest Results:\nStatus: passed\nTotal: 330\nPassed: 330\nFailed: 0\nCoverage: 36.8%\nSourced 3 environment variables from .envrc\n2026/08/23 20:11:54 Running tests for stage unit using go-test\n2026/08/23 20:11:54 Running tests: stage=unit name=unit-20260823-201154\n✓  internal/adapter/engineadapter (1.025s) (coverage: 33.8% of statements)\n✓  internal/adapter/fsadapter (1.026s) (coverage: 97.4% of statements)\n✓  internal/adapter/execadapter (1.03s) (coverage: 97.1% of statements)\n✓  internal/adapter/gitadapter (1.033s) (coverage: 92.3% of statements)\n✓  internal/adapter/repoadapter (1.02s) (coverage: 100.0% of statements)\n✓  internal/controller/docscontroller (1.02s) (coverage: 100.0% of statements)\n✓  internal/controller/clonecontroller (1.026s) (coverage: 100.0% of statements)\n✓  internal/controller/rendercontroller (1.027s) (coverage: 99.5% of statements)\n✓  internal/controller/resolvecontroller (1.259s) (coverage: 93.5% of statements)\n✓  internal/controller/revisioncontroller (1.041s) (coverage: 100.0% of statements)\n✓  internal/controller/speccontroller (1.036s) (coverage: 92.8% of statements)\n✓  internal/controller/statuscontroller (1.04s) (coverage: 100.0% of statements)\n✓  internal/controller/synccontroller (1.044s) (coverage: 94.8% of statements)\n✓  internal/driver/clidriver (1.054s) (coverage: 92.2% of statements)\n✓  pkg/config (1.024s) (coverage: 79.1% of statements)\n✓  internal/controller/runcontroller (7.251s) (coverage: 97.7% of statements)\n\nDONE 330 tests in 10.793s\n$ forge test run unit (in forge-register)\nRunning tests: stage=unit, name=unit-20260823-201206\n\nTest Results:\nStatus: passed\nTotal: 122\nPassed: 122\nFailed: 0\nCoverage: 60.1%\nSourced 3 environment variables from .envrc\n2026/08/23 20:12:06 Running tests for stage unit using go-test\n2026/08/23 20:12:06 Running tests: stage=unit name=unit-20260823-201206\n✓  internal/adapter/engineadapter (1.024s) (coverage: 62.2% of statements)\n✓  internal/adapter/osvadapter (1.037s) (coverage: 86.4% of statements)\n✓  internal/adapter/registryadapter (1.028s) (coverage: 89.5% of statements)\n✓  internal/adapter/storeadapter (1.034s) (coverage: 76.0% of statements)\n✓  internal/controller/discoverycontroller (1.02s) (coverage: 100.0% of statements)\n✓  internal/controller/policycontroller (1.031s) (coverage: 94.6% of statements)\n✓  internal/controller/registercontroller (1.036s) (coverage: 84.8% of statements)\n✓  internal/driver/clidriver (1.039s) (coverage: 88.0% of statements)\n✓  pkg/config (1.02s) (coverage: 96.0% of statements)\n\nDONE 122 tests in 4.142s\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "53e32747-0d7b-4120-bea3-613da1d38d2a",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-08-23T20:11:54.557399327Z",
+        "duration": 11.163302899,
+        "testStats": {
+          "total": 330,
+          "passed": 330,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 36.8,
+          "filePath": "/home/user/forge-factory/tmp/tmp-61815e9c-8d3a-454f-95d4-1058311905e1/test-unit-unit-20260823-201154-coverage.out"
+        },
+        "artifactFiles": [
+          "/home/user/forge-factory/tmp/tmp-61815e9c-8d3a-454f-95d4-1058311905e1/test-unit-unit-20260823-201154.xml",
+          "/home/user/forge-factory/tmp/tmp-61815e9c-8d3a-454f-95d4-1058311905e1/test-unit-unit-20260823-201154-coverage.out"
+        ],
+        "outputPath": "/home/user/forge-factory/tmp/tmp-61815e9c-8d3a-454f-95d4-1058311905e1/test-unit-unit-20260823-201154.xml",
+        "createdAt": "2026-08-23T20:12:05.919942462Z",
+        "updatedAt": "2026-08-23T20:12:05.919942462Z"
+      },
+      {
+        "id": "99fb46da-cef8-47b8-8569-0dc6d568769e",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-08-23T20:11:54.557399327Z",
+        "duration": 11.163302899,
+        "testStats": {
+          "total": 330,
+          "passed": 330,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 36.8
+        },
+        "createdAt": "2026-08-23T20:12:05.974820562Z",
+        "updatedAt": "2026-08-23T20:12:05.974820562Z"
+      },
+      {
+        "id": "31a4ff48-c973-4c21-ae27-1d8ca066445e",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-08-23T20:12:06.186321522Z",
+        "duration": 4.510628864,
+        "testStats": {
+          "total": 122,
+          "passed": 122,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 60.1
+        },
+        "createdAt": "2026-08-23T20:12:10.903575985Z",
+        "updatedAt": "2026-08-23T20:12:10.903575985Z"
+      },
+      {
+        "id": "af874463-7b4b-4f5f-b6d0-c00c2e8d8f11",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-08-23T20:12:06.186321522Z",
+        "duration": 4.510628864,
+        "testStats": {
+          "total": 122,
+          "passed": 122,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 60.1,
+          "filePath": "/home/user/forge-register/tmp/tmp-a88744c5-f11d-4bf1-83f7-afba9d3ec2cc/test-unit-unit-20260823-201206-coverage.out"
+        },
+        "artifactFiles": [
+          "/home/user/forge-register/tmp/tmp-a88744c5-f11d-4bf1-83f7-afba9d3ec2cc/test-unit-unit-20260823-201206.xml",
+          "/home/user/forge-register/tmp/tmp-a88744c5-f11d-4bf1-83f7-afba9d3ec2cc/test-unit-unit-20260823-201206-coverage.out"
+        ],
+        "outputPath": "/home/user/forge-register/tmp/tmp-a88744c5-f11d-4bf1-83f7-afba9d3ec2cc/test-unit-unit-20260823-201206.xml",
+        "createdAt": "2026-08-23T20:12:10.870077809Z",
+        "updatedAt": "2026-08-23T20:12:10.870077809Z"
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "factory-lang-typescript",
+        "type": "binary",
+        "location": "build/bin/factory-lang-typescript",
+        "timestamp": "2026-08-23T19:21:34Z",
+        "version": "68f6708e74a977004ff3b35d6c4e74bff1cda894",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/go.mod",
+            "timestamp": "2026-08-21T17:48:28Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.43.0"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "factory-lang-typescript",
+        "type": "binary",
+        "location": "build/bin/factory-lang-typescript",
+        "timestamp": "2026-08-21T18:03:18Z",
+        "version": "9834f2f0a229e4fd54b361082e871f8380c1ad1c",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/go.mod",
+            "timestamp": "2026-08-21T17:48:28Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.43.0"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "factory-lang-typescript",
+        "type": "binary",
+        "location": "build/bin/factory-lang-typescript",
+        "timestamp": "2026-08-21T17:51:37Z",
+        "version": "565cda6c423357815b8193ebd25f26aead7786eb",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/go.mod",
+            "timestamp": "2026-08-21T17:48:28Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.43.0"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "factory-lang-python",
+        "type": "binary",
+        "location": "build/bin/factory-lang-python",
+        "timestamp": "2026-08-23T19:21:33Z",
+        "version": "68f6708e74a977004ff3b35d6c4e74bff1cda894",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/go.mod",
+            "timestamp": "2026-08-21T17:48:28Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.43.0"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "factory-lang-python",
+        "type": "binary",
+        "location": "build/bin/factory-lang-python",
+        "timestamp": "2026-08-21T18:03:18Z",
+        "version": "9834f2f0a229e4fd54b361082e871f8380c1ad1c",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/go.mod",
+            "timestamp": "2026-08-21T17:48:28Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.43.0"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "factory-lang-python",
+        "type": "binary",
+        "location": "build/bin/factory-lang-python",
+        "timestamp": "2026-08-21T17:51:36Z",
+        "version": "565cda6c423357815b8193ebd25f26aead7786eb",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/go.mod",
+            "timestamp": "2026-08-21T17:48:28Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.43.0"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "factory-lang-go",
+        "type": "binary",
+        "location": "build/bin/factory-lang-go",
+        "timestamp": "2026-08-23T19:21:33Z",
+        "version": "68f6708e74a977004ff3b35d6c4e74bff1cda894",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/go.mod",
+            "timestamp": "2026-08-21T17:48:28Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.43.0"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "factory-lang-go",
+        "type": "binary",
+        "location": "build/bin/factory-lang-go",
+        "timestamp": "2026-08-21T18:03:16Z",
+        "version": "9834f2f0a229e4fd54b361082e871f8380c1ad1c",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/go.mod",
+            "timestamp": "2026-08-21T17:48:28Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.43.0"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "factory-lang-go",
+        "type": "binary",
+        "location": "build/bin/factory-lang-go",
+        "timestamp": "2026-08-21T17:51:35Z",
+        "version": "565cda6c423357815b8193ebd25f26aead7786eb",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/go.mod",
+            "timestamp": "2026-08-21T17:48:28Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.43.0"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "generate-docs",
+        "type": "command-output",
+        "location": "/home/user/forge-factory",
+        "timestamp": "2026-08-23T19:45:04Z",
+        "version": "go-exit0"
+      },
+      {
+        "name": "generate-mocks",
+        "type": "command-output",
+        "location": "/home/user/forge-factory",
+        "timestamp": "2026-08-23T19:45:04Z",
+        "version": "mockery-exit0"
+      },
+      {
+        "name": "factory-lang-go",
+        "type": "generated",
+        "location": "/home/user/forge-factory/cmd/factory-lang-go",
+        "timestamp": "2026-08-23T19:45:04Z",
+        "version": "sha256:2cc4ac6e3ba5e450bd91aca83e1eba8c296d4039eaaf51a8a66ebfe377abb210"
+      },
+      {
+        "name": "formatted-code",
+        "type": "formatted",
+        "location": ".",
+        "timestamp": "2026-08-23T19:45:03Z",
+        "version": ""
+      },
+      {
+        "name": "factory-lang-rust",
+        "type": "generated",
+        "location": "/home/user/forge-factory/cmd/factory-lang-rust",
+        "timestamp": "2026-08-23T19:45:04Z",
+        "version": "sha256:418ad855e43b3c6780d0954c0b3f7c4529ae6c401fffc1352c242aae963da224"
+      },
+      {
+        "name": "factory-lang-python",
+        "type": "generated",
+        "location": "/home/user/forge-factory/cmd/factory-lang-python",
+        "timestamp": "2026-08-23T19:45:04Z",
+        "version": "sha256:6e666ecef7862e18e0c4a2f86c5760a2311c666f71e3999f961a24388289c7a4"
+      },
+      {
+        "name": "factory-lang-typescript",
+        "type": "generated",
+        "location": "/home/user/forge-factory/cmd/factory-lang-typescript",
+        "timestamp": "2026-08-23T19:45:04Z",
+        "version": "sha256:d44daf2ee28957a4e15d386fb768ee9229c73c42ed862a0d1f3e1e66a12845c9"
+      },
+      {
+        "name": "forge-factory",
+        "type": "binary",
+        "location": "build/bin/forge-factory",
+        "timestamp": "2026-08-23T19:21:33Z",
+        "version": "68f6708e74a977004ff3b35d6c4e74bff1cda894",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/go.mod",
+            "timestamp": "2026-08-21T17:48:28Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/adapter/engineadapter/engineadapter.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-08-23T18:50:14Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-08-23T18:50:30Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/adapter/repoadapter/repoadapter.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "sigs.k8s.io/yaml",
+            "semver": "v1.6.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/clonecontroller/clonecontroller.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/pkg/config/config.go",
+            "timestamp": "2026-08-23T18:59:44Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/resolvecontroller/resolvecontroller.go",
+            "timestamp": "2026-08-21T17:46:25Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge-register-spec/pkg/registertypes",
+            "semver": "v0.0.0-20260821132857-264af3db0b46"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/revisioncontroller/revisioncontroller.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge-revision-spec/pkg/revisiontypes",
+            "semver": "v0.2.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/runcontroller/runcontroller.go",
+            "timestamp": "2026-08-23T19:09:43Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/synccontroller/synccontroller.go",
+            "timestamp": "2026-08-23T18:50:59Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/statuscontroller/statuscontroller.go",
+            "timestamp": "2026-08-21T18:02:36Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/driver/clidriver/clidriver.go",
+            "timestamp": "2026-08-23T19:09:43Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/speccontroller/speccontroller.go",
+            "timestamp": "2026-08-21T17:23:54Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "forge-factory",
+        "type": "binary",
+        "location": "build/bin/forge-factory",
+        "timestamp": "2026-08-21T18:03:15Z",
+        "version": "9834f2f0a229e4fd54b361082e871f8380c1ad1c",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/go.mod",
+            "timestamp": "2026-08-21T17:48:28Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/adapter/engineadapter/engineadapter.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-08-21T17:10:48Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/adapter/repoadapter/repoadapter.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "sigs.k8s.io/yaml",
+            "semver": "v1.6.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/clonecontroller/clonecontroller.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/pkg/config/config.go",
+            "timestamp": "2026-08-21T18:02:36Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/resolvecontroller/resolvecontroller.go",
+            "timestamp": "2026-08-21T17:46:25Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge-register-spec/pkg/registertypes",
+            "semver": "v0.0.0-20260821132857-264af3db0b46"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/revisioncontroller/revisioncontroller.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge-revision-spec/pkg/revisiontypes",
+            "semver": "v0.2.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/statuscontroller/statuscontroller.go",
+            "timestamp": "2026-08-21T18:02:36Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/synccontroller/synccontroller.go",
+            "timestamp": "2026-08-21T14:08:26Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/driver/clidriver/clidriver.go",
+            "timestamp": "2026-08-21T18:02:36Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/speccontroller/speccontroller.go",
+            "timestamp": "2026-08-21T17:23:54Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "forge-factory",
+        "type": "binary",
+        "location": "build/bin/forge-factory",
+        "timestamp": "2026-08-21T17:51:34Z",
+        "version": "565cda6c423357815b8193ebd25f26aead7786eb",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/go.mod",
+            "timestamp": "2026-08-21T17:48:28Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/adapter/engineadapter/engineadapter.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-08-21T17:10:48Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/adapter/repoadapter/repoadapter.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "sigs.k8s.io/yaml",
+            "semver": "v1.6.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/clonecontroller/clonecontroller.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/pkg/config/config.go",
+            "timestamp": "2026-08-21T14:06:19Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/resolvecontroller/resolvecontroller.go",
+            "timestamp": "2026-08-21T17:46:25Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge-register-spec/pkg/registertypes",
+            "semver": "v0.0.0-20260821132857-264af3db0b46"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/revisioncontroller/revisioncontroller.go",
+            "timestamp": "2026-08-20T08:24:00Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge-revision-spec/pkg/revisiontypes",
+            "semver": "v0.2.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/statuscontroller/statuscontroller.go",
+            "timestamp": "2026-08-21T17:22:44Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/synccontroller/synccontroller.go",
+            "timestamp": "2026-08-21T14:08:26Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/driver/clidriver/clidriver.go",
+            "timestamp": "2026-08-21T17:24:29Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/internal/controller/speccontroller/speccontroller.go",
+            "timestamp": "2026-08-21T17:23:54Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "factory-lang-rust",
+        "type": "binary",
+        "location": "build/bin/factory-lang-rust",
+        "timestamp": "2026-08-23T19:21:33Z",
+        "version": "68f6708e74a977004ff3b35d6c4e74bff1cda894",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/go.mod",
+            "timestamp": "2026-08-21T17:48:28Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.43.0"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "factory-lang-rust",
+        "type": "binary",
+        "location": "build/bin/factory-lang-rust",
+        "timestamp": "2026-08-21T18:03:17Z",
+        "version": "9834f2f0a229e4fd54b361082e871f8380c1ad1c",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/go.mod",
+            "timestamp": "2026-08-21T17:48:28Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.43.0"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "factory-lang-rust",
+        "type": "binary",
+        "location": "build/bin/factory-lang-rust",
+        "timestamp": "2026-08-21T17:51:35Z",
+        "version": "565cda6c423357815b8193ebd25f26aead7786eb",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-factory/go.mod",
+            "timestamp": "2026-08-21T17:48:28Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.43.0"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "resolve-spec",
+        "type": "command-output",
+        "location": "/home/user/forge-register",
+        "timestamp": "2026-08-23T19:38:24Z",
+        "version": "sh-exit0"
+      },
+      {
+        "name": "generate-mocks",
+        "type": "command-output",
+        "location": "/home/user/forge-register",
+        "timestamp": "2026-08-23T19:38:25Z",
+        "version": "mockery-exit0"
+      },
+      {
+        "name": "formatted-code",
+        "type": "formatted",
+        "location": ".",
+        "timestamp": "2026-08-23T19:38:24Z",
+        "version": ""
+      },
+      {
+        "name": "forge-register",
+        "type": "binary",
+        "location": "build/bin/forge-register",
+        "timestamp": "2026-08-23T19:37:35Z",
+        "version": "6d573043473499c19d6bf080d0a9ca5d1b7cf83e",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/go.mod",
+            "timestamp": "2026-08-23T19:29:37Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/adapter/engineadapter/engineadapter.go",
+            "timestamp": "2026-08-21T13:34:44Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/adapter/osvadapter/osvadapter.go",
+            "timestamp": "2026-08-21T17:35:28Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/types/regtypes/regtypes.go",
+            "timestamp": "2026-08-21T13:31:36Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/adapter/registryadapter/registryadapter.go",
+            "timestamp": "2026-08-21T17:35:28Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/adapter/storeadapter/regwire.go",
+            "timestamp": "2026-08-21T13:38:56Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/controller/discoverycontroller/discoverycontroller.go",
+            "timestamp": "2026-08-21T13:39:48Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/controller/registercontroller/registercontroller.go",
+            "timestamp": "2026-08-21T17:43:46Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/controller/policycontroller/policycontroller.go",
+            "timestamp": "2026-08-21T14:00:14Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/driver/clidriver/clidriver.go",
+            "timestamp": "2026-08-21T17:36:13Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/pkg/config/config.go",
+            "timestamp": "2026-08-23T19:37:05Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "sigs.k8s.io/yaml",
+            "semver": "v1.6.0"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "forge-register",
+        "type": "binary",
+        "location": "build/bin/forge-register",
+        "timestamp": "2026-08-21T18:04:35Z",
+        "version": "09a82df90002a05fa67742633c59761427227ef5",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/go.mod",
+            "timestamp": "2026-08-21T18:04:10Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/adapter/engineadapter/engineadapter.go",
+            "timestamp": "2026-08-21T13:34:44Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/adapter/osvadapter/osvadapter.go",
+            "timestamp": "2026-08-21T17:35:28Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/types/regtypes/regtypes.go",
+            "timestamp": "2026-08-21T13:31:36Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/adapter/registryadapter/registryadapter.go",
+            "timestamp": "2026-08-21T17:35:28Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/adapter/storeadapter/regwire.go",
+            "timestamp": "2026-08-21T13:38:56Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/controller/discoverycontroller/discoverycontroller.go",
+            "timestamp": "2026-08-21T13:39:48Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/controller/registercontroller/registercontroller.go",
+            "timestamp": "2026-08-21T17:43:46Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/controller/policycontroller/policycontroller.go",
+            "timestamp": "2026-08-21T14:00:14Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/driver/clidriver/clidriver.go",
+            "timestamp": "2026-08-21T17:36:13Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/pkg/config/config.go",
+            "timestamp": "2026-08-21T13:44:31Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "sigs.k8s.io/yaml",
+            "semver": "v1.6.0"
+          }
+        ],
+        "dependencyDetectorEngine": "go://go-dependency-detector"
+      },
+      {
+        "name": "forge-register",
+        "type": "binary",
+        "location": "build/bin/forge-register",
+        "timestamp": "2026-08-21T17:44:20Z",
+        "version": "8c668abcff10c003e05ba26855fec7b7ed532903",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/go.mod",
+            "timestamp": "2026-08-21T17:43:03Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/adapter/engineadapter/engineadapter.go",
+            "timestamp": "2026-08-21T13:34:44Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.4.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/adapter/osvadapter/osvadapter.go",
+            "timestamp": "2026-08-21T17:35:28Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/types/regtypes/regtypes.go",
+            "timestamp": "2026-08-21T13:31:36Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/adapter/registryadapter/registryadapter.go",
+            "timestamp": "2026-08-21T17:35:28Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/adapter/storeadapter/regwire.go",
+            "timestamp": "2026-08-21T13:38:56Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/controller/discoverycontroller/discoverycontroller.go",
+            "timestamp": "2026-08-21T13:39:48Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/controller/registercontroller/registercontroller.go",
+            "timestamp": "2026-08-21T17:43:46Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/controller/policycontroller/policycontroller.go",
+            "timestamp": "2026-08-21T14:00:14Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/internal/driver/clidriver/clidriver.go",
+            "timestamp": "2026-08-21T17:36:13Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/home/user/forge-register/pkg/config/config.go",
+            "timestamp": "2026-08-21T13:44:31Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "sigs.k8s.io/yaml",
+            "semver": "v1.6.0"
+          }
+        ],
+        "dependencyDetectorEngine": "go://go-dependency-detector"
+      }
+    ]
+  }
+}
