@@ -1,0 +1,33 @@
+{
+  "revision": "2871a027a9b4",
+  "stage": "publish",
+  "substage": "default",
+  "engine": "here",
+  "status": "passed",
+  "startedAt": "2026-08-30T23:29:46.159667Z",
+  "duration": 8.432328451,
+  "output": "$ forge test run publish-members (in /home/runner/work/forge-self-factory/forge-self-factory/forge-self-register)\nRunning tests: stage=publish-members, name=publish-members-20260830-232946\n\nTest Results:\nStatus: passed\nTotal: 1\nPassed: 1\nFailed: 0\nCoverage: 0.0%\nSourced 1 environment variables from .envrc\n2026/08/30 23:29:46 Running tests for stage publish-members using generic-test-runner\n2026/08/30 23:29:46 Running tests: stage=publish-members name=publish-members-20260830-232946 command=sh\n2026/08/30 23:29:54 Stdout: publish-members: provenance 2871a027a9b4\nadopted internal/github.com/alexandremahdhaoui/forge/0/1788132586: published by proof: revision 2871a027a9b4\nadopted internal/github.com/alexandremahdhaoui/forge-ci/0/1788132587: published by proof: revision 2871a027a9b4\nadopted internal/github.com/alexandremahdhaoui/forge-factory/0/1788132588: published by proof: revision 2871a027a9b4\nadopted internal/github.com/alexandremahdhaoui/forge-register/0/1788132590: published by proof: revision 2871a027a9b4\nadopted internal/github.com/alexandremahdhaoui/forge-ci-spec/0/1788132591: published by proof: revision 2871a027a9b4\nadopted internal/github.com/alexandremahdhaoui/forge-revision-spec/0/1788132592: published by proof: revision 2871a027a9b4\nadopted internal/github.com/alexandremahdhaoui/forge-register-spec/0/1788132593: published by proof: revision 2871a027a9b4\npublish-members: every member is on the internal track at 2871a027a9b4\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "2cb624e8-9ef0-4f63-96fd-77143669b3f3",
+        "stage": "publish-members",
+        "status": "passed",
+        "startTime": "2026-08-30T23:29:54.569651441Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-08-30T23:29:54.581963985Z",
+        "updatedAt": "2026-08-30T23:29:54.581963985Z"
+      }
+    ]
+  }
+}
