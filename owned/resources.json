@@ -1,5 +1,53 @@
 [
   {
+    "resource": "actions-secret/alexandremahdhaoui/forge-ci-spec/FORGE_CI_DISPATCH_TOKEN",
+    "manager": "github"
+  },
+  {
+    "resource": "actions-secret/alexandremahdhaoui/forge-ci/FORGE_CI_DISPATCH_TOKEN",
+    "manager": "github"
+  },
+  {
+    "resource": "actions-secret/alexandremahdhaoui/forge-factory/FORGE_CI_DISPATCH_TOKEN",
+    "manager": "github"
+  },
+  {
+    "resource": "actions-secret/alexandremahdhaoui/forge-register-spec/FORGE_CI_DISPATCH_TOKEN",
+    "manager": "github"
+  },
+  {
+    "resource": "actions-secret/alexandremahdhaoui/forge-register/FORGE_CI_DISPATCH_TOKEN",
+    "manager": "github"
+  },
+  {
+    "resource": "actions-secret/alexandremahdhaoui/forge-revision-spec/FORGE_CI_DISPATCH_TOKEN",
+    "manager": "github"
+  },
+  {
+    "resource": "actions-secret/alexandremahdhaoui/forge-self-factory/FORGE_CI_GITHUB_TOKEN",
+    "manager": "github"
+  },
+  {
+    "resource": "actions-secret/alexandremahdhaoui/forge/FORGE_CI_DISPATCH_TOKEN",
+    "manager": "github"
+  },
+  {
+    "resource": "directory//home/runner/work/forge-self-factory/forge-self-factory/forge-self-state",
+    "manager": "local"
+  },
+  {
+    "resource": "directory//home/runner/work/forge-self-factory/forge-self-factory/forge-self-state/owned",
+    "manager": "local"
+  },
+  {
+    "resource": "directory//home/runner/work/forge-self-factory/forge-self-factory/forge-self-state/revisions",
+    "manager": "local"
+  },
+  {
+    "resource": "directory//home/runner/work/forge-self-factory/forge-self-factory/forge-self-state/runs",
+    "manager": "local"
+  },
+  {
     "resource": "directory/forge-self-state",
     "manager": "local"
   },
@@ -14,5 +62,77 @@
   {
     "resource": "directory/forge-self-state/runs",
     "manager": "local"
+  },
+  {
+    "resource": "file-content/forge-ci-spec/.github/workflows/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "file-content/forge-ci/.github/workflows/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "file-content/forge-factory/.github/workflows/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "file-content/forge-register-spec/.github/workflows/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "file-content/forge-register/.github/workflows/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "file-content/forge-revision-spec/.github/workflows/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "file-content/forge-self-factory/.github/workflows/pipeline.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "file-content/forge-self-factory/.github/workflows/release.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "file-content/forge/.github/workflows/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/forge-ci-spec/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/forge-ci/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/forge-factory/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/forge-register-spec/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/forge-register/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/forge-revision-spec/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/forge-self-factory/pipeline.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/forge-self-factory/release.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/forge/notify.yaml",
+    "manager": "github"
   }
 ]
