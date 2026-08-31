@@ -1,0 +1,11 @@
+{
+  "revision": "dd23b0ade018",
+  "stage": "image",
+  "substage": "default",
+  "engine": "here",
+  "status": "failed",
+  "startedAt": "2026-08-31T20:22:54.309934554Z",
+  "duration": 2.879142285,
+  "message": "target \"build-image\" exited 1 in /home/runner/work/forge-self-factory/forge-self-factory/forge-self-factory",
+  "output": "$ forge test run image (in /home/runner/work/forge-self-factory/forge-self-factory/forge-self-factory)\nRunning tests: stage=image, name=image-20260831-202254\nSourced 1 environment variables from .envrc\n2026/08/31 20:22:54 Running tests for stage image using generic-test-runner\n2026/08/31 20:22:54 Running tests: stage=image name=image-20260831-202254 command=forge\n2026/08/31 20:22:57 Stderr: Sourced 1 environment variables from .envrc\n🔨 Building toolchain (no previous build)\nBuilding 1 artifact(s) with forge://container-build-simple...\n2026/08/31 20:22:57 Building toolchain using container-build-simple\nError: build completed with errors: [build failed for forge://container-build-simple: build failed: Build failed: a from glob matched nothing: \"./build/bin/git-lfs_linux_amd64\"]\nError: test run failed: build failed: Tests failed for stage image: Command exited with code 1\n"
+}
