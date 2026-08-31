@@ -1,0 +1,102 @@
+{
+  "revision": "8927321b5128",
+  "stage": "build",
+  "substage": "default",
+  "engine": "here",
+  "status": "passed",
+  "startedAt": "2026-08-31T16:01:58.542786221Z",
+  "duration": 55.622800629,
+  "output": "$ forge test run unit (in /home/runner/work/forge-self-factory/forge-self-factory/forge-factory)\nRunning tests: stage=unit, name=unit-20260831-160158\n\nTest Results:\nStatus: passed\nTotal: 555\nPassed: 555\nFailed: 0\nCoverage: 44.3%\nSourced 1 environment variables from .envrc\ngo: downloading github.com/alexandremahdhaoui/forge v0.45.14\n2026/08/31 16:02:01 Running tests for stage unit using go-test\n2026/08/31 16:02:01 Running tests: stage=unit name=unit-20260831-160158\ngo: downloading gotest.tools/gotestsum v1.13.0\ngo: downloading github.com/dnephin/pflag v1.0.7\ngo: downloading golang.org/x/tools v0.36.0\ngo: downloading github.com/fatih/color v1.18.0\ngo: downloading github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510\ngo: downloading github.com/bitfield/gotestdox v0.2.2\ngo: downloading golang.org/x/sync v0.17.0\ngo: downloading golang.org/x/term v0.35.0\ngo: downloading github.com/fsnotify/fsnotify v1.9.0\ngo: downloading golang.org/x/sys v0.36.0\ngo: downloading github.com/mattn/go-colorable v0.1.13\ngo: downloading github.com/mattn/go-isatty v0.0.20\ngo: downloading golang.org/x/text v0.17.0\ngo: downloading golang.org/x/mod v0.27.0\ngo: downloading github.com/stretchr/testify v1.12.1\ngo: downloading go.yaml.in/yaml/v3 v3.0.5\ngo: downloading github.com/stretchr/objx v0.5.3\n\u001b[32m✓\u001b[0m  internal/adapter/distadapter (1.022s) (coverage: 94.4% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/execadapter (1.026s) (coverage: 97.2% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/fsadapter (1.022s) (coverage: 94.5% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/gitadapter (1.032s) (coverage: 90.6% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/engineadapter (1.724s) (coverage: 97.4% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/lockadapter (1.062s) (coverage: 69.2% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/repoadapter (1.014s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/clonecontroller (1.016s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/docscontroller (1.012s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/rendercontroller (1.018s) (coverage: 99.5% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/revisioncontroller (1.032s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/resolvecontroller (1.585s) (coverage: 96.3% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/speccontroller (1.039s) (coverage: 92.8% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/statuscontroller (1.042s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/synccontroller (1.083s) (coverage: 97.2% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/toolingcontroller (1.04s) (coverage: 83.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/runcontroller (3.607s) (coverage: 95.7% of statements)\n\u001b[32m✓\u001b[0m  internal/driver/clidriver (1.098s) (coverage: 91.5% of statements)\n\u001b[32m✓\u001b[0m  pkg/config (1.044s) (coverage: 88.4% of statements)\n\nDONE 555 tests in 27.720s\n$ forge test run unit (in /home/runner/work/forge-self-factory/forge-self-factory/forge-register)\nRunning tests: stage=unit, name=unit-20260831-160245\n\nTest Results:\nStatus: passed\nTotal: 232\nPassed: 232\nFailed: 0\nCoverage: 66.1%\nSourced 1 environment variables from .envrc\n2026/08/31 16:02:45 Running tests for stage unit using go-test\n2026/08/31 16:02:45 Running tests: stage=unit name=unit-20260831-160245\n\u001b[32m✓\u001b[0m  internal/adapter/dispatchadapter (1.018s) (coverage: 92.0% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/engineadapter (1.022s) (coverage: 62.2% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/gitprobeadapter (1.034s) (coverage: 87.5% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/registryadapter (1.036s) (coverage: 89.7% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/storeadapter (1.025s) (coverage: 76.1% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/discoverycontroller (1.012s) (coverage: 79.1% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/policycontroller (1.032s) (coverage: 94.8% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/registercontroller (1.054s) (coverage: 88.3% of statements)\n\u001b[32m✓\u001b[0m  internal/driver/clidriver (1.052s) (coverage: 89.2% of statements)\n\u001b[32m✓\u001b[0m  internal/types/regtypes (1.016s) (coverage: 58.8% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/osvadapter (5.933s) (coverage: 95.4% of statements)\n\u001b[32m✓\u001b[0m  pkg/config (1.014s) (coverage: 96.0% of statements)\n\nDONE 232 tests in 7.459s\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "58468540-fa8a-4f8b-b516-39ae5b29f737",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-08-31T16:02:01.306015206Z",
+        "duration": 43.883588346,
+        "testStats": {
+          "total": 555,
+          "passed": 555,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 44.3,
+          "filePath": "/home/runner/work/forge-self-factory/forge-self-factory/forge-factory/tmp/tmp-f80526f5-28b3-4b85-8d13-6e07daf71e14/test-unit-unit-20260831-160158-coverage.out"
+        },
+        "artifactFiles": [
+          "/home/runner/work/forge-self-factory/forge-self-factory/forge-factory/tmp/tmp-f80526f5-28b3-4b85-8d13-6e07daf71e14/test-unit-unit-20260831-160158.xml",
+          "/home/runner/work/forge-self-factory/forge-self-factory/forge-factory/tmp/tmp-f80526f5-28b3-4b85-8d13-6e07daf71e14/test-unit-unit-20260831-160158-coverage.out"
+        ],
+        "outputPath": "/home/runner/work/forge-self-factory/forge-self-factory/forge-factory/tmp/tmp-f80526f5-28b3-4b85-8d13-6e07daf71e14/test-unit-unit-20260831-160158.xml",
+        "createdAt": "2026-08-31T16:02:45.335783877Z",
+        "updatedAt": "2026-08-31T16:02:45.335783877Z"
+      },
+      {
+        "id": "ec2eaad9-7791-41a4-90ab-5a90d49556a4",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-08-31T16:02:01.306015206Z",
+        "duration": 43.883588346,
+        "testStats": {
+          "total": 555,
+          "passed": 555,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 44.3
+        },
+        "createdAt": "2026-08-31T16:02:45.344680274Z",
+        "updatedAt": "2026-08-31T16:02:45.344680274Z"
+      },
+      {
+        "id": "8bac41e0-181e-46df-af86-df73ca693c54",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-08-31T16:02:45.542141428Z",
+        "duration": 8.500258768,
+        "testStats": {
+          "total": 232,
+          "passed": 232,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 66.1,
+          "filePath": "/home/runner/work/forge-self-factory/forge-self-factory/forge-register/tmp/tmp-1f0443a9-7625-4550-9ba4-3a76cb256efc/test-unit-unit-20260831-160245-coverage.out"
+        },
+        "artifactFiles": [
+          "/home/runner/work/forge-self-factory/forge-self-factory/forge-register/tmp/tmp-1f0443a9-7625-4550-9ba4-3a76cb256efc/test-unit-unit-20260831-160245.xml",
+          "/home/runner/work/forge-self-factory/forge-self-factory/forge-register/tmp/tmp-1f0443a9-7625-4550-9ba4-3a76cb256efc/test-unit-unit-20260831-160245-coverage.out"
+        ],
+        "outputPath": "/home/runner/work/forge-self-factory/forge-self-factory/forge-register/tmp/tmp-1f0443a9-7625-4550-9ba4-3a76cb256efc/test-unit-unit-20260831-160245.xml",
+        "createdAt": "2026-08-31T16:02:54.157966816Z",
+        "updatedAt": "2026-08-31T16:02:54.157966816Z"
+      },
+      {
+        "id": "970a00c5-7c8a-41ac-9d89-b6bc2ba8aabd",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-08-31T16:02:45.542141428Z",
+        "duration": 8.500258768,
+        "testStats": {
+          "total": 232,
+          "passed": 232,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 66.1
+        },
+        "createdAt": "2026-08-31T16:02:54.162043719Z",
+        "updatedAt": "2026-08-31T16:02:54.162043719Z"
+      }
+    ]
+  }
+}
