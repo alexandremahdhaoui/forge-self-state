@@ -1,0 +1,42 @@
+{
+  "revision": "af404650b38e",
+  "stage": "image",
+  "substage": "default",
+  "engine": "here",
+  "status": "passed",
+  "startedAt": "2026-08-31T00:02:35.487115047Z",
+  "duration": 26.471902246,
+  "output": "$ forge test run image (in /home/runner/work/forge-self-factory/forge-self-factory/forge-self-factory)\nRunning tests: stage=image, name=image-20260831-000235\n\nTest Results:\nStatus: passed\nTotal: 1\nPassed: 1\nFailed: 0\nCoverage: 0.0%\nSourced 1 environment variables from .envrc\n2026/08/31 00:02:36 Running tests for stage image using generic-test-runner\n2026/08/31 00:02:36 Running tests: stage=image name=image-20260831-000235 command=forge\n2026/08/31 00:03:01 Stderr: Sourced 1 environment variables from .envrc\n🔨 Building toolchain (no previous build)\nBuilding 1 artifact(s) with forge://container-build-simple...\n2026/08/31 00:02:38 Building toolchain using container-build-simple\n2026/08/31 00:02:38 assembling toolchain: base buildpack-deps:stable-scm, 96 files, 2 platform(s)\n2026/08/31 00:03:01 wrote /home/runner/work/forge-self-factory/forge-self-factory/forge-self-factory/build/images/toolchain.oci (sha256:30c32d01d121dfd2389131b50613f1bee86eeec2ed2d1a6ac4389b6da3b62d17)\n✅ Successfully built 1 artifact(s)\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "6a13a292-ed1b-4eba-b28a-d7e8de6d9ad8",
+        "stage": "image",
+        "status": "passed",
+        "startTime": "2026-08-31T00:03:01.952695853Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-08-31T00:03:01.956049384Z",
+        "updatedAt": "2026-08-31T00:03:01.956049384Z"
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "toolchain",
+        "type": "container",
+        "location": "file:///home/runner/work/forge-self-factory/forge-self-factory/forge-self-factory/build/images/toolchain.oci",
+        "timestamp": "2026-08-31T00:03:01Z",
+        "version": "sha256:30c32d01d121dfd2389131b50613f1bee86eeec2ed2d1a6ac4389b6da3b62d17"
+      }
+    ]
+  }
+}
