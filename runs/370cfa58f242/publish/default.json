@@ -1,0 +1,33 @@
+{
+  "revision": "370cfa58f242",
+  "stage": "publish",
+  "substage": "default",
+  "engine": "here",
+  "status": "passed",
+  "startedAt": "2026-09-01T12:57:51.598591541Z",
+  "duration": 13.325669738,
+  "output": "$ forge test run publish-members (in /home/runner/work/forge-self-factory/forge-self-factory/forge-self-register)\nRunning tests: stage=publish-members, name=publish-members-20260901-125751\n\nTest Results:\nStatus: passed\nTotal: 1\nPassed: 1\nFailed: 0\nCoverage: 0.0%\nSourced 1 environment variables from .envrc\n2026/09/01 12:57:54 Running tests for stage publish-members using generic-test-runner\n2026/09/01 12:57:54 Running tests: stage=publish-members name=publish-members-20260901-125751 command=sh\n2026/09/01 12:58:04 Stdout: publish-members: provenance 370cfa58f242\nadopted internal/github.com/alexandremahdhaoui/forge/0/1788267474: published by proof: revision 370cfa58f242\nadopted internal/github.com/alexandremahdhaoui/forge-ci/0/1788267475: published by proof: revision 370cfa58f242\nadopted internal/github.com/alexandremahdhaoui/forge-factory/0/1788267477: published by proof: revision 370cfa58f242\nadopted internal/github.com/alexandremahdhaoui/forge-register/0/1788267478: published by proof: revision 370cfa58f242\nadopted internal/github.com/alexandremahdhaoui/forge-ci-spec/0/1788267480: published by proof: revision 370cfa58f242\nadopted internal/github.com/alexandremahdhaoui/forge-revision-spec/0/1788267481: published by proof: revision 370cfa58f242\nadopted internal/github.com/alexandremahdhaoui/forge-register-spec/0/1788267483: published by proof: revision 370cfa58f242\npublish-members: every member is on the internal track at 370cfa58f242\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "5444a081-65c5-485f-ab4b-0a406221c82c",
+        "stage": "publish-members",
+        "status": "passed",
+        "startTime": "2026-09-01T12:58:04.883412125Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-01T12:58:04.90608331Z",
+        "updatedAt": "2026-09-01T12:58:04.90608331Z"
+      }
+    ]
+  }
+}
