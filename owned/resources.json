@@ -104,6 +104,10 @@
     "manager": "github"
   },
   {
+    "resource": "file-content/forge-self-factory/.github/workflows/ci.yaml",
+    "manager": "github"
+  },
+  {
     "resource": "file-content/forge-self-factory/.github/workflows/pipeline.yaml",
     "manager": "github"
   },
@@ -137,6 +141,10 @@
   },
   {
     "resource": "workflow-enabled/alexandremahdhaoui/forge-revision-spec/notify.yaml",
+    "manager": "github"
+  },
+  {
+    "resource": "workflow-enabled/alexandremahdhaoui/forge-self-factory/ci.yaml",
     "manager": "github"
   },
   {
