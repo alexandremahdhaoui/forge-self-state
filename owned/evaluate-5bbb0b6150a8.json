@@ -1,0 +1,28 @@
+{
+  "version": "v0.45.50",
+  "tag": "v0.45.50",
+  "previous": "v0.45.49",
+  "reason": "Release v0.45.50 (patch).",
+  "repos": {
+    "forge": "b7bf7a468d8914e9033763dde7555f1dfc3e75fc",
+    "forge-ci": "643e7e4ac5a982e47b5e4a7300dac643c65c2961",
+    "forge-ci-spec": "d89673d384e7a3e9ac5e1afc751087fab267fecd",
+    "forge-factory": "58bd60d297d0e20aa0909878b52051f7175f3c89",
+    "forge-register": "080adba79bd96fbaa02e0836e449049213fe225a",
+    "forge-register-spec": "453606cc609ef76d85078f6236cd00d8acc73fdd",
+    "forge-revision-spec": "8cf784fa1ccbcd2a482457f1994b74febf5cc7ee",
+    "forge-self-factory": "58b26a9a1fb11d2b2ab8b25d38baeaebfdab3104",
+    "forge-self-register": "d5780d798d5c9563dadc89f5bc352a3f36d2997d"
+  },
+  "trees": {
+    "forge": "eb2a3d65b91b34689d4426a6162890470df4c792c7096f51d3f9587b92bf2058",
+    "forge-ci": "173d2be32d45ccf28a3109d694dc3d38315b47fdfb900e2667f3acdcbd7a201b",
+    "forge-ci-spec": "f39c786f715e4a249433dfc5f9ba021bc8502ac0270750943c96f485f99d7b63",
+    "forge-factory": "e170c0215472af15bd7161c5a5b0ed5ee5cb969d15565dae8c92ccb2c2678e9e",
+    "forge-register": "3bb69d35a56aaf43ac535af6764df53be97376779623d5472197a06b92555ef3",
+    "forge-register-spec": "58350788d4f7ed4146f433a84c999349757eeda84d295c377d39405f1370039c",
+    "forge-revision-spec": "3577be18ae86765b4f7891d0a4c3925984744136f48678ea07967841e0b22f78",
+    "forge-self-factory": "5e98599050743c6f6349b0946eedff05956c8ecf21f869aace00ea04882980f5",
+    "forge-self-register": "fbbece871a26310b30d154177cefde294a08187e0757ee1760b3bdc5b1a3683c"
+  }
+}
