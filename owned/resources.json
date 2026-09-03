@@ -48,6 +48,10 @@
     "manager": "local"
   },
   {
+    "resource": "directory//home/user/forge-self-state",
+    "manager": "local"
+  },
+  {
     "resource": "directory//tmp/tmp.ZoYdFShp4B/forge-self-state",
     "manager": "local"
   },
