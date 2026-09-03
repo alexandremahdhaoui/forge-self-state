@@ -1,0 +1,63 @@
+{
+  "revision": "e3b7263560f2",
+  "stage": "image",
+  "substage": "default",
+  "engine": "here",
+  "status": "passed",
+  "startedAt": "2026-09-03T08:37:15.974855238Z",
+  "duration": 53.102453615,
+  "output": "$ forge test run image (in /home/runner/work/forge-self-factory/forge-self-factory/forge-self-factory)\nRunning tests: stage=image, name=image-20260903-083715\n\nTest Results:\nStatus: passed\nTotal: 1\nPassed: 1\nFailed: 0\nCoverage: 0.0%\nSourced 1 environment variables from .envrc\n2026/09/03 08:37:16 Running tests for stage image using generic-test-runner\n2026/09/03 08:37:16 Running tests: stage=image name=image-20260903-083715 command=forge\n2026/09/03 08:38:09 Stderr: Sourced 1 environment variables from .envrc\n🔨 Building noop (no previous build)\n🔨 Building git-lfs_linux_amd64 (no previous build)\n🔨 Building git-lfs_linux_arm64 (no previous build)\n🔨 Building toolchain (no previous build)\nBuilding 3 artifact(s) with forge://generic-builder...\n2026/09/03 08:37:17 Building 3 artifacts in batch using generic-builder\n2026/09/03 08:37:17 Building noop using generic-builder\n2026/09/03 08:37:17 Executing command: true [] (context: /home/runner/work/forge-self-factory/forge-self-factory/forge-self-factory)\n2026/09/03 08:37:17 Building git-lfs_linux_amd64 using generic-builder\n2026/09/03 08:37:17 Executing command: sh [-c GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go install github.com/git-lfs/git-lfs/v3@v3.8.0 \u0026\u0026 p=\"$(go env GOPATH)/bin/linux_amd64/git-lfs\" \u0026\u0026 { [ -f \"$p\" ] || p=\"$(go env GOPATH)/bin/git-lfs\"; } \u0026\u0026 install -D -m 0755 \"$p\" build/bin/git-lfs_linux_amd64] (context: /home/runner/work/forge-self-factory/forge-self-factory/forge-self-factory)\n2026/09/03 08:37:27 Stderr: go: downloading github.com/git-lfs/git-lfs/v3 v3.8.0\ngo: downloading github.com/leonelquinteros/gotext v1.7.2\ngo: downloading github.com/git-lfs/gitobj/v2 v2.1.1\ngo: downloading github.com/git-lfs/pktline v0.0.0-20210330133718-06e9096e2825\ngo: downloading github.com/rubyist/tracerx v0.0.0-20170927163412-787959303086\ngo: downloading github.com/spf13/cobra v1.10.2\ngo: downloading github.com/pkg/errors v0.9.1\ngo: downloading github.com/git-lfs/wildmatch/v2 v2.0.1\ngo: downloading github.com/golang/groupcache v0.0.0-20241129210726-2c02b8208cf8\ngo: downloading github.com/jmhodges/clock v1.2.0\ngo: downloading github.com/dpotapov/go-spnego v0.0.0-20210315154721-298b63a54430\ngo: downloading github.com/ssgelm/cookiejarparser v1.0.1\ngo: downloading golang.org/x/net v0.57.0\ngo: downloading github.com/mattn/go-isatty v0.0.24\ngo: downloading github.com/olekukonko/ts v0.0.0-20171002115256-78ecb04241c0\ngo: downloading github.com/klauspost/compress v1.19.1\ngo: downloading github.com/spf13/pflag v1.0.9\ngo: downloading github.com/git-lfs/go-netrc v0.0.0-20250218165306-ba0029b43d11\ngo: downloading github.com/jcmturner/gokrb5/v8 v8.4.2\ngo: downloading github.com/jcmturner/gofork v1.0.0\ngo: downloading github.com/jcmturner/goidentity/v6 v6.0.1\ngo: downloading github.com/jcmturner/dnsutils/v2 v2.0.0\ngo: downloading github.com/hashicorp/go-uuid v1.0.2\ngo: downloading golang.org/x/text v0.40.0\ngo: downloading golang.org/x/crypto v0.54.0\ngo: downloading github.com/jcmturner/aescts/v2 v2.0.0\ngo: downloading github.com/jcmturner/rpc/v2 v2.0.3\n2026/09/03 08:37:27 Building git-lfs_linux_arm64 using generic-builder\n2026/09/03 08:37:27 Executing command: sh [-c GOOS=linux GOARCH=arm64 CGO_ENABLED=0 go install github.com/git-lfs/git-lfs/v3@v3.8.0 \u0026\u0026 p=\"$(go env GOPATH)/bin/linux_arm64/git-lfs\" \u0026\u0026 { [ -f \"$p\" ] || p=\"$(go env GOPATH)/bin/git-lfs\"; } \u0026\u0026 install -D -m 0755 \"$p\" build/bin/git-lfs_linux_arm64] (context: /home/runner/work/forge-self-factory/forge-self-factory/forge-self-factory)\nBuilding 1 artifact(s) with forge://container-build-simple...\n2026/09/03 08:37:46 Building toolchain using container-build-simple\n2026/09/03 08:37:46 assembling toolchain: base buildpack-deps:stable, 104 files, 2 platform(s)\n2026/09/03 08:38:09 wrote /home/runner/work/forge-self-factory/forge-self-factory/forge-self-factory/build/images/toolchain.oci (sha256:52522ab6a77c43b03d564c9dcc57f481c4bd116d49649e6bb8027159017c609e)\n✅ Successfully built 4 artifact(s)\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "f2fd9b26-3404-454b-bd02-0e88aa64a281",
+        "stage": "image",
+        "status": "passed",
+        "startTime": "2026-09-03T08:38:09.046588648Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-03T08:38:09.049795272Z",
+        "updatedAt": "2026-09-03T08:38:09.049795272Z"
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "toolchain",
+        "type": "container",
+        "location": "file:///home/runner/work/forge-self-factory/forge-self-factory/forge-self-factory/build/images/toolchain.oci",
+        "timestamp": "2026-09-03T08:38:09Z",
+        "version": "sha256:52522ab6a77c43b03d564c9dcc57f481c4bd116d49649e6bb8027159017c609e"
+      },
+      {
+        "name": "noop",
+        "type": "command-output",
+        "location": "/home/runner/work/forge-self-factory/forge-self-factory/forge-self-factory",
+        "timestamp": "2026-09-03T08:37:17Z",
+        "version": "true-exit0"
+      },
+      {
+        "name": "git-lfs_linux_amd64",
+        "type": "binary",
+        "location": "forge-ci-artifact://e3b7263560f2/forge-self-factory/build/bin/git-lfs_linux_amd64",
+        "timestamp": "2026-09-03T08:37:27Z",
+        "version": "sh-exit0"
+      },
+      {
+        "name": "git-lfs_linux_arm64",
+        "type": "binary",
+        "location": "forge-ci-artifact://e3b7263560f2/forge-self-factory/build/bin/git-lfs_linux_arm64",
+        "timestamp": "2026-09-03T08:37:43Z",
+        "version": "sh-exit0"
+      }
+    ]
+  }
+}
