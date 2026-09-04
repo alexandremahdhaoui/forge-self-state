@@ -1,0 +1,33 @@
+{
+  "revision": "48fe455a71c5",
+  "stage": "publish",
+  "substage": "publish-revision",
+  "engine": "here",
+  "status": "passed",
+  "startedAt": "2026-09-04T13:25:40.153322824Z",
+  "duration": 23.526943419,
+  "output": "$ forge test run publish-members (in /home/runner/work/forge-self-factory/forge-self-factory/forge-self-register)\nRunning tests: stage=publish-members, name=publish-members-20260904-132540\n\nTest Results:\nStatus: passed\nTotal: 1\nPassed: 1\nFailed: 0\nCoverage: 0.0%\nSourced 1 environment variables from .envrc\ngo: downloading github.com/alexandremahdhaoui/forge v0.45.58\n2026/09/04 13:25:55 Running tests for stage publish-members using generic-test-runner\n2026/09/04 13:25:55 Running tests: stage=publish-members name=publish-members-20260904-132540 command=sh\n2026/09/04 13:26:03 Stdout: publish-members: provenance bf875de08e6a\nadopted internal/github.com/alexandremahdhaoui/forge/0/1788528355: published by proof: revision bf875de08e6a\nadopted internal/github.com/alexandremahdhaoui/forge-ci/0/1788528356: published by proof: revision bf875de08e6a\nadopted internal/github.com/alexandremahdhaoui/forge-factory/0/1788528357: published by proof: revision bf875de08e6a\nadopted internal/github.com/alexandremahdhaoui/forge-register/0/1788528358: published by proof: revision bf875de08e6a\nadopted internal/github.com/alexandremahdhaoui/forge-ci-spec/0/1788528359: published by proof: revision bf875de08e6a\nadopted internal/github.com/alexandremahdhaoui/forge-revision-spec/0/1788528361: published by proof: revision bf875de08e6a\nadopted internal/github.com/alexandremahdhaoui/forge-register-spec/0/1788528362: published by proof: revision bf875de08e6a\npublish-members: every member is on the internal track at bf875de08e6a\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "bf060398-84ac-409d-9df2-77640bc9f2bb",
+        "stage": "publish-members",
+        "status": "passed",
+        "startTime": "2026-09-04T13:26:03.669502744Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-04T13:26:03.676575945Z",
+        "updatedAt": "2026-09-04T13:26:03.676575945Z"
+      }
+    ]
+  }
+}
