@@ -1,0 +1,10 @@
+{
+  "revision": "e48beef4bbcb",
+  "stage": "release",
+  "substage": "release-artifacts",
+  "engine": "release-artifacts",
+  "status": "passed",
+  "startedAt": "2026-09-04T00:54:53.951103223Z",
+  "duration": 127.8088205,
+  "message": "published v0.45.51"
+}
