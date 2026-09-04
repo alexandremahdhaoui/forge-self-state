@@ -1,0 +1,206 @@
+{
+  "revision": "9da5c99d1a5c",
+  "stage": "test",
+  "substage": "unit",
+  "engine": "here",
+  "status": "passed",
+  "startedAt": "2026-09-04T08:32:14.738090436Z",
+  "duration": 173.695118282,
+  "output": "... earlier output dropped ...\n4-083217\n\nTest Results:\nStatus: passed\nTotal: 2386\nPassed: 2382\nFailed: 0\nCoverage: 38.2%\nSourced 1 environment variables from .envrc\n2026/09/04 08:32:18 Running tests for stage unit using go-test\n2026/09/04 08:32:18 Running tests: stage=unit name=unit-20260904-083217\ngo: downloading gotest.tools/gotestsum v1.13.0\ngo: downloading github.com/dnephin/pflag v1.0.7\ngo: downloading golang.org/x/tools v0.36.0\ngo: downloading github.com/fatih/color v1.18.0\ngo: downloading github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510\ngo: downloading github.com/bitfield/gotestdox v0.2.2\ngo: downloading golang.org/x/sync v0.17.0\ngo: downloading golang.org/x/term v0.35.0\ngo: downloading github.com/mattn/go-colorable v0.1.13\ngo: downloading github.com/mattn/go-isatty v0.0.20\ngo: downloading github.com/fsnotify/fsnotify v1.9.0\ngo: downloading golang.org/x/sys v0.36.0\ngo: downloading golang.org/x/text v0.17.0\ngo: downloading golang.org/x/mod v0.27.0\ngo: downloading github.com/stretchr/testify v1.11.1\ngo: downloading github.com/caarlos0/env/v11 v11.3.1\ngo: downloading github.com/getkin/kin-openapi v0.144.0\ngo: downloading gopkg.in/yaml.v3 v3.0.1\ngo: downloading golang.org/x/mod v0.40.0\ngo: downloading github.com/Masterminds/semver/v3 v3.4.0\ngo: downloading github.com/aws/aws-sdk-go-v2 v1.41.5\ngo: downloading github.com/aws/aws-sdk-go-v2/config v1.32.2\ngo: downloading github.com/aws/aws-sdk-go-v2/credentials v1.19.2\ngo: downloading github.com/aws/aws-sdk-go-v2/service/s3 v1.97.3\ngo: downloading github.com/cert-manager/cert-manager v1.19.3\ngo: downloading k8s.io/api v0.35.2\ngo: downloading k8s.io/apimachinery v0.35.2\ngo: downloading sigs.k8s.io/controller-runtime v0.22.4\ngo: downloading k8s.io/client-go v0.35.2\ngo: downloading k8s.io/utils v0.0.0-20251002143259-bc988d571ff4\ngo: downloading github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc\ngo: downloading github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2\ngo: downloading github.com/aws/smithy-go v1.24.2\ngo: downloading github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.14\ngo: downloading github.com/aws/aws-sdk-go-v2/internal/ini v1.8.4\ngo: downloading github.com/aws/aws-sdk-go-v2/service/signin v1.0.2\ngo: downloading github.com/aws/aws-sdk-go-v2/service/sso v1.30.5\ngo: downloading github.com/aws/aws-sdk-go-v2/service/ssooidc v1.35.10\ngo: downloading github.com/aws/aws-sdk-go-v2/service/sts v1.41.2\ngo: downloading github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.8\ngo: downloading github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.21\ngo: downloading github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.22\ngo: downloading github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.7\ngo: downloading github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.9.13\ngo: downloading github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.21\ngo: downloading github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.19.21\ngo: downloading github.com/go-openapi/jsonpointer v0.22.5\ngo: downloading github.com/oasdiff/yaml v0.1.1\ngo: downloading github.com/santhosh-tekuri/jsonschema/v6 v6.0.2\ngo: downloading github.com/stretchr/objx v0.5.3\ngo: downloading k8s.io/klog/v2 v2.130.1\ngo: downloading sigs.k8s.io/randfill v1.0.0\ngo: downloading k8s.io/kube-openapi v0.0.0-20251125145642-4e65d59e963e\ngo: downloading sigs.k8s.io/structured-merge-diff/v6 v6.3.1\ngo: downloading github.com/evanphx/json-patch/v5 v5.9.11\ngo: downloading gopkg.in/evanphx/json-patch.v4 v4.13.0\ngo: downloading github.com/sirupsen/logrus v1.10.0\ngo: downloading github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.21\ngo: downloading github.com/go-openapi/swag/jsonname v0.25.5\ngo: downloading github.com/go-openapi/swag v0.25.4\ngo: downloading k8s.io/apiextensions-apiserver v0.34.2\ngo: downloading sigs.k8s.io/gateway-api v1.4.0\ngo: downloading github.com/oasdiff/yaml3 v0.0.14\ngo: downloading gopkg.in/inf.v0 v0.9.1\ngo: downloading golang.org/x/text v0.37.0\ngo: downloading sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730\ngo: downloading github.com/go-logr/logr v1.4.3\ngo: downloading github.com/json-iterator/go v1.1.12\ngo: downloading github.com/spf13/pflag v1.0.10\ngo: downloading golang.org/x/term v0.43.0\ngo: downloading github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822\ngo: downloading golang.org/x/net v0.55.0\ngo: downloading github.com/docker/docker-credential-helpers v0.9.9\ngo: downloading github.com/gogo/protobuf v1.3.2\ngo: downloading github.com/fxamacker/cbor/v2 v2.9.0\ngo: downloading github.com/google/gnostic-models v0.7.1\ngo: downloading go.yaml.in/yaml/v3 v3.0.5\ngo: downloading github.com/go-openapi/jsonreference v0.21.3\ngo: downloading github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd\ngo: downloading github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee\ngo: downloading google.golang.org/protobuf v1.36.10\ngo: downloading golang.org/x/time v0.14.0\ngo: downloading github.com/x448/float16 v0.8.4\ngo: downloading github.com/go-openapi/swag/conv v0.25.4\ngo: downloading github.com/go-openapi/swag/cmdutils v0.25.4\ngo: downloading github.com/go-openapi/swag/jsonutils v0.25.4\ngo: downloading github.com/go-openapi/swag/fileutils v0.25.4\ngo: downloading github.com/go-openapi/swag/loading v0.25.4\ngo: downloading github.com/go-openapi/swag/netutils v0.25.4\ngo: downloading github.com/go-openapi/swag/mangling v0.25.4\ngo: downloading github.com/go-openapi/swag/stringutils v0.25.4\ngo: downloading github.com/go-openapi/swag/typeutils v0.25.4\ngo: downloading github.com/go-openapi/swag/yamlutils v0.25.4\ngo: downloading github.com/emicklei/go-restful/v3 v3.13.0\n\u001b[32m✓\u001b[0m  cmd/container-build-simple (1.181s) (coverage: 39.1% of statements)\n\u001b[32m✓\u001b[0m  cmd/forge-dev (3.24s) (coverage: 86.7% of statements)\n\u001b[32m✓\u001b[0m  cmd/generic-builder (1.026s) (coverage: 44.6% of statements)\n\u001b[32m✓\u001b[0m  cmd/generic-test-runner (1.014s) (coverage: 32.6% of statements)\n\u001b[32m✓\u001b[0m  cmd/go-build (1.018s) (coverage: 19.1% of statements)\n\u001b[32m✓\u001b[0m  cmd/go-format (1.012s) (coverage: 0.0% of statements)\n\u001b[32m✓\u001b[0m  cmd/go-gen-bpf (1.02s) (coverage: 34.5% of statements)\n\u001b[32m✓\u001b[0m  cmd/container-build (9.595s) (coverage: 49.3% of statements)\n\u001b[32m✓\u001b[0m  cmd/go-gen-mocks-dep-detector (1.028s) (coverage: 50.4% of statements)\n\u001b[32m✓\u001b[0m  cmd/go-gen-openapi (1.016s) (coverage: 19.3% of statements)\n\u001b[32m✓\u001b[0m  cmd/go-gen-openapi-dep-detector (1.012s) (coverage: 12.3% of statements)\n\u001b[32m✓\u001b[0m  cmd/forge (11.109s) (coverage: 37.9% of statements)\n\u001b[32m✓\u001b[0m  cmd/go-gen-protobuf (1.033s) (coverage: 37.7% of statements)\n\u001b[32m✓\u001b[0m  cmd/go-license-header (1.014s) (coverage: 13.5% of statements)\n\u001b[32m✓\u001b[0m  cmd/go-lint (1.014s) (coverage: 0.0% of statements)\n\u001b[32m✓\u001b[0m  cmd/go-lint-licenses (1.024s) (coverage: 9.5% of statements)\n\u001b[32m✓\u001b[0m  cmd/go-test (1.032s) (coverage: 41.0% of statements)\n\u001b[32m✓\u001b[0m  cmd/parallel-builder (1.022s) (coverage: 25.3% of statements)\n\u001b[32m✓\u001b[0m  cmd/parallel-test-runner (1.018s) (coverage: 7.5% of statements)\n\u001b[32m✓\u001b[0m  cmd/rust-license-header (1.016s) (coverage: 13.5% of statements)\n\u001b[32m✓\u001b[0m  cmd/testenv (3.287s) (coverage: 31.2% of statements)\n\u001b[32m✓\u001b[0m  cmd/testenv-helm-install (1.25s) (coverage: 33.7% of statements)\n\u001b[32m✓\u001b[0m  cmd/testenv-kind (1.018s) (coverage: 2.4% of statements)\n\u001b[32m✓\u001b[0m  internal/engineresolver (1.014s) (coverage: 90.6% of statements)\n\u001b[32m✓\u001b[0m  internal/cmdutil (1.052s) (coverage: 83.9% of statements)\n\u001b[32m✓\u001b[0m  internal/forgepath (1.025s) (coverage: 54.1% of statements)\n\u001b[32m✓\u001b[0m  internal/gitutil (1.024s) (coverage: 87.5% of statements)\n\u001b[32m✓\u001b[0m  internal/gosource (1.014s) (coverage: 94.1% of statements)\n\u001b[32m✓\u001b[0m  internal/imageassembly (1.108s) (coverage: 85.8% of statements)\n\u001b[32m✓\u001b[0m  internal/licenseheader (1.018s) (coverage: 83.8% of statements)\n\u001b[32m✓\u001b[0m  internal/mcpcaller (1.014s) (coverage: 39.1% of statements)\n\u001b[32m✓\u001b[0m  cmd/testenv-lcr (5.362s) (coverage: 21.3% of statements)\n\u001b[32m✓\u001b[0m  internal/orchestrate (1.018s) (coverage: 69.7% of statements)\n\u001b[32m✓\u001b[0m  internal/runnerexec (1.014s) (coverage: 86.5% of statements)\n\u001b[32m✓\u001b[0m  internal/testutil (1.685s) (coverage: 52.3% of statements)\n\u001b[32m✓\u001b[0m  pkg/enginecli (1.038s) (coverage: 48.3% of statements)\n\u001b[32m✓\u001b[0m  pkg/enginedocs (1.096s) (coverage: 94.0% of statements)\n\u001b[32m✓\u001b[0m  pkg/engineversion (1.026s) (coverage: 75.5% of statements)\n\u001b[32m✓\u001b[0m  pkg/engineframework (1.125s) (coverage: 81.7% of statements)\n\u001b[32m✓\u001b[0m  pkg/eventualconfig (1.022s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  pkg/forge (1.068s) (coverage: 53.6% of statements)\n\u001b[32m✓\u001b[0m  pkg/mcptypes (1.029s) (coverage: 67.4% of statements)\n\u001b[32m✓\u001b[0m  pkg/mcputil (1.018s) (coverage: 91.3% of statements)\n\u001b[32m✓\u001b[0m  pkg/portalloc (1.026s) (coverage: 51.5% of statements)\n\u001b[32m✓\u001b[0m  pkg/templateutil (1.012s) (coverage: 96.6% of statements)\n\u001b[32m✓\u001b[0m  pkg/testenvutil (1.014s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  pkg/toolresolver (1.014s) (coverage: 70.4% of statements)\n\u001b[32m✓\u001b[0m  test/e2e/testrunner (1.028s) (coverage: 34.4% of statements)\n\n=== \u001b[33mSkipped\u001b[0m\n=== \u001b[33mSKIP\u001b[0m: internal/gitutil TestGetCurrentCommitSHA_InSubdirectory (0.00s)\n    git_test.go:134: Could not change to subdirectory pkg/forge: chdir pkg/forge: no such file or directory\n\n=== \u001b[33mSKIP\u001b[0m: internal/testutil TestRunCommandInDir_EmptyDir (0.00s)\n    exec_test.go:123: Skipping test for Fatal() call - covered by integration tests\n\n=== \u001b[33mSKIP\u001b[0m: pkg/enginecli TestBootstrapIntegration (0.00s)\n    bootstrap_test.go:206: Integration test for Bootstrap requires manual testing due to os.Exit() calls\n\n=== \u001b[33mSKIP\u001b[0m: pkg/engineframework TestCallDetector_Integration (0.00s)\n    detector_test.go:154: Integration test - requires go-dependency-detector binary\n\nDONE 2386 tests, 4 skipped in 80.871s\n$ forge test run unit (in /home/runner/work/forge-self-factory/forge-self-factory/forge-ci)\nRunning tests: stage=unit, name=unit-20260904-083418\n\nTest Results:\nStatus: passed\nTotal: 632\nPassed: 632\nFailed: 0\nCoverage: 15.3%\nSourced 1 environment variables from .envrc\n2026/09/04 08:34:18 Running tests for stage unit using go-test\n2026/09/04 08:34:18 Running tests: stage=unit name=unit-20260904-083418\ngo: downloading github.com/stretchr/testify v1.12.1\n\u001b[32m✓\u001b[0m  cmd/ci-artifact-release (1.058s) (coverage: 4.9% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/engineadapter (1.022s) (coverage: 35.5% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/execadapter (1.028s) (coverage: 94.7% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/forgeadapter (1.025s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/containeradapter (1.066s) (coverage: 79.5% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/fsadapter (1.022s) (coverage: 73.3% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/githubadapter (1.028s) (coverage: 78.1% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/artifactcontroller (1.02s) (coverage: 89.8% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/gitadapter (1.748s) (coverage: 85.8% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/computecontroller (1.031s) (coverage: 91.4% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/containercontroller (1.014s) (coverage: 98.3% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/docscontroller (1.016s) (coverage: 98.6% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/gatecontroller (1.012s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/promotioncontroller (1.016s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/managercontroller (2.083s) (coverage: 88.1% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/releasecontroller (1.018s) (coverage: 97.4% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/triggercontroller (1.02s) (coverage: 90.3% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/statecontroller (2.529s) (coverage: 87.8% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/reconcilecontroller (2.943s) (coverage: 88.9% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/workflowcontroller (1.051s) (coverage: 95.0% of statements)\n\u001b[32m✓\u001b[0m  internal/driver/clidriver (1.088s) (coverage: 94.7% of statements)\n\u001b[32m✓\u001b[0m  pkg/citypes (1.012s) (coverage: 92.3% of statements)\n\u001b[32m✓\u001b[0m  pkg/config (1.099s) (coverage: 96.5% of statements)\n\nDONE 632 tests in 15.246s\n$ forge test run unit (in /home/runner/work/forge-self-factory/forge-self-factory/forge-factory)\nRunning tests: stage=unit, name=unit-20260904-083440\n\nTest Results:\nStatus: passed\nTotal: 694\nPassed: 694\nFailed: 0\nCoverage: 27.1%\nSourced 1 environment variables from .envrc\n2026/09/04 08:34:41 Running tests for stage unit using go-test\n2026/09/04 08:34:41 Running tests: stage=unit name=unit-20260904-083440\n\u001b[32m✓\u001b[0m  internal/adapter/distadapter (1.022s) (coverage: 94.4% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/execadapter (1.033s) (coverage: 97.2% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/fsadapter (1.024s) (coverage: 94.5% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/engineadapter (1.726s) (coverage: 97.4% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/httpadapter (1.016s) (coverage: 93.3% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/gitadapter (1.032s) (coverage: 90.6% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/lockadapter (1.062s) (coverage: 69.2% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/repoadapter (1.016s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/describecontroller (1.02s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/clonecontroller (1.024s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/docscontroller (1.012s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/fetchcontroller (1.018s) (coverage: 93.9% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/installcontroller (1.063s) (coverage: 91.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/rendercontroller (1.025s) (coverage: 99.5% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/revisioncontroller (1.053s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/resolvecontroller (1.628s) (coverage: 96.3% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/runtimecontroller (1.105s) (coverage: 95.2% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/speccontroller (1.04s) (coverage: 92.8% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/statuscontroller (1.031s) (coverage: 100.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/synccontroller (1.14s) (coverage: 95.9% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/toolingcontroller (1.039s) (coverage: 83.0% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/runcontroller (3.658s) (coverage: 95.6% of statements)\n\u001b[32m✓\u001b[0m  internal/driver/clidriver (1.073s) (coverage: 91.6% of statements)\n\u001b[32m✓\u001b[0m  pkg/config (1.036s) (coverage: 90.7% of statements)\n\nDONE 694 tests in 17.850s\n$ forge test run unit (in /home/runner/work/forge-self-factory/forge-self-factory/forge-register)\nRunning tests: stage=unit, name=unit-20260904-083459\n\nTest Results:\nStatus: passed\nTotal: 232\nPassed: 232\nFailed: 0\nCoverage: 66.1%\nSourced 1 environment variables from .envrc\n2026/09/04 08:34:59 Running tests for stage unit using go-test\n2026/09/04 08:34:59 Running tests: stage=unit name=unit-20260904-083459\n\u001b[32m✓\u001b[0m  internal/adapter/dispatchadapter (1.022s) (coverage: 92.0% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/engineadapter (1.02s) (coverage: 62.2% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/gitprobeadapter (1.034s) (coverage: 87.5% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/registryadapter (1.022s) (coverage: 89.7% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/storeadapter (1.02s) (coverage: 76.1% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/discoverycontroller (1.014s) (coverage: 79.1% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/policycontroller (1.027s) (coverage: 94.8% of statements)\n\u001b[32m✓\u001b[0m  internal/controller/registercontroller (1.064s) (coverage: 88.3% of statements)\n\u001b[32m✓\u001b[0m  internal/driver/clidriver (1.058s) (coverage: 89.2% of statements)\n\u001b[32m✓\u001b[0m  internal/types/regtypes (1.012s) (coverage: 58.8% of statements)\n\u001b[32m✓\u001b[0m  pkg/config (1.016s) (coverage: 96.0% of statements)\n\u001b[32m✓\u001b[0m  internal/adapter/osvadapter (5.967s) (coverage: 95.4% of statements)\n\nDONE 232 tests in 7.593s\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "b0c1df67-5d15-4263-afdc-83945fe6d505",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-09-04T08:32:18.90388637Z",
+        "duration": 119.012286937,
+        "testStats": {
+          "total": 2386,
+          "passed": 2382,
+          "failed": 0,
+          "skipped": 4
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 38.2,
+          "filePath": "/home/runner/work/forge-self-factory/forge-self-factory/forge/tmp/tmp-d6c0b733-c01e-48e9-a384-696df86a1edf/test-unit-unit-20260904-083217-coverage.out"
+        },
+        "artifactFiles": [
+          "/home/runner/work/forge-self-factory/forge-self-factory/forge/tmp/tmp-d6c0b733-c01e-48e9-a384-696df86a1edf/test-unit-unit-20260904-083217.xml",
+          "/home/runner/work/forge-self-factory/forge-self-factory/forge/tmp/tmp-d6c0b733-c01e-48e9-a384-696df86a1edf/test-unit-unit-20260904-083217-coverage.out"
+        ],
+        "outputPath": "/home/runner/work/forge-self-factory/forge-self-factory/forge/tmp/tmp-d6c0b733-c01e-48e9-a384-696df86a1edf/test-unit-unit-20260904-083217.xml",
+        "createdAt": "2026-09-04T08:34:18.228867833Z",
+        "updatedAt": "2026-09-04T08:34:18.228867833Z"
+      },
+      {
+        "id": "bbbab37b-db26-4ba8-a1b2-9e659cfb5862",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-09-04T08:32:18.90388637Z",
+        "duration": 119.012286937,
+        "testStats": {
+          "total": 2386,
+          "passed": 2382,
+          "failed": 0,
+          "skipped": 4
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 38.2
+        },
+        "createdAt": "2026-09-04T08:34:18.237617376Z",
+        "updatedAt": "2026-09-04T08:34:18.237617376Z"
+      },
+      {
+        "id": "1f20873b-0199-4abc-945b-0e1e7c8fef01",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-09-04T08:34:18.386879685Z",
+        "duration": 22.348048551,
+        "testStats": {
+          "total": 632,
+          "passed": 632,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 15.3
+        },
+        "createdAt": "2026-09-04T08:34:40.947578854Z",
+        "updatedAt": "2026-09-04T08:34:40.947578854Z"
+      },
+      {
+        "id": "4fb81f9a-8233-46b2-bebe-9bdf4d730f9d",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-09-04T08:34:18.386879685Z",
+        "duration": 22.348048551,
+        "testStats": {
+          "total": 632,
+          "passed": 632,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 15.3,
+          "filePath": "/home/runner/work/forge-self-factory/forge-self-factory/forge-ci/tmp/tmp-7e36000f-e0c2-49a6-b0be-32def02caa80/test-unit-unit-20260904-083418-coverage.out"
+        },
+        "artifactFiles": [
+          "/home/runner/work/forge-self-factory/forge-self-factory/forge-ci/tmp/tmp-7e36000f-e0c2-49a6-b0be-32def02caa80/test-unit-unit-20260904-083418.xml",
+          "/home/runner/work/forge-self-factory/forge-self-factory/forge-ci/tmp/tmp-7e36000f-e0c2-49a6-b0be-32def02caa80/test-unit-unit-20260904-083418-coverage.out"
+        ],
+        "outputPath": "/home/runner/work/forge-self-factory/forge-self-factory/forge-ci/tmp/tmp-7e36000f-e0c2-49a6-b0be-32def02caa80/test-unit-unit-20260904-083418.xml",
+        "createdAt": "2026-09-04T08:34:40.942682567Z",
+        "updatedAt": "2026-09-04T08:34:40.942682567Z"
+      },
+      {
+        "id": "5c5b6271-9ef6-4cd8-baa4-24a06a1463c7",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-09-04T08:34:41.085732361Z",
+        "duration": 18.337831651,
+        "testStats": {
+          "total": 694,
+          "passed": 694,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 27.1,
+          "filePath": "/home/runner/work/forge-self-factory/forge-self-factory/forge-factory/tmp/tmp-12fe5e94-3f65-42e6-a1bb-750f405aefd5/test-unit-unit-20260904-083440-coverage.out"
+        },
+        "artifactFiles": [
+          "/home/runner/work/forge-self-factory/forge-self-factory/forge-factory/tmp/tmp-12fe5e94-3f65-42e6-a1bb-750f405aefd5/test-unit-unit-20260904-083440.xml",
+          "/home/runner/work/forge-self-factory/forge-self-factory/forge-factory/tmp/tmp-12fe5e94-3f65-42e6-a1bb-750f405aefd5/test-unit-unit-20260904-083440-coverage.out"
+        ],
+        "outputPath": "/home/runner/work/forge-self-factory/forge-self-factory/forge-factory/tmp/tmp-12fe5e94-3f65-42e6-a1bb-750f405aefd5/test-unit-unit-20260904-083440.xml",
+        "createdAt": "2026-09-04T08:34:59.587357196Z",
+        "updatedAt": "2026-09-04T08:34:59.587357196Z"
+      },
+      {
+        "id": "c11abfa0-2c1b-4f16-a46f-5acb439f58de",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-09-04T08:34:41.085732361Z",
+        "duration": 18.337831651,
+        "testStats": {
+          "total": 694,
+          "passed": 694,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 27.1
+        },
+        "createdAt": "2026-09-04T08:34:59.591467125Z",
+        "updatedAt": "2026-09-04T08:34:59.591467125Z"
+      },
+      {
+        "id": "36088685-8904-429b-9228-86daa41f7cf3",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-09-04T08:34:59.731233057Z",
+        "duration": 8.563294196,
+        "testStats": {
+          "total": 232,
+          "passed": 232,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 66.1,
+          "filePath": "/home/runner/work/forge-self-factory/forge-self-factory/forge-register/tmp/tmp-bd452c01-d16f-41c8-9552-ee599dae2861/test-unit-unit-20260904-083459-coverage.out"
+        },
+        "artifactFiles": [
+          "/home/runner/work/forge-self-factory/forge-self-factory/forge-register/tmp/tmp-bd452c01-d16f-41c8-9552-ee599dae2861/test-unit-unit-20260904-083459.xml",
+          "/home/runner/work/forge-self-factory/forge-self-factory/forge-register/tmp/tmp-bd452c01-d16f-41c8-9552-ee599dae2861/test-unit-unit-20260904-083459-coverage.out"
+        ],
+        "outputPath": "/home/runner/work/forge-self-factory/forge-self-factory/forge-register/tmp/tmp-bd452c01-d16f-41c8-9552-ee599dae2861/test-unit-unit-20260904-083459.xml",
+        "createdAt": "2026-09-04T08:35:08.4117464Z",
+        "updatedAt": "2026-09-04T08:35:08.4117464Z"
+      },
+      {
+        "id": "83c26bf3-f0e5-48c9-9e71-045d2d9cc874",
+        "stage": "unit",
+        "status": "passed",
+        "startTime": "2026-09-04T08:34:59.731233057Z",
+        "duration": 8.563294196,
+        "testStats": {
+          "total": 232,
+          "passed": 232,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": true,
+          "percentage": 66.1
+        },
+        "createdAt": "2026-09-04T08:35:08.416972895Z",
+        "updatedAt": "2026-09-04T08:35:08.416972895Z"
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "resolve-spec",
+        "type": "command-output",
+        "location": "/home/runner/work/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-04T08:32:17Z",
+        "version": "sh-exit0"
+      },
+      {
+        "name": "resolve-spec",
+        "type": "command-output",
+        "location": "/home/runner/work/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-04T08:32:17Z",
+        "version": "sh-exit0"
+      }
+    ]
+  }
+}
