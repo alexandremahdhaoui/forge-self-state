@@ -1,0 +1,7 @@
+{
+  "revision": "5931f9d49d00",
+  "stage": "release-image",
+  "advance": true,
+  "reason": "stage \"release-image\" passed 1 of 1 substages",
+  "promotedAt": "2026-09-04T11:34:47.94429504Z"
+}
