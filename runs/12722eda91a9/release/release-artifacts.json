@@ -1,0 +1,10 @@
+{
+  "revision": "12722eda91a9",
+  "stage": "release",
+  "substage": "release-artifacts",
+  "engine": "release-artifacts",
+  "status": "passed",
+  "startedAt": "2026-09-04T15:28:36.92578208Z",
+  "duration": 115.706082714,
+  "message": "published v0.45.60"
+}
