@@ -1,0 +1,7 @@
+{
+  "revision": "bf875de08e6a",
+  "stage": "release-image",
+  "advance": true,
+  "reason": "stage \"release-image\" passed 1 of 1 substages",
+  "promotedAt": "2026-09-04T10:13:22.412933148Z"
+}
