@@ -1,7 +1,7 @@
 {
   "revision": {
     "id": "e48beef4bbcb",
-    "createdAt": "2026-09-04T00:36:54.835411367Z",
+    "createdAt": "2026-09-04T01:00:08.662426815Z",
     "repos": {
       "forge": "a70efc82eeec864b1b45b3bc290a884eedff8b4e",
       "forge-ci": "ccdbcfae97e077f17475a101190b0b2bf0a333bd",
@@ -16,8 +16,9 @@
   },
   "version": "v0.45.51",
   "tag": "v0.45.51",
-  "previous": "v0.45.50",
-  "reason": "Release v0.45.51 (patch).",
+  "skip": true,
+  "reason": "This revision was released as v0.45.51. Nothing to do.",
+  "url": "https://github.com/alexandremahdhaoui/forge-self-factory/releases/tag/v0.45.51",
   "repos": {
     "forge": "a70efc82eeec864b1b45b3bc290a884eedff8b4e",
     "forge-ci": "ccdbcfae97e077f17475a101190b0b2bf0a333bd",
