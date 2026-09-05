@@ -32,6 +32,10 @@
     "manager": "github"
   },
   {
+    "resource": "directory//__w/forge-self-factory/forge-self-factory/forge-self-state",
+    "manager": "local"
+  },
+  {
     "resource": "directory//home/runner/work/forge-self-factory/forge-self-factory/forge-self-state",
     "manager": "local"
   },
