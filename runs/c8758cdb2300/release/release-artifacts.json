@@ -1,0 +1,10 @@
+{
+  "revision": "c8758cdb2300",
+  "stage": "release",
+  "substage": "release-artifacts",
+  "engine": "release-artifacts",
+  "status": "passed",
+  "startedAt": "2026-09-05T18:54:43.663023263Z",
+  "duration": 111.996732382,
+  "message": "published v0.45.68"
+}
