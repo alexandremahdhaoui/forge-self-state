@@ -1,0 +1,11 @@
+{
+  "revision": "19ef562ce97e",
+  "stage": "test",
+  "substage": "test-all",
+  "engine": "here",
+  "status": "failed",
+  "startedAt": "2026-09-05T09:21:31.983024118Z",
+  "duration": 52.648741508,
+  "message": "target \"test-all\" exited 1 in /__w/forge-self-factory/forge-self-factory/forge-ci",
+  "output": "$ forge-factory sync (in /__w/forge-self-factory/forge-self-factory)\nsynced /__w/forge-self-factory/forge-self-factory\n  note: internal:ghcr.io/alexandremahdhaoui/forge v0.45.62 entered by proof and carries no advisory measurement - unexamined, not known to be safe.\ntoolchain binaries\n  installed mockery\n  installed golangci-lint\n$ forge-factory lock (in /__w/forge-self-factory/forge-self-factory)\nsynced /__w/forge-self-factory/forge-self-factory\n  wrote .forge/dependency-locks.json\n$ forge test-all (in /__w/forge-self-factory/forge-self-factory/forge-ci)\nError sourcing envFile: failed to execute env file: failed to execute env file: exit status 1\nstderr: \n"
+}
