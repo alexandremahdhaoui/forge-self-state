@@ -1,0 +1,41 @@
+{
+  "revision": {
+    "id": "bc07ab2da96d",
+    "createdAt": "2026-09-06T18:35:00.809682404Z",
+    "repos": {
+      "forge": "e19588f664319a8fd88eda707d6088a56062f29d",
+      "forge-ci": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+      "forge-ci-spec": "46e65e8c1d93cb47e6adc3c5343e4b1c09f7743c",
+      "forge-factory": "c36f90344fc9d79ad98184375866c29a770b8d6e",
+      "forge-register": "e0047c84bb2bab7be80b61c915b84dde5f038fe9",
+      "forge-register-spec": "c87637a9aa48d771dc770365aa93050c56f7b03b",
+      "forge-revision-spec": "6ebabd2f691154c4bfeb8eb94e540624f683dbee",
+      "forge-self-factory": "f1ac64c093e334b3fe7e2f445d9387bb37c77c30",
+      "forge-self-register": "f58706e558fa22b7c898cf1d6a48778796fa59b9"
+    }
+  },
+  "version": "v0.45.109",
+  "tag": "v0.45.109",
+  "previous": "v0.45.108",
+  "reason": "Release v0.45.109 (patch): \"fix: a superseded self-reconcile stops the phased run\" in forge-ci.",
+  "repos": {
+    "forge": "e19588f664319a8fd88eda707d6088a56062f29d",
+    "forge-ci": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+    "forge-ci-spec": "46e65e8c1d93cb47e6adc3c5343e4b1c09f7743c",
+    "forge-factory": "c36f90344fc9d79ad98184375866c29a770b8d6e",
+    "forge-register": "e0047c84bb2bab7be80b61c915b84dde5f038fe9",
+    "forge-register-spec": "c87637a9aa48d771dc770365aa93050c56f7b03b",
+    "forge-revision-spec": "6ebabd2f691154c4bfeb8eb94e540624f683dbee",
+    "forge-self-factory": "f1ac64c093e334b3fe7e2f445d9387bb37c77c30"
+  },
+  "trees": {
+    "forge": "f3548ce517b32740fbc54058ab9e0894db6ba46ec722faff4d3672406385a873",
+    "forge-ci": "c43afaaba04f861b6f1098f544f51431b7224946db36cff8c465dde69a9d15aa",
+    "forge-ci-spec": "ef030a24f8308304e4c73b0baaadee8848196ec5e8f8e5599bea511f5c094707",
+    "forge-factory": "b7efefa466e0403e89121bcb813cdf945655ffb7dca4d7ce9793b24096590fdc",
+    "forge-register": "322e5233f9d61c756077bb5314b0788e006a7a86885f8a46110657959b1c5bfe",
+    "forge-register-spec": "e8b6f3f5bbaedde713f2c20e9810aa8db3bc8291486df0c9280aa93b9a0e8aa4",
+    "forge-revision-spec": "09dca91b9b7dbab3fba8c9d07fe131a28077f281b85b124e0c282f7a2c349ecc",
+    "forge-self-factory": "09b37d079ad94e43fd63458f91d74fc8199751ff78182fa53f934ce6e3154575"
+  }
+}
