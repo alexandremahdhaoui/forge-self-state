@@ -1,0 +1,10 @@
+{
+  "revision": "5fcc11efe17c",
+  "stage": "release",
+  "substage": "release-container",
+  "engine": "release-container",
+  "status": "passed",
+  "startedAt": "2026-09-06T11:10:06.578821902Z",
+  "duration": 13.33454665,
+  "message": "published v0.45.98"
+}
