@@ -1,0 +1,120 @@
+{
+  "revision": "e220b7144a46",
+  "stage": "test",
+  "substage": "test-all",
+  "engine": "here",
+  "status": "failed",
+  "startedAt": "2026-09-06T20:57:36.168876196Z",
+  "duration": 60.183226141,
+  "message": "target \"test-all\" exited 1 in /__w/forge-self-factory/forge-self-factory/forge-ci",
+  "output": "... earlier output dropped ...\n in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:58:20 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:58:20 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.main.go funcName=main\n2026/09/06 20:58:20 Detected 27 dependencies for ci-manager-dryrun\nBuilt binary: ci-manager-dryrun for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:58:20 Building ci-manager-github using go-build\n2026/09/06 20:58:20 Building binary: ci-manager-github from ./cmd/ci-manager-github for linux/amd64, linux/arm64\n2026/09/06 20:58:21 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-manager-github (artifact: ci-manager-github)\n2026/09/06 20:58:21 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.main.go\n2026/09/06 20:58:21 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:58:21 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:58:21 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.main.go funcName=main\n2026/09/06 20:58:21 Detected 27 dependencies for ci-manager-github\nBuilt binary: ci-manager-github for linux/amd64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:58:21 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-manager-github (artifact: ci-manager-github)\n2026/09/06 20:58:21 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.main.go\n2026/09/06 20:58:21 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:58:21 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:58:21 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.main.go funcName=main\n2026/09/06 20:58:21 Detected 27 dependencies for ci-manager-github\nBuilt binary: ci-manager-github for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:58:21 Building ci-compute-github using go-build\n2026/09/06 20:58:21 Building binary: ci-compute-github from ./cmd/ci-compute-github for linux/amd64, linux/arm64\n# github.com/alexandremahdhaoui/forge-ci/cmd/ci-compute-github\ncmd/ci-compute-github/handlers.go:99:29: t.Forge undefined (type Target has no field or method Forge)\ncmd/ci-compute-github/handlers.go:99:47: t.ForgeCI undefined (type Target has no field or method ForgeCI)\n2026/09/06 20:58:22 Building ci-compute-local using go-build\n2026/09/06 20:58:22 Building binary: ci-compute-local from ./cmd/ci-compute-local for linux/amd64, linux/arm64\n# github.com/alexandremahdhaoui/forge-ci/cmd/ci-compute-local\ncmd/ci-compute-local/handlers.go:101:29: t.Forge undefined (type Target has no field or method Forge)\ncmd/ci-compute-local/handlers.go:101:47: t.ForgeCI undefined (type Target has no field or method ForgeCI)\n2026/09/06 20:58:22 Building ci-state-git using go-build\n2026/09/06 20:58:22 Building binary: ci-state-git from ./cmd/ci-state-git for linux/amd64, linux/arm64\n2026/09/06 20:58:23 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-state-git (artifact: ci-state-git)\n2026/09/06 20:58:23 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go\n2026/09/06 20:58:23 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:58:23 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:58:23 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go funcName=main\n2026/09/06 20:58:23 Detected 21 dependencies for ci-state-git\nBuilt binary: ci-state-git for linux/amd64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:58:23 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-state-git (artifact: ci-state-git)\n2026/09/06 20:58:23 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go\n2026/09/06 20:58:23 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:58:24 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:58:24 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go funcName=main\n2026/09/06 20:58:24 Detected 21 dependencies for ci-state-git\nBuilt binary: ci-state-git for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:58:24 Building ci-artifact-container using go-build\n2026/09/06 20:58:24 Building binary: ci-artifact-container from ./cmd/ci-artifact-container for linux/amd64, linux/arm64\n2026/09/06 20:58:26 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-artifact-container (artifact: ci-artifact-container)\n2026/09/06 20:58:26 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go\n2026/09/06 20:58:26 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:58:27 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:58:27 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go funcName=main\n2026/09/06 20:58:27 Detected 25 dependencies for ci-artifact-container\nBuilt binary: ci-artifact-container for linux/amd64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:58:29 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-artifact-container (artifact: ci-artifact-container)\n2026/09/06 20:58:29 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go\n2026/09/06 20:58:29 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:58:29 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:58:29 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go funcName=main\n2026/09/06 20:58:29 Detected 25 dependencies for ci-artifact-container\nBuilt binary: ci-artifact-container for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:58:29 Building ci-artifact-release using go-build\n2026/09/06 20:58:29 Building binary: ci-artifact-release from ./cmd/ci-artifact-release for linux/amd64, linux/arm64\n2026/09/06 20:58:30 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-artifact-release (artifact: ci-artifact-release)\n2026/09/06 20:58:30 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go\n2026/09/06 20:58:30 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:58:30 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:58:30 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go funcName=main\n2026/09/06 20:58:30 Detected 28 dependencies for ci-artifact-release\nBuilt binary: ci-artifact-release for linux/amd64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:58:31 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-artifact-release (artifact: ci-artifact-release)\n2026/09/06 20:58:31 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go\n2026/09/06 20:58:31 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:58:31 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:58:31 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go funcName=main\n2026/09/06 20:58:31 Detected 28 dependencies for ci-artifact-release\nBuilt binary: ci-artifact-release for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:58:31 Building ci-trigger-watch using go-build\n2026/09/06 20:58:31 Building binary: ci-trigger-watch from ./cmd/ci-trigger-watch for linux/amd64, linux/arm64\n2026/09/06 20:58:32 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-trigger-watch (artifact: ci-trigger-watch)\n2026/09/06 20:58:32 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go\n2026/09/06 20:58:32 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:58:32 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:58:32 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go funcName=main\n2026/09/06 20:58:32 Detected 29 dependencies for ci-trigger-watch\nBuilt binary: ci-trigger-watch for linux/amd64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:58:33 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-trigger-watch (artifact: ci-trigger-watch)\n2026/09/06 20:58:33 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go\n2026/09/06 20:58:33 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:58:33 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:58:33 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go funcName=main\n2026/09/06 20:58:33 Detected 29 dependencies for ci-trigger-watch\nBuilt binary: ci-trigger-watch for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:58:33 Building ci-gate-manual using go-build\n2026/09/06 20:58:33 Building binary: ci-gate-manual from ./cmd/ci-gate-manual for linux/amd64, linux/arm64\n2026/09/06 20:58:33 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-gate-manual (artifact: ci-gate-manual)\n2026/09/06 20:58:33 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go\n2026/09/06 20:58:33 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:58:34 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:58:34 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go funcName=main\n2026/09/06 20:58:34 Detected 18 dependencies for ci-gate-manual\nBuilt binary: ci-gate-manual for linux/amd64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:58:34 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-gate-manual (artifact: ci-gate-manual)\n2026/09/06 20:58:34 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go\n2026/09/06 20:58:34 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:58:34 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:58:34 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go funcName=main\n2026/09/06 20:58:34 Detected 18 dependencies for ci-gate-manual\nBuilt binary: ci-gate-manual for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:58:34 Building ci-promotion-all using go-build\n2026/09/06 20:58:34 Building binary: ci-promotion-all from ./cmd/ci-promotion-all for linux/amd64, linux/arm64\n2026/09/06 20:58:35 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-promotion-all (artifact: ci-promotion-all)\n2026/09/06 20:58:35 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go\n2026/09/06 20:58:35 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:58:35 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:58:35 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go funcName=main\n2026/09/06 20:58:35 Detected 17 dependencies for ci-promotion-all\nBuilt binary: ci-promotion-all for linux/amd64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:58:36 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-promotion-all (artifact: ci-promotion-all)\n2026/09/06 20:58:36 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go\n2026/09/06 20:58:36 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:58:36 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:58:36 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go funcName=main\n2026/09/06 20:58:36 Detected 17 dependencies for ci-promotion-all\nBuilt binary: ci-promotion-all for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n❌ Build failed: build completed with errors: [build failed for forge://go-build: build failed: Batch build completed with errors: [Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1]]\nError: build failed: build completed with errors: [build failed for forge://go-build: build failed: Batch build completed with errors: [Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1]]\n",
+  "forge": {
+    "artifacts": [
+      {
+        "name": "generate-docs",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-06T20:57:43Z",
+        "version": "go-exit0"
+      },
+      {
+        "name": "resolve-spec",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-06T20:57:37Z",
+        "version": "sh-exit0"
+      },
+      {
+        "name": "ci-state-git",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git",
+        "timestamp": "2026-09-06T20:57:42Z",
+        "version": "sha256:5aab53dd416fad314f962bbd003d2784ba831092c5d7f1c9e128cc84fbd69095"
+      },
+      {
+        "name": "ci-manager-local",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local",
+        "timestamp": "2026-09-06T20:57:42Z",
+        "version": "sha256:8ef2c194f03ae1e8c6e7ca28bde634c756f3534a3e9d5a051e12d6d62612f59c"
+      },
+      {
+        "name": "ci-manager-dryrun",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun",
+        "timestamp": "2026-09-06T20:57:42Z",
+        "version": "sha256:4a3f4924abae8d5871f5ccc696bb025c9b767ab9e8f867efc45d8ba2c406bcf3"
+      },
+      {
+        "name": "ci-compute-github",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github",
+        "timestamp": "2026-09-06T20:57:42Z",
+        "version": "sha256:3667aa5c0346112343ae968095763784ca271c3229d47e1a74c33daf63bd243a"
+      },
+      {
+        "name": "ci-gate-manual",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual",
+        "timestamp": "2026-09-06T20:57:42Z",
+        "version": "sha256:1077f569dbd4dcb1db8f2faf60b2c1d3f55476b6d2ac86e1de2835a8db364b3f"
+      },
+      {
+        "name": "ci-trigger-watch",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch",
+        "timestamp": "2026-09-06T20:57:42Z",
+        "version": "sha256:9cd8486402581bf9092a10bfe90dbd818349fc468152a1147cb1958b5bf4299f"
+      },
+      {
+        "name": "ci-artifact-release",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release",
+        "timestamp": "2026-09-06T20:57:42Z",
+        "version": "sha256:367e10188e1be065f12e0bdaec20b56062784c30ffa7ca1d94eefab27415403a"
+      },
+      {
+        "name": "generate-mocks",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-06T20:57:43Z",
+        "version": "mockery-exit0"
+      },
+      {
+        "name": "ci-manager-github",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github",
+        "timestamp": "2026-09-06T20:57:42Z",
+        "version": "sha256:1f25682d694b4742dd7e49eb5fef06026dc9c3a7372b0016bca087c0992ac507"
+      },
+      {
+        "name": "ci-promotion-all",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all",
+        "timestamp": "2026-09-06T20:57:42Z",
+        "version": "sha256:9116c25482800945907c758a2232d8cecf4a35f141fef2c754483692c312c8cc"
+      },
+      {
+        "name": "formatted-code",
+        "type": "generated",
+        "location": "forge-ci",
+        "timestamp": "2026-09-06T20:57:45Z",
+        "version": ""
+      },
+      {
+        "name": "ci-compute-local",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local",
+        "timestamp": "2026-09-06T20:57:42Z",
+        "version": "sha256:5bb99bde915098a038a56e7eccc04037529d123626a9456fc5fb047cfe944a1c"
+      },
+      {
+        "name": "ci-artifact-container",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container",
+        "timestamp": "2026-09-06T20:57:42Z",
+        "version": "sha256:957f2665ec9312f48c71bc1ac827953cf6f8e423cced3e4367db8c096946bdd6"
+      }
+    ]
+  }
+}
