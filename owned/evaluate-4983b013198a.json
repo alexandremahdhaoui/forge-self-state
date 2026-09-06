@@ -1,0 +1,20 @@
+{
+  "revision": {
+    "id": "4983b013198a",
+    "createdAt": "2026-09-06T23:37:21.242872234Z",
+    "repos": {
+      "forge": "208cdab20b0f4464b9858c61df412b19fe330831",
+      "forge-ci": "be09f872a1f15c359f0886cc45e17123468b24f5",
+      "forge-ci-spec": "181a38028f443d8380231cf2879c6418d25fbe86",
+      "forge-factory": "0d9f0409df87abc701147ee074740accbded9b4d",
+      "forge-register": "d51492a841c540df0213a14013be16a8b47b11d7",
+      "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+      "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+      "forge-self-factory": "c7bad0d821108fb986b136b0a1d56ad446258b24",
+      "forge-self-register": "8a3b048e164e6e745813da1f766c831f2448f5f1"
+    }
+  },
+  "previous": "v1.0.1",
+  "skip": true,
+  "reason": "Nothing to release. 5 commits since v1.0.1, and each one is a kind that never releases. Example: \"chore: pin forge v1.0.0 from the register's internal track\" in forge-ci."
+}
