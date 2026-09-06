@@ -1,0 +1,41 @@
+{
+  "revision": {
+    "id": "9a7a276334f0",
+    "createdAt": "2026-09-06T23:09:04.505692705Z",
+    "repos": {
+      "forge": "208cdab20b0f4464b9858c61df412b19fe330831",
+      "forge-ci": "7b68bd22518e9078ac3bbfe2b0bdd93718d9e20b",
+      "forge-ci-spec": "181a38028f443d8380231cf2879c6418d25fbe86",
+      "forge-factory": "7a4d8d8e60b788ee3af0bbcd1fdf6f69875ecae1",
+      "forge-register": "40d539f5c82732b05c8acc10103959f2f0808232",
+      "forge-register-spec": "c87637a9aa48d771dc770365aa93050c56f7b03b",
+      "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+      "forge-self-factory": "4e556a37362706e3f7e7b4bb8ec896c9c68c6ae7",
+      "forge-self-register": "8d482b3e0b960cd0439695810435884df3b386d3"
+    }
+  },
+  "version": "v1.0.1",
+  "tag": "v1.0.1",
+  "previous": "v1.0.0",
+  "reason": "Release v1.0.1 (patch): \"fix: write the artifact store after every engine group\" in forge.",
+  "repos": {
+    "forge": "208cdab20b0f4464b9858c61df412b19fe330831",
+    "forge-ci": "7b68bd22518e9078ac3bbfe2b0bdd93718d9e20b",
+    "forge-ci-spec": "181a38028f443d8380231cf2879c6418d25fbe86",
+    "forge-factory": "7a4d8d8e60b788ee3af0bbcd1fdf6f69875ecae1",
+    "forge-register": "40d539f5c82732b05c8acc10103959f2f0808232",
+    "forge-register-spec": "c87637a9aa48d771dc770365aa93050c56f7b03b",
+    "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+    "forge-self-factory": "4e556a37362706e3f7e7b4bb8ec896c9c68c6ae7"
+  },
+  "trees": {
+    "forge": "beaa580643d9a2e4f1eff9d3f418010d9d24b827a0e116a28b5c59cd81818efb",
+    "forge-ci": "b708d448f4f04c1f3e9d2ccee201981cba1219e96435342e9fdda853fd9208e4",
+    "forge-ci-spec": "d01f62263b4665f958548b9bb5bbe53ab488a02bab56532966d87305b0de5235",
+    "forge-factory": "cb589f94f6e2043372ca95169b2bb8af385746644ba4dac6089d7f2dee5ce199",
+    "forge-register": "d33c41499d5ef8b25db8ef0b7a213c7311aa99599c2b33112d03ede18482cd8b",
+    "forge-register-spec": "e8b6f3f5bbaedde713f2c20e9810aa8db3bc8291486df0c9280aa93b9a0e8aa4",
+    "forge-revision-spec": "b9883679f357c187ca80faf038b38890140163ee5742eea3309cf1e5490c12e2",
+    "forge-self-factory": "b43e53d9650d07ce372f46d2d715cc4e6f69309755085a522d14094f5bbea1c3"
+  }
+}
