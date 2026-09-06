@@ -1,0 +1,40 @@
+{
+  "revision": "712b756acc32",
+  "stage": "build",
+  "substage": "build-container",
+  "engine": "here",
+  "status": "failed",
+  "startedAt": "2026-09-06T22:36:18.293098299Z",
+  "duration": 33.891064904,
+  "message": "target \"build-container\" exited 1 in /__w/forge-self-factory/forge-self-factory/forge-self-factory",
+  "output": "$ forge-factory sync (in /__w/forge-self-factory/forge-self-factory)\nsynced /__w/forge-self-factory/forge-self-factory\n  note: internal:ghcr.io/alexandremahdhaoui/forge v0.45.109 entered by proof and carries no advisory measurement - unexamined, not known to be safe.\nruntimes\n  reused uv@0.8.17\ntoolchain binaries\n  reused mockery\n  reused golangci-lint\n$ forge-factory lock (in /__w/forge-self-factory/forge-self-factory)\nsynced /__w/forge-self-factory/forge-self-factory\n  wrote .forge/dependency-locks.json\n$ forge test run build-container (in /__w/forge-self-factory/forge-self-factory/forge-self-factory)\nRunning tests: stage=build-container, name=build-container-20260906-223618\nSourced 1 environment variables from .envrc\n2026/09/06 22:36:18 Running tests for stage build-container using generic-test-runner\n2026/09/06 22:36:18 Running tests: stage=build-container name=build-container-20260906-223618 command=forge\n2026/09/06 22:36:52 Stderr: Sourced 1 environment variables from .envrc\n🔨 Building noop (no previous build for linux/amd64)\n🔨 Building git-lfs (no previous build for linux/amd64)\n🔨 Building toolchain (no previous build for linux/amd64)\nBuilding 2 artifact(s) with forge://generic-builder...\n2026/09/06 22:36:19 Building 2 artifacts in batch using generic-builder\n2026/09/06 22:36:19 Building noop using generic-builder\n2026/09/06 22:36:19 Executing command: true [] (context: /__w/forge-self-factory/forge-self-factory/forge-self-factory) for linux/amd64\n2026/09/06 22:36:19 Building git-lfs using generic-builder\n2026/09/06 22:36:19 Executing command: sh [-c GOOS=\"$FORGE_OS\" GOARCH=\"$FORGE_ARCH\" CGO_ENABLED=0 go install github.com/git-lfs/git-lfs/v3@v3.8.0 \u0026\u0026 p=\"$(go env GOPATH)/bin/${FORGE_OS}_${FORGE_ARCH}/git-lfs\" \u0026\u0026 { [ -f \"$p\" ] || p=\"$(go env GOPATH)/bin/git-lfs\"; } \u0026\u0026 out=\"build/bin/git-lfs_${FORGE_OS}_${FORGE_ARCH}\" \u0026\u0026 { [ \"$FORGE_PLATFORM\" != \"$(go env GOHOSTOS)/$(go env GOHOSTARCH)\" ] || out=\"build/bin/git-lfs\"; } \u0026\u0026 install -D -m 0755 \"$p\" \"$out\"] (context: /__w/forge-self-factory/forge-self-factory/forge-self-factory) for linux/amd64, linux/arm64\n2026/09/06 22:36:34 Stderr: go: downloading github.com/git-lfs/git-lfs/v3 v3.8.0\ngo: downloading github.com/leonelquinteros/gotext v1.7.2\ngo: downloading github.com/git-lfs/gitobj/v2 v2.1.1\ngo: downloading github.com/git-lfs/pktline v0.0.0-20210330133718-06e9096e2825\ngo: downloading github.com/rubyist/tracerx v0.0.0-20170927163412-787959303086\ngo: downloading github.com/spf13/cobra v1.10.2\ngo: downloading github.com/pkg/errors v0.9.1\ngo: downloading github.com/git-lfs/wildmatch/v2 v2.0.1\ngo: downloading github.com/golang/groupcache v0.0.0-20241129210726-2c02b8208cf8\ngo: downloading github.com/jmhodges/clock v1.2.0\ngo: downloading github.com/dpotapov/go-spnego v0.0.0-20210315154721-298b63a54430\ngo: downloading github.com/ssgelm/cookiejarparser v1.0.1\ngo: downloading github.com/mattn/go-isatty v0.0.24\ngo: downloading github.com/olekukonko/ts v0.0.0-20171002115256-78ecb04241c0\ngo: downloading github.com/klauspost/compress v1.19.1\ngo: downloading github.com/spf13/pflag v1.0.9\ngo: downloading github.com/git-lfs/go-netrc v0.0.0-20250218165306-ba0029b43d11\ngo: downloading github.com/jcmturner/gokrb5/v8 v8.4.2\ngo: downloading golang.org/x/text v0.40.0\ngo: downloading github.com/hashicorp/go-uuid v1.0.2\ngo: downloading github.com/jcmturner/gofork v1.0.0\ngo: downloading github.com/jcmturner/goidentity/v6 v6.0.1\ngo: downloading github.com/jcmturner/dnsutils/v2 v2.0.0\ngo: downloading golang.org/x/crypto v0.54.0\ngo: downloading github.com/jcmturner/aescts/v2 v2.0.0\ngo: downloading github.com/jcmturner/rpc/v2 v2.0.3\nBuilding 1 artifact(s) with forge://container-build-simple...\n2026/09/06 22:36:52 Building toolchain using container-build-simple\nError: build completed with errors: [build failed for forge://container-build-simple: build failed: Build failed: reading the records of \".\": open /__w/forge-self-factory/forge-self-factory/forge-self-factory/.forge/artifact-store.yaml: no such file or directory\nreading artifact store]\nError: test run failed: build failed: Tests failed for stage build-container: Command exited with code 1\n",
+  "forge": {
+    "artifacts": [
+      {
+        "name": "noop",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-self-factory",
+        "timestamp": "2026-09-06T22:36:19Z",
+        "version": "true-exit0"
+      },
+      {
+        "name": "git-lfs",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-self-factory/build/bin/git-lfs",
+        "timestamp": "2026-09-06T22:36:34Z",
+        "version": "sh-exit0"
+      },
+      {
+        "name": "git-lfs",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-self-factory/build/bin/git-lfs_linux_arm64",
+        "timestamp": "2026-09-06T22:36:51Z",
+        "version": "sh-exit0"
+      }
+    ]
+  }
+}
