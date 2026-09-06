@@ -1,0 +1,3500 @@
+{
+  "revision": "f8bf838df1aa",
+  "stage": "test",
+  "substage": "test-all",
+  "engine": "here",
+  "status": "failed",
+  "startedAt": "2026-09-06T20:46:32.604555615Z",
+  "duration": 74.121072237,
+  "message": "target \"test-all\" exited 1 in /__w/forge-self-factory/forge-self-factory/forge-ci",
+  "output": "... earlier output dropped ...\nhub\nBuilt binary: ci-compute-github for linux/amd64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:47:38 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-compute-github (artifact: ci-compute-github)\n2026/09/06 20:47:38 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.main.go\n2026/09/06 20:47:38 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:47:38 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:47:38 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.main.go funcName=main\n2026/09/06 20:47:38 Detected 33 dependencies for ci-compute-github\nBuilt binary: ci-compute-github for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:47:38 Building ci-compute-local using go-build\n2026/09/06 20:47:38 Building binary: ci-compute-local from ./cmd/ci-compute-local for linux/amd64, linux/arm64\n2026/09/06 20:47:39 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-compute-local (artifact: ci-compute-local)\n2026/09/06 20:47:39 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go\n2026/09/06 20:47:39 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:47:39 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:47:39 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go funcName=main\n2026/09/06 20:47:39 Detected 22 dependencies for ci-compute-local\nBuilt binary: ci-compute-local for linux/amd64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:47:40 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-compute-local (artifact: ci-compute-local)\n2026/09/06 20:47:40 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go\n2026/09/06 20:47:40 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:47:40 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:47:40 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go funcName=main\n2026/09/06 20:47:40 Detected 22 dependencies for ci-compute-local\nBuilt binary: ci-compute-local for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:47:40 Building ci-state-git using go-build\n2026/09/06 20:47:40 Building binary: ci-state-git from ./cmd/ci-state-git for linux/amd64, linux/arm64\n2026/09/06 20:47:40 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-state-git (artifact: ci-state-git)\n2026/09/06 20:47:40 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go\n2026/09/06 20:47:40 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:47:40 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:47:40 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go funcName=main\n2026/09/06 20:47:40 Detected 21 dependencies for ci-state-git\nBuilt binary: ci-state-git for linux/amd64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:47:40 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-state-git (artifact: ci-state-git)\n2026/09/06 20:47:40 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go\n2026/09/06 20:47:40 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:47:40 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:47:40 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go funcName=main\n2026/09/06 20:47:40 Detected 21 dependencies for ci-state-git\nBuilt binary: ci-state-git for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:47:40 Building ci-artifact-container using go-build\n2026/09/06 20:47:40 Building binary: ci-artifact-container from ./cmd/ci-artifact-container for linux/amd64, linux/arm64\n2026/09/06 20:47:41 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-artifact-container (artifact: ci-artifact-container)\n2026/09/06 20:47:41 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go\n2026/09/06 20:47:41 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:47:41 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:47:41 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go funcName=main\n2026/09/06 20:47:41 Detected 25 dependencies for ci-artifact-container\nBuilt binary: ci-artifact-container for linux/amd64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:47:41 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-artifact-container (artifact: ci-artifact-container)\n2026/09/06 20:47:41 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go\n2026/09/06 20:47:41 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:47:41 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:47:41 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go funcName=main\n2026/09/06 20:47:41 Detected 25 dependencies for ci-artifact-container\nBuilt binary: ci-artifact-container for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:47:41 Building ci-artifact-release using go-build\n2026/09/06 20:47:41 Building binary: ci-artifact-release from ./cmd/ci-artifact-release for linux/amd64, linux/arm64\n2026/09/06 20:47:42 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-artifact-release (artifact: ci-artifact-release)\n2026/09/06 20:47:42 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go\n2026/09/06 20:47:42 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:47:42 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:47:42 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go funcName=main\n2026/09/06 20:47:42 Detected 28 dependencies for ci-artifact-release\nBuilt binary: ci-artifact-release for linux/amd64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:47:42 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-artifact-release (artifact: ci-artifact-release)\n2026/09/06 20:47:42 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go\n2026/09/06 20:47:42 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:47:43 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:47:43 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go funcName=main\n2026/09/06 20:47:43 Detected 28 dependencies for ci-artifact-release\nBuilt binary: ci-artifact-release for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:47:43 Building ci-trigger-watch using go-build\n2026/09/06 20:47:43 Building binary: ci-trigger-watch from ./cmd/ci-trigger-watch for linux/amd64, linux/arm64\n2026/09/06 20:47:43 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-trigger-watch (artifact: ci-trigger-watch)\n2026/09/06 20:47:43 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go\n2026/09/06 20:47:43 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:47:43 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:47:43 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go funcName=main\n2026/09/06 20:47:43 Detected 29 dependencies for ci-trigger-watch\nBuilt binary: ci-trigger-watch for linux/amd64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:47:44 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-trigger-watch (artifact: ci-trigger-watch)\n2026/09/06 20:47:44 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go\n2026/09/06 20:47:44 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:47:44 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:47:44 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go funcName=main\n2026/09/06 20:47:44 Detected 29 dependencies for ci-trigger-watch\nBuilt binary: ci-trigger-watch for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:47:44 Building ci-gate-manual using go-build\n2026/09/06 20:47:44 Building binary: ci-gate-manual from ./cmd/ci-gate-manual for linux/amd64, linux/arm64\n2026/09/06 20:47:44 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-gate-manual (artifact: ci-gate-manual)\n2026/09/06 20:47:44 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go\n2026/09/06 20:47:44 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:47:44 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:47:44 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go funcName=main\n2026/09/06 20:47:44 Detected 18 dependencies for ci-gate-manual\nBuilt binary: ci-gate-manual for linux/amd64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:47:45 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-gate-manual (artifact: ci-gate-manual)\n2026/09/06 20:47:45 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go\n2026/09/06 20:47:45 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:47:45 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:47:45 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go funcName=main\n2026/09/06 20:47:45 Detected 18 dependencies for ci-gate-manual\nBuilt binary: ci-gate-manual for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:47:45 Building ci-promotion-all using go-build\n2026/09/06 20:47:45 Building binary: ci-promotion-all from ./cmd/ci-promotion-all for linux/amd64, linux/arm64\n2026/09/06 20:47:46 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-promotion-all (artifact: ci-promotion-all)\n2026/09/06 20:47:46 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go\n2026/09/06 20:47:46 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:47:46 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:47:46 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go funcName=main\n2026/09/06 20:47:46 Detected 17 dependencies for ci-promotion-all\nBuilt binary: ci-promotion-all for linux/amd64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n2026/09/06 20:47:46 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-promotion-all (artifact: ci-promotion-all)\n2026/09/06 20:47:46 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go\n2026/09/06 20:47:46 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go, attempting dependency detection\n2026/09/06 20:47:46 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/06 20:47:46 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go funcName=main\n2026/09/06 20:47:46 Detected 17 dependencies for ci-promotion-all\nBuilt binary: ci-promotion-all for linux/arm64 (version: f8e39ebd1bab6405e3dae36f23653ba79f06d819)\n✅ Successfully built 39 artifact(s)\nthe build changed files that were committed or ignored as they were:\n M cmd/ci-artifact-container/zz_generated.spec.go\n M cmd/ci-artifact-release/zz_generated.spec.go\n M cmd/ci-compute-github/zz_generated.spec.go\n M cmd/ci-compute-local/zz_generated.spec.go\n M cmd/ci-gate-manual/zz_generated.spec.go\n M cmd/ci-manager-dryrun/zz_generated.spec.go\n M cmd/ci-manager-github/zz_generated.spec.go\n M cmd/ci-manager-local/zz_generated.spec.go\n M cmd/ci-promotion-all/zz_generated.spec.go\n M cmd/ci-trigger-watch/zz_generated.spec.go\n\neither the generated code does not match its source - run\n'forge build --force' and commit the result - or the build writes\noutput this repo does not gitignore.\n❌ Stage 'generated' failed: test run failed: build failed: Tests failed for stage generated: Command exited with code 1\nError: test stage 'generated' failed: test run failed: build failed: Tests failed for stage generated: Command exited with code 1\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "31ebb3cb-b84c-410e-8726-389ed1db3dfd",
+        "stage": "lint",
+        "status": "passed",
+        "startTime": "2026-09-06T20:47:21.600299127Z",
+        "duration": 10.18239414,
+        "testStats": {
+          "total": 0,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-06T20:47:31.790879391Z",
+        "updatedAt": "2026-09-06T20:47:31.790879391Z"
+      },
+      {
+        "id": "eb80efde-2deb-4d56-b544-dca7fee2151d",
+        "stage": "no-hardcoding",
+        "status": "passed",
+        "startTime": "2026-09-06T20:47:32.358992213Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-06T20:47:32.36652386Z",
+        "updatedAt": "2026-09-06T20:47:32.36652386Z"
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "ci-state-git",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-state-git",
+        "timestamp": "2026-09-06T20:47:40Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/statecontroller/statecontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "resolve-spec",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-06T20:47:32Z",
+        "version": "sh-exit0"
+      },
+      {
+        "name": "ci-manager-dryrun",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun",
+        "timestamp": "2026-09-06T20:47:32Z",
+        "version": "sha256:89d0f648f949714ee62b1efd54e311a8e3b335c7a25044837e351e130d667761"
+      },
+      {
+        "name": "ci-artifact-container",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-artifact-container_linux_arm64",
+        "timestamp": "2026-09-06T20:47:41Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/containeradapter/containeradapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/google/go-containerregistry/pkg/authn",
+            "semver": "v0.22.0"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/google/go-containerregistry/pkg/name",
+            "semver": "v0.22.0"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/google/go-containerregistry/pkg/v1",
+            "semver": "v0.22.0"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/google/go-containerregistry/pkg/v1/empty",
+            "semver": "v0.22.0"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/google/go-containerregistry/pkg/v1/layout",
+            "semver": "v0.22.0"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/google/go-containerregistry/pkg/v1/mutate",
+            "semver": "v0.22.0"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/google/go-containerregistry/pkg/v1/remote",
+            "semver": "v0.22.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/containercontroller/containercontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-artifact-release",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-artifact-release",
+        "timestamp": "2026-09-06T20:47:42Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "golang.org/x/crypto/nacl/box",
+            "semver": "v0.56.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/artifactcontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/index.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/version.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/config/config.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "sigs.k8s.io/yaml",
+            "semver": "v1.6.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-compute-local",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-compute-local_linux_arm64",
+        "timestamp": "2026-09-06T20:47:40Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/forgeadapter/forgeadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "sigs.k8s.io/yaml",
+            "semver": "v1.6.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/artifacts.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/computecontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-trigger-watch",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch",
+        "timestamp": "2026-09-06T20:47:32Z",
+        "version": "sha256:22742b04516f02e3740edfd4f599e0e0aac9695159c9ef003fc35b8ad0806f87"
+      },
+      {
+        "name": "generate-mocks",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-06T20:47:33Z",
+        "version": "mockery-exit0"
+      },
+      {
+        "name": "ci-manager-dryrun",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-manager-dryrun_linux_arm64",
+        "timestamp": "2026-09-06T20:47:36Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "golang.org/x/crypto/nacl/box",
+            "semver": "v0.56.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-manager-github",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-manager-github_linux_arm64",
+        "timestamp": "2026-09-06T20:47:37Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "golang.org/x/crypto/nacl/box",
+            "semver": "v0.56.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-gate-manual",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual",
+        "timestamp": "2026-09-06T20:47:32Z",
+        "version": "sha256:fe07ba2cf70c98e89cd176d516d06548b14a5c1872aced4877fb23477ef65b8f"
+      },
+      {
+        "name": "forge-ci",
+        "type": "binary",
+        "location": "forge-ci/build/bin/forge-ci_linux_arm64",
+        "timestamp": "2026-09-06T20:47:33Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/forge-ci/main.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/engineadapter/engineadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/engineadapter/resolver.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "golang.org/x/crypto/nacl/box",
+            "semver": "v0.56.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/carried.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/config/config.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "sigs.k8s.io/yaml",
+            "semver": "v1.6.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/index.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/pinned.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/publish.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/artifactcontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/index.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/version.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/reconcilecontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/release.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/revisionwire.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge-revision-spec/pkg/revisiontypes",
+            "semver": "v0.45.56"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/stagephase.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/verbs.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/releasecontroller/releasecontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/driver/clidriver/clidriver.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/driver/clidriver/github.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/driver/clidriver/graph.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/engineversion",
+            "semver": "v0.45.49"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-manager-github",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github",
+        "timestamp": "2026-09-06T20:47:32Z",
+        "version": "sha256:77adc868cb764f1a73349351c9d09552ab143c4f768a1fe2af3bffeb9cb9e736"
+      },
+      {
+        "name": "ci-manager-local",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-manager-local_linux_arm64",
+        "timestamp": "2026-09-06T20:47:35Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "golang.org/x/crypto/nacl/box",
+            "semver": "v0.56.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-manager-local",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local",
+        "timestamp": "2026-09-06T20:47:32Z",
+        "version": "sha256:888913d47503acbe6b92b56a483b99679f5f9c96f855e7c899027f65335e8213"
+      },
+      {
+        "name": "ci-trigger-watch",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-trigger-watch_linux_arm64",
+        "timestamp": "2026-09-06T20:47:44Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/triggercontroller/notify.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "golang.org/x/crypto/nacl/box",
+            "semver": "v0.56.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/triggercontroller/triggercontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-trigger-watch",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-trigger-watch",
+        "timestamp": "2026-09-06T20:47:43Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/triggercontroller/notify.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "golang.org/x/crypto/nacl/box",
+            "semver": "v0.56.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/triggercontroller/triggercontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-artifact-release",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-artifact-release_linux_arm64",
+        "timestamp": "2026-09-06T20:47:42Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "golang.org/x/crypto/nacl/box",
+            "semver": "v0.56.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/artifactcontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/index.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/version.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/config/config.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "sigs.k8s.io/yaml",
+            "semver": "v1.6.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-compute-local",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local",
+        "timestamp": "2026-09-06T20:47:32Z",
+        "version": "sha256:706e16821b42f359cd6df442aceafd0fd43270270510a28e86c539c0d8f53b5d"
+      },
+      {
+        "name": "ci-compute-github",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-compute-github",
+        "timestamp": "2026-09-06T20:47:38Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "golang.org/x/crypto/nacl/box",
+            "semver": "v0.56.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/artifacts.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/computecontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/forgeadapter/forgeadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "sigs.k8s.io/yaml",
+            "semver": "v1.6.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/workflowcontroller/templates.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/workflowcontroller/workflowcontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-promotion-all",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-promotion-all",
+        "timestamp": "2026-09-06T20:47:46Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/promotioncontroller/promotioncontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "forge-ci",
+        "type": "binary",
+        "location": "forge-ci/build/bin/forge-ci",
+        "timestamp": "2026-09-06T20:47:33Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/forge-ci/main.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/engineadapter/engineadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/engineadapter/resolver.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "golang.org/x/crypto/nacl/box",
+            "semver": "v0.56.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/carried.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/config/config.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "sigs.k8s.io/yaml",
+            "semver": "v1.6.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/index.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/pinned.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/publish.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/artifactcontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/index.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/version.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/reconcilecontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/release.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/revisionwire.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge-revision-spec/pkg/revisiontypes",
+            "semver": "v0.45.56"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/stagephase.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/verbs.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/releasecontroller/releasecontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/driver/clidriver/clidriver.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/driver/clidriver/github.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/driver/clidriver/graph.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/engineversion",
+            "semver": "v0.45.49"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-compute-local",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-compute-local",
+        "timestamp": "2026-09-06T20:47:39Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/forgeadapter/forgeadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "sigs.k8s.io/yaml",
+            "semver": "v1.6.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/artifacts.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/computecontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-manager-local",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-manager-local",
+        "timestamp": "2026-09-06T20:47:34Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "golang.org/x/crypto/nacl/box",
+            "semver": "v0.56.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-promotion-all",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-promotion-all_linux_arm64",
+        "timestamp": "2026-09-06T20:47:46Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/promotioncontroller/promotioncontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "formatted-code",
+        "type": "generated",
+        "location": "forge-ci",
+        "timestamp": "2026-09-06T20:47:33Z",
+        "version": ""
+      },
+      {
+        "name": "ci-compute-github",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-compute-github_linux_arm64",
+        "timestamp": "2026-09-06T20:47:38Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "golang.org/x/crypto/nacl/box",
+            "semver": "v0.56.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/artifacts.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/computecontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/forgeadapter/forgeadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "sigs.k8s.io/yaml",
+            "semver": "v1.6.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/workflowcontroller/templates.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/workflowcontroller/workflowcontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "generate-docs",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-06T20:47:33Z",
+        "version": "go-exit0"
+      },
+      {
+        "name": "ci-promotion-all",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all",
+        "timestamp": "2026-09-06T20:47:32Z",
+        "version": "sha256:6e57575b167de87f242e7337984208536b4b4b2ef9ab814021dd5594e23c91c7"
+      },
+      {
+        "name": "ci-state-git",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git",
+        "timestamp": "2026-09-06T20:47:32Z",
+        "version": "sha256:5aab53dd416fad314f962bbd003d2784ba831092c5d7f1c9e128cc84fbd69095"
+      },
+      {
+        "name": "ci-artifact-container",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-artifact-container",
+        "timestamp": "2026-09-06T20:47:41Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/containeradapter/containeradapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/google/go-containerregistry/pkg/authn",
+            "semver": "v0.22.0"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/google/go-containerregistry/pkg/name",
+            "semver": "v0.22.0"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/google/go-containerregistry/pkg/v1",
+            "semver": "v0.22.0"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/google/go-containerregistry/pkg/v1/empty",
+            "semver": "v0.22.0"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/google/go-containerregistry/pkg/v1/layout",
+            "semver": "v0.22.0"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/google/go-containerregistry/pkg/v1/mutate",
+            "semver": "v0.22.0"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/google/go-containerregistry/pkg/v1/remote",
+            "semver": "v0.22.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/containercontroller/containercontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-artifact-container",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container",
+        "timestamp": "2026-09-06T20:47:32Z",
+        "version": "sha256:cb31ff537b85437d2715d2f73370bfa117da12ba671bd60313a91d124a79dfed"
+      },
+      {
+        "name": "ci-artifact-release",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release",
+        "timestamp": "2026-09-06T20:47:32Z",
+        "version": "sha256:e4ad4a58702e212a330a24aa76deda43bc7c865630acc8cf380ce6d86004cb67"
+      },
+      {
+        "name": "ci-manager-github",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-manager-github",
+        "timestamp": "2026-09-06T20:47:36Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "golang.org/x/crypto/nacl/box",
+            "semver": "v0.56.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-gate-manual",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-gate-manual_linux_arm64",
+        "timestamp": "2026-09-06T20:47:45Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/gatecontroller/gatecontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-manager-dryrun",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-manager-dryrun",
+        "timestamp": "2026-09-06T20:47:35Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "golang.org/x/crypto/nacl/box",
+            "semver": "v0.56.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-compute-github",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github",
+        "timestamp": "2026-09-06T20:47:32Z",
+        "version": "sha256:40592648256a3a9143ea2a2e6ebd28a9d6a5a2c2947840c1545e55402cf5e96f"
+      },
+      {
+        "name": "ci-gate-manual",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-gate-manual",
+        "timestamp": "2026-09-06T20:47:44Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/gatecontroller/gatecontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-state-git",
+        "type": "binary",
+        "location": "forge-ci/build/bin/ci-state-git_linux_arm64",
+        "timestamp": "2026-09-06T20:47:40Z",
+        "version": "f8e39ebd1bab6405e3dae36f23653ba79f06d819",
+        "dependencies": [
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/handlers.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/statecontroller/statecontroller.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/forge",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "timestamp": "2026-09-06T20:45:35Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.docs.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginedocs",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcpserver",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/enginecli",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.mcp.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcptypes",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/alexandremahdhaoui/forge/pkg/mcputil",
+            "semver": "v0.45.49"
+          },
+          {
+            "type": "externalPackage",
+            "externalPackage": "github.com/modelcontextprotocol/go-sdk/mcp",
+            "semver": "v1.7.0"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.spec.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          },
+          {
+            "type": "file",
+            "filePath": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.validate.go",
+            "timestamp": "2026-09-06T20:47:32Z"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      }
+    ]
+  }
+}
