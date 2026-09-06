@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-09-06T12:55:14.409854852Z",
+  "id": "9b6beee88c86",
+  "repos": {
+    "forge": "e19588f664319a8fd88eda707d6088a56062f29d",
+    "forge-ci": "a748149ca78259f6d8a76c5ecd45b04499530783",
+    "forge-ci-spec": "46e65e8c1d93cb47e6adc3c5343e4b1c09f7743c",
+    "forge-factory": "c36f90344fc9d79ad98184375866c29a770b8d6e",
+    "forge-register": "e0047c84bb2bab7be80b61c915b84dde5f038fe9",
+    "forge-register-spec": "c87637a9aa48d771dc770365aa93050c56f7b03b",
+    "forge-revision-spec": "6ebabd2f691154c4bfeb8eb94e540624f683dbee",
+    "forge-self-factory": "58f560966a1033260bd96e7bfdb816bb7741a50b",
+    "forge-self-register": "448470ee6d4357f65395d8a31f9b74090cb9a227"
+  }
+}
