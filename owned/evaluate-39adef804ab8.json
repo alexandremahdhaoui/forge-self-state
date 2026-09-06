@@ -1,0 +1,43 @@
+{
+  "revision": {
+    "id": "39adef804ab8",
+    "createdAt": "2026-09-06T07:58:05.831114804Z",
+    "repos": {
+      "forge": "e19588f664319a8fd88eda707d6088a56062f29d",
+      "forge-ci": "a748149ca78259f6d8a76c5ecd45b04499530783",
+      "forge-ci-spec": "46e65e8c1d93cb47e6adc3c5343e4b1c09f7743c",
+      "forge-factory": "c36f90344fc9d79ad98184375866c29a770b8d6e",
+      "forge-register": "e0047c84bb2bab7be80b61c915b84dde5f038fe9",
+      "forge-register-spec": "c87637a9aa48d771dc770365aa93050c56f7b03b",
+      "forge-revision-spec": "6ebabd2f691154c4bfeb8eb94e540624f683dbee",
+      "forge-self-factory": "de5105281962eda4fceef3404c5d49e42b9042d3",
+      "forge-self-register": "f7802534de1b2ac2091c8adb6d38c6e46cf7d05b"
+    }
+  },
+  "version": "v0.45.93",
+  "tag": "v0.45.93",
+  "previous": "v0.45.92",
+  "reason": "Release v0.45.93 (patch).",
+  "repos": {
+    "forge": "e19588f664319a8fd88eda707d6088a56062f29d",
+    "forge-ci": "a748149ca78259f6d8a76c5ecd45b04499530783",
+    "forge-ci-spec": "46e65e8c1d93cb47e6adc3c5343e4b1c09f7743c",
+    "forge-factory": "c36f90344fc9d79ad98184375866c29a770b8d6e",
+    "forge-register": "e0047c84bb2bab7be80b61c915b84dde5f038fe9",
+    "forge-register-spec": "c87637a9aa48d771dc770365aa93050c56f7b03b",
+    "forge-revision-spec": "6ebabd2f691154c4bfeb8eb94e540624f683dbee",
+    "forge-self-factory": "de5105281962eda4fceef3404c5d49e42b9042d3",
+    "forge-self-register": "f7802534de1b2ac2091c8adb6d38c6e46cf7d05b"
+  },
+  "trees": {
+    "forge": "5b26147d7bda9535fee8b30c6ad8fbd72a4628930b1815ca5c4996ca74283ebc",
+    "forge-ci": "c903a31c952c927e385a049bd10ebebd91469b4c2a223c3ac8e3271f0e6bce57",
+    "forge-ci-spec": "e06c8388b03fa6b319f20e66f133282abea5dc328977ca5ef7402534948c130b",
+    "forge-factory": "0cf7bfa292b227d6e94745748f955e62791b091be188f399b2e523515f1ae338",
+    "forge-register": "4f4f8d666cfff14c8e7e4932da2f2f0f86b29744fb5155b25d040d93797f1085",
+    "forge-register-spec": "de4418428b03afdce10659c0f0cddc197eaf976fbec90b49d3a330d94e3bb05e",
+    "forge-revision-spec": "b0af10d911f97cec2475d133d5c97830a7892d8bbebdc11673e9dec83c5e4ef1",
+    "forge-self-factory": "2f9f0911510cdbb513be42d65fe48b0750d10d5e8fb4e0a8dbf0671824690152",
+    "forge-self-register": "ca327da8d2e56db1e984d5c8bbc84e77a9d541b3452dde408b6c120b324dbd5a"
+  }
+}
