@@ -1,0 +1,41 @@
+{
+  "revision": {
+    "id": "f1e614159919",
+    "createdAt": "2026-09-07T00:29:49.320988302Z",
+    "repos": {
+      "forge": "208cdab20b0f4464b9858c61df412b19fe330831",
+      "forge-ci": "be09f872a1f15c359f0886cc45e17123468b24f5",
+      "forge-ci-spec": "181a38028f443d8380231cf2879c6418d25fbe86",
+      "forge-factory": "0d9f0409df87abc701147ee074740accbded9b4d",
+      "forge-register": "d51492a841c540df0213a14013be16a8b47b11d7",
+      "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+      "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+      "forge-self-factory": "3f2a9275e1c696890c0e1ecb17112cf52a3a51cc",
+      "forge-self-register": "45a2697a2b9d4ec178e0d3a9c5674631fcda2ea5"
+    }
+  },
+  "version": "v0.46.0",
+  "tag": "v0.46.0",
+  "previous": "v0.45.109",
+  "reason": "Release v0.46.0 (major): \"feat!: the GitHub engine's shape is its spec\" in forge-ci.",
+  "repos": {
+    "forge": "208cdab20b0f4464b9858c61df412b19fe330831",
+    "forge-ci": "be09f872a1f15c359f0886cc45e17123468b24f5",
+    "forge-ci-spec": "181a38028f443d8380231cf2879c6418d25fbe86",
+    "forge-factory": "0d9f0409df87abc701147ee074740accbded9b4d",
+    "forge-register": "d51492a841c540df0213a14013be16a8b47b11d7",
+    "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+    "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+    "forge-self-factory": "3f2a9275e1c696890c0e1ecb17112cf52a3a51cc"
+  },
+  "trees": {
+    "forge": "beaa580643d9a2e4f1eff9d3f418010d9d24b827a0e116a28b5c59cd81818efb",
+    "forge-ci": "d84fd120baaec0912b0c41c388264d391f42fff9f8af106dfde9dde2a6f09303",
+    "forge-ci-spec": "d01f62263b4665f958548b9bb5bbe53ab488a02bab56532966d87305b0de5235",
+    "forge-factory": "2671380f53ef82e698113e7a0b65938d59140b1a7a26eda44346c336970fb118",
+    "forge-register": "e0e87e4ded8a861a5569949ed31015423adf644b58662717eec4639abb45ef74",
+    "forge-register-spec": "b42326423d7fb5890d671b2e1888377f6acc12aee4a224b779cad8380d144a39",
+    "forge-revision-spec": "b9883679f357c187ca80faf038b38890140163ee5742eea3309cf1e5490c12e2",
+    "forge-self-factory": "243f98243ab5d4ff565c8e43be3c9fc732f075a3603882d55ce43dd1e89d47e4"
+  }
+}
