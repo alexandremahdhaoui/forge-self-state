@@ -1,0 +1,20 @@
+{
+  "revision": {
+    "id": "0e48a41dd39b",
+    "createdAt": "2026-09-08T09:53:56.436784112Z",
+    "repos": {
+      "forge": "e2cd120ca45fb48c6ffa63160e5a31f0c7e86c51",
+      "forge-ci": "5519c81d02f0be44ebc5bdaced5af0d7a1575421",
+      "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+      "forge-factory": "48bf192aa53bbaaf8104eec589a740d0e899774b",
+      "forge-register": "713172fc0b2f5039663cb78637ad1bc44021eaa5",
+      "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+      "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+      "forge-self-factory": "c217a1ae6e4fe4b46e80fffc20b24d5e932c369a",
+      "forge-self-register": "33613901d1cc72a63103c68edfa83aa367ac2bc8"
+    }
+  },
+  "previous": "v0.48.1",
+  "skip": true,
+  "reason": "Nothing to release. 4 commits since v0.48.1, and each one is a kind that never releases. Example: \"chore: pin forge v0.48.1 from the register's internal track\" in forge-ci."
+}
