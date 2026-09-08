@@ -1,0 +1,41 @@
+{
+  "revision": {
+    "id": "0d5064362d86",
+    "createdAt": "2026-09-08T02:49:17.611027702Z",
+    "repos": {
+      "forge": "9f2bb928bf40c0c90dfa73f9e8ed912495ec2af8",
+      "forge-ci": "1d598a6a57bc9d023727b023d298156ed8478f34",
+      "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+      "forge-factory": "4c2a3d390cdb89062b3384695c5ae98cb2cc9d81",
+      "forge-register": "688f84c67b4b5d16a72f7e390cd6aff8a8e184bd",
+      "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+      "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+      "forge-self-factory": "51d334d34d4a9d74f29e3b40dca04b4ef42bc0fe",
+      "forge-self-register": "11c9c0e360a0e9e211450fea190e0bee8d5c4436"
+    }
+  },
+  "version": "v0.47.0",
+  "tag": "v0.47.0",
+  "previous": "v0.46.2",
+  "reason": "Release v0.47.0 (minor): \"feat: a build builds what forge.yaml declares; no flag carries policy\" in forge.",
+  "repos": {
+    "forge": "9f2bb928bf40c0c90dfa73f9e8ed912495ec2af8",
+    "forge-ci": "1d598a6a57bc9d023727b023d298156ed8478f34",
+    "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+    "forge-factory": "4c2a3d390cdb89062b3384695c5ae98cb2cc9d81",
+    "forge-register": "688f84c67b4b5d16a72f7e390cd6aff8a8e184bd",
+    "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+    "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+    "forge-self-factory": "51d334d34d4a9d74f29e3b40dca04b4ef42bc0fe"
+  },
+  "trees": {
+    "forge": "7c2c7d53f84984615dbc751c320572cd1370953ebc569c828e692de87a617778",
+    "forge-ci": "00cf1010fc7e0628306334fa2b33dc20722ec4e0a7e890edfbd7c9f67f9ab161",
+    "forge-ci-spec": "7e2d4883e1744f4eb726a321e34edec5a6c9fc122e68e8898aa7c1cd5559dbb2",
+    "forge-factory": "8a90fe122d9072740e555b8932eb856b22ee6b4b067d4fc7ccca8dd759292785",
+    "forge-register": "afd1874bd1a2ac54d82a4d0f823ca8b859a3517b6f17de369ec5c5383663f47b",
+    "forge-register-spec": "b42326423d7fb5890d671b2e1888377f6acc12aee4a224b779cad8380d144a39",
+    "forge-revision-spec": "b9883679f357c187ca80faf038b38890140163ee5742eea3309cf1e5490c12e2",
+    "forge-self-factory": "a071ae7708fda714270b661b44555b4cf78b1e13ad7c359fae7f2926fca77ad7"
+  }
+}
