@@ -1,0 +1,41 @@
+{
+  "revision": {
+    "id": "4534e53f162e",
+    "createdAt": "2026-09-08T09:15:06.807493693Z",
+    "repos": {
+      "forge": "e2cd120ca45fb48c6ffa63160e5a31f0c7e86c51",
+      "forge-ci": "f6782cf4d4c91b8286f145c0f34a07378e8bb35a",
+      "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+      "forge-factory": "7cbf76ba1535cde035cc084e15cadbfe7f028d3e",
+      "forge-register": "428aaeb5dabfdf58fb2eb869d7540635fbaac438",
+      "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+      "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+      "forge-self-factory": "abff82cf97a9c098bff1bf264800f76babac6894",
+      "forge-self-register": "b8e89392038bdba8b90461ef83d548dbd27281a1"
+    }
+  },
+  "version": "v0.48.1",
+  "tag": "v0.48.1",
+  "previous": "v0.48.0",
+  "reason": "Release v0.48.1 (patch): \"fix: the lock leaves python and typescript members ready to run\" in forge-factory.",
+  "repos": {
+    "forge": "e2cd120ca45fb48c6ffa63160e5a31f0c7e86c51",
+    "forge-ci": "f6782cf4d4c91b8286f145c0f34a07378e8bb35a",
+    "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+    "forge-factory": "7cbf76ba1535cde035cc084e15cadbfe7f028d3e",
+    "forge-register": "428aaeb5dabfdf58fb2eb869d7540635fbaac438",
+    "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+    "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+    "forge-self-factory": "abff82cf97a9c098bff1bf264800f76babac6894"
+  },
+  "trees": {
+    "forge": "d2fc2d91b4f44e24e189222ef86f06e6a5ec2f27ea1950620fa80cfebe763fba",
+    "forge-ci": "e61d60892354a9f5650cd43167f3427035cf03325a0b06525b168a302a5080e6",
+    "forge-ci-spec": "7e2d4883e1744f4eb726a321e34edec5a6c9fc122e68e8898aa7c1cd5559dbb2",
+    "forge-factory": "cbc679ed20d78036df9f8f25dec5902039b73a8a1b89ca57ce828f17e4194387",
+    "forge-register": "8f48cab69c8ba0a1ae6e8f333c84153fbc34b353455f5ffea9a67c9bf949c3ad",
+    "forge-register-spec": "b42326423d7fb5890d671b2e1888377f6acc12aee4a224b779cad8380d144a39",
+    "forge-revision-spec": "b9883679f357c187ca80faf038b38890140163ee5742eea3309cf1e5490c12e2",
+    "forge-self-factory": "2acc27aff34add6d8d9de39512bcd5f740dba8362f6b4a148f18b638b3715090"
+  }
+}
