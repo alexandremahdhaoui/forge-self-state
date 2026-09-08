@@ -1,0 +1,41 @@
+{
+  "revision": {
+    "id": "022a35f647da",
+    "createdAt": "2026-09-08T10:39:19.771911384Z",
+    "repos": {
+      "forge": "e2cd120ca45fb48c6ffa63160e5a31f0c7e86c51",
+      "forge-ci": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+      "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+      "forge-factory": "48bf192aa53bbaaf8104eec589a740d0e899774b",
+      "forge-register": "713172fc0b2f5039663cb78637ad1bc44021eaa5",
+      "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+      "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+      "forge-self-factory": "c217a1ae6e4fe4b46e80fffc20b24d5e932c369a",
+      "forge-self-register": "33613901d1cc72a63103c68edfa83aa367ac2bc8"
+    }
+  },
+  "version": "v0.48.2",
+  "tag": "v0.48.2",
+  "previous": "v0.48.1",
+  "reason": "Release v0.48.2 (patch): \"✨ ci-manager-talos converges the machine config of a declared node\" in forge-ci.",
+  "repos": {
+    "forge": "e2cd120ca45fb48c6ffa63160e5a31f0c7e86c51",
+    "forge-ci": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+    "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+    "forge-factory": "48bf192aa53bbaaf8104eec589a740d0e899774b",
+    "forge-register": "713172fc0b2f5039663cb78637ad1bc44021eaa5",
+    "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+    "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+    "forge-self-factory": "c217a1ae6e4fe4b46e80fffc20b24d5e932c369a"
+  },
+  "trees": {
+    "forge": "d2fc2d91b4f44e24e189222ef86f06e6a5ec2f27ea1950620fa80cfebe763fba",
+    "forge-ci": "cd9a78d17cd02157046864fa6cb559fbb4324ed8711925fa937fae1f8d4c1077",
+    "forge-ci-spec": "7e2d4883e1744f4eb726a321e34edec5a6c9fc122e68e8898aa7c1cd5559dbb2",
+    "forge-factory": "836d754fabfaf3b01cf8e27c01ae6746e0da3eed4df89478f312a6acf6068544",
+    "forge-register": "456f1279c688bde15fc4184d9203b5d0b3b82747f335038d568e3cdc4bf09e2b",
+    "forge-register-spec": "b42326423d7fb5890d671b2e1888377f6acc12aee4a224b779cad8380d144a39",
+    "forge-revision-spec": "b9883679f357c187ca80faf038b38890140163ee5742eea3309cf1e5490c12e2",
+    "forge-self-factory": "d0d5db0f345aa81c6724d7ba454f1b733b527111b039341d5a5f3ea45d835a45"
+  }
+}
