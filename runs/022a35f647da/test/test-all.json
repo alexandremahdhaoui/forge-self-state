@@ -1,0 +1,3205 @@
+{
+  "revision": "022a35f647da",
+  "stage": "test",
+  "substage": "test-all",
+  "engine": "here",
+  "status": "failed",
+  "startedAt": "2026-09-08T10:40:16.908702791Z",
+  "duration": 103.061725256,
+  "message": "target \"test-all\" exited 1 in /__w/forge-self-factory/forge-self-factory/forge-ci",
+  "output": "... earlier output dropped ...\nrge-dev\n2026/09/08 10:41:43 forge-dev: generating code for /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.runnable.yaml\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.spec.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.validate.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.mcp.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.docs.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/docs/schema.md\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/docs/list.yaml\n2026/09/08 10:41:43 forge-dev: successfully generated 8 files for ci-gate-manual\n2026/09/08 10:41:43 Building gen-ci-promotion-all using forge-dev\n2026/09/08 10:41:43 forge-dev: generating code for /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.runnable.yaml\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.spec.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.validate.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.mcp.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.docs.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/docs/schema.md\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/docs/list.yaml\n2026/09/08 10:41:43 forge-dev: successfully generated 8 files for ci-promotion-all\n2026/09/08 10:41:43 Building gen-ci-compute-local using forge-dev\n2026/09/08 10:41:43 forge-dev: generating code for /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.runnable.yaml\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.spec.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.validate.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.mcp.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.docs.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/docs/schema.md\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/docs/list.yaml\n2026/09/08 10:41:43 forge-dev: successfully generated 8 files for ci-compute-local\n2026/09/08 10:41:43 Building gen-ci-artifact-container using forge-dev\n2026/09/08 10:41:43 forge-dev: generating code for /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.runnable.yaml\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.spec.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.validate.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.mcp.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.docs.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/docs/schema.md\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/docs/list.yaml\n2026/09/08 10:41:43 forge-dev: successfully generated 8 files for ci-artifact-container\n2026/09/08 10:41:43 Building gen-ci-artifact-release using forge-dev\n2026/09/08 10:41:43 forge-dev: generating code for /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.runnable.yaml\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.spec.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.validate.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.mcp.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.docs.go\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/docs/schema.md\n2026/09/08 10:41:43 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/docs/list.yaml\n2026/09/08 10:41:43 forge-dev: successfully generated 8 files for ci-artifact-release\nBuilding 2 artifact(s) with forge://generic-builder...\n2026/09/08 10:41:43 Building 2 artifacts in batch using generic-builder\n2026/09/08 10:41:43 Building generate-mocks using generic-builder\n2026/09/08 10:41:43 Executing command: mockery [] (context: /__w/forge-self-factory/forge-self-factory/forge-ci) for linux/amd64\n2026/09/08 10:41:44 Stderr: 2026-09-08T10:41:43.994035575Z INF Starting mockery config-file=/__w/forge-self-factory/forge-self-factory/forge-ci/.mockery.yaml version=v3.7.3\n2026-09-08T10:41:43.994115903Z INF Parsing configured packages... version=v3.7.3\n2026-09-08T10:41:44.133239516Z INF Done parsing configured packages. version=v3.7.3\n2026-09-08T10:41:44.133508374Z INF adding interface to collection collection=internal/mocks/execadaptermock/zz_generated.Runner.go interface=Runner package-path=github.com/alexandremahdhaoui/forge-ci/internal/adapter/execadapter version=v3.7.3\n2026-09-08T10:41:44.133742049Z INF adding interface to collection collection=internal/mocks/engineadaptermock/zz_generated.Caller.go interface=Caller package-path=github.com/alexandremahdhaoui/forge-ci/internal/adapter/engineadapter version=v3.7.3\n2026-09-08T10:41:44.133964428Z INF adding interface to collection collection=internal/mocks/githubadaptermock/zz_generated.API.go interface=API package-path=github.com/alexandremahdhaoui/forge-ci/internal/adapter/githubadapter version=v3.7.3\n2026-09-08T10:41:44.134167768Z INF adding interface to collection collection=internal/mocks/fsadaptermock/zz_generated.FS.go interface=FS package-path=github.com/alexandremahdhaoui/forge-ci/internal/adapter/fsadapter version=v3.7.3\n2026-09-08T10:41:44.134363177Z INF adding interface to collection collection=internal/mocks/gitadaptermock/zz_generated.Git.go interface=Git package-path=github.com/alexandremahdhaoui/forge-ci/internal/adapter/gitadapter version=v3.7.3\n2026-09-08T10:41:44.134580899Z INF adding interface to collection collection=internal/mocks/managercontrollermock/zz_generated.Talos.go interface=Talos package-path=github.com/alexandremahdhaoui/forge-ci/internal/controller/managercontroller version=v3.7.3\n2026-09-08T10:41:44.134789817Z INF adding interface to collection collection=internal/mocks/clidrivermock/zz_generated.Reconciler.go interface=Reconciler package-path=github.com/alexandremahdhaoui/forge-ci/internal/driver/clidriver version=v3.7.3\n2026-09-08T10:41:44.134922303Z INF Executing template file=internal/mocks/execadaptermock/zz_generated.Runner.go version=v3.7.3\n2026-09-08T10:41:44.137745906Z INF Writing template to file file=internal/mocks/execadaptermock/zz_generated.Runner.go version=v3.7.3\n2026-09-08T10:41:44.138025679Z INF Executing template file=internal/mocks/engineadaptermock/zz_generated.Caller.go version=v3.7.3\n2026-09-08T10:41:44.139461130Z INF Writing template to file file=internal/mocks/engineadaptermock/zz_generated.Caller.go version=v3.7.3\n2026-09-08T10:41:44.139640896Z INF Executing template file=internal/mocks/githubadaptermock/zz_generated.API.go version=v3.7.3\n2026-09-08T10:41:44.147188329Z INF Writing template to file file=internal/mocks/githubadaptermock/zz_generated.API.go version=v3.7.3\n2026-09-08T10:41:44.147428534Z INF Executing template file=internal/mocks/fsadaptermock/zz_generated.FS.go version=v3.7.3\n2026-09-08T10:41:44.152121860Z INF Writing template to file file=internal/mocks/fsadaptermock/zz_generated.FS.go version=v3.7.3\n2026-09-08T10:41:44.152324018Z INF Executing template file=internal/mocks/gitadaptermock/zz_generated.Git.go version=v3.7.3\n2026-09-08T10:41:44.165924782Z INF Writing template to file file=internal/mocks/gitadaptermock/zz_generated.Git.go version=v3.7.3\n2026-09-08T10:41:44.166195432Z INF Executing template file=internal/mocks/managercontrollermock/zz_generated.Talos.go version=v3.7.3\n2026-09-08T10:41:44.168147887Z INF Writing template to file file=internal/mocks/managercontrollermock/zz_generated.Talos.go version=v3.7.3\n2026-09-08T10:41:44.168337617Z INF Executing template file=internal/mocks/clidrivermock/zz_generated.Reconciler.go version=v3.7.3\n2026-09-08T10:41:44.171588992Z INF Writing template to file file=internal/mocks/clidrivermock/zz_generated.Reconciler.go version=v3.7.3\n2026/09/08 10:41:44 Building generate-docs using generic-builder\n2026/09/08 10:41:44 Executing command: go [run ./cmd/docgen] (context: /__w/forge-self-factory/forge-self-factory/forge-ci) for linux/amd64\n2026/09/08 10:41:44 Stdout: docgen: wrote cmd/ci-artifact-container/docs/usage.md\ndocgen: wrote cmd/ci-artifact-container/docs/schema.md\ndocgen: wrote cmd/ci-artifact-container/docs/list.yaml\ndocgen: wrote cmd/ci-artifact-release/docs/usage.md\ndocgen: wrote cmd/ci-artifact-release/docs/schema.md\ndocgen: wrote cmd/ci-artifact-release/docs/list.yaml\ndocgen: wrote cmd/ci-compute-github/docs/usage.md\ndocgen: wrote cmd/ci-compute-github/docs/schema.md\ndocgen: wrote cmd/ci-compute-github/docs/list.yaml\ndocgen: wrote cmd/ci-compute-local/docs/usage.md\ndocgen: wrote cmd/ci-compute-local/docs/schema.md\ndocgen: wrote cmd/ci-compute-local/docs/list.yaml\ndocgen: wrote cmd/ci-gate-manual/docs/usage.md\ndocgen: wrote cmd/ci-gate-manual/docs/schema.md\ndocgen: wrote cmd/ci-gate-manual/docs/list.yaml\ndocgen: wrote cmd/ci-manager-dryrun/docs/usage.md\ndocgen: wrote cmd/ci-manager-dryrun/docs/schema.md\ndocgen: wrote cmd/ci-manager-dryrun/docs/list.yaml\ndocgen: wrote cmd/ci-manager-github/docs/usage.md\ndocgen: wrote cmd/ci-manager-github/docs/schema.md\ndocgen: wrote cmd/ci-manager-github/docs/list.yaml\ndocgen: wrote cmd/ci-manager-local/docs/usage.md\ndocgen: wrote cmd/ci-manager-local/docs/schema.md\ndocgen: wrote cmd/ci-manager-local/docs/list.yaml\ndocgen: wrote cmd/ci-manager-talos/docs/usage.md\ndocgen: wrote cmd/ci-manager-talos/docs/schema.md\ndocgen: wrote cmd/ci-manager-talos/docs/list.yaml\ndocgen: wrote cmd/ci-promotion-all/docs/usage.md\ndocgen: wrote cmd/ci-promotion-all/docs/schema.md\ndocgen: wrote cmd/ci-promotion-all/docs/list.yaml\ndocgen: wrote cmd/ci-state-git/docs/usage.md\ndocgen: wrote cmd/ci-state-git/docs/schema.md\ndocgen: wrote cmd/ci-state-git/docs/list.yaml\ndocgen: wrote cmd/ci-trigger-watch/docs/usage.md\ndocgen: wrote cmd/ci-trigger-watch/docs/schema.md\ndocgen: wrote cmd/ci-trigger-watch/docs/list.yaml\ndocgen: wrote docs/concepts.md\ndocgen: wrote docs/decisions.md\nBuilding 1 artifact(s) with forge://go-format...\n2026/09/08 10:41:44 Building format-code using go-format\n2026/09/08 10:41:44 Formatting Go code at: .\nFormatted Go code at .\n✅ Successfully built 16 artifact(s), skipped 13 unchanged\n✅ Stage 'generated' passed\n\n--- Running test stage: standalone ---\n2026/09/08 10:41:44 Running tests for stage standalone using generic-test-runner\n2026/09/08 10:41:44 Running tests: stage=standalone name=standalone-20260908-104144 command=sh\n2026/09/08 10:41:50 Stdout: builds and resolves from the generated manifest, and go.mod and go.sum are tidy\n✅ Stage 'standalone' passed\n\n--- Running test stage: engine-docs ---\n2026/09/08 10:41:51 Running tests for stage engine-docs using generic-test-runner\n2026/09/08 10:41:51 Running tests: stage=engine-docs name=engine-docs-20260908-104151 command=sh\n2026/09/08 10:41:54 Stdout: every engine ships usage and schema, and passes its own docs validate\n✅ Stage 'engine-docs' passed\n\n--- Running test stage: unwired ---\n2026/09/08 10:41:54 Running tests for stage unwired using generic-test-runner\n2026/09/08 10:41:54 Running tests: stage=unwired name=unwired-20260908-104154 command=sh\n2026/09/08 10:41:58 Stdout: every exported function has a production caller\n✅ Stage 'unwired' passed\n\n--- Running test stage: one-version-authority ---\n2026/09/08 10:41:59 Running tests for stage one-version-authority using generic-test-runner\n2026/09/08 10:41:59 Running tests: stage=one-version-authority name=one-version-authority-20260908-104159 command=sh\n2026/09/08 10:41:59 Stdout: 12 artifact engine files, none of them a second version authority\n✅ Stage 'one-version-authority' passed\n\n--- Running test stage: architecture ---\n2026/09/08 10:41:59 Running tests for stage architecture using generic-test-runner\n2026/09/08 10:41:59 Running tests: stage=architecture name=architecture-20260908-104159 command=sh\n2026/09/08 10:41:59 Stdout: every layer depends only on the layers below it, and types are plain data\n✅ Stage 'architecture' passed\n\n--- Running test stage: git-identity ---\n2026/09/08 10:41:59 Running tests for stage git-identity using generic-test-runner\n2026/09/08 10:41:59 Running tests: stage=git-identity name=git-identity-20260908-104159 command=sh\n2026/09/08 10:41:59 Stdout: every git write goes through gitident, so it works on a host with no identity\n✅ Stage 'git-identity' passed\n\n--- Running test stage: wire-boundary ---\n2026/09/08 10:41:59 Running tests for stage wire-boundary using generic-test-runner\n2026/09/08 10:41:59 Running tests: stage=wire-boundary name=wire-boundary-20260908-104159 command=sh\n2026/09/08 10:41:59 Stdout: every engine copies the fields its wire type carries into the internal one\n✅ Stage 'wire-boundary' passed\n\n--- Running test stage: docs ---\n2026/09/08 10:41:59 Running tests for stage docs using generic-test-runner\n2026/09/08 10:41:59 Running tests: stage=docs name=docs-20260908-104159 command=sh\n2026/09/08 10:41:59 Stderr: generated docs are stale. run: go run ./cmd/docgen\n docs/concepts.md | 3 +--\n 1 file changed, 1 insertion(+), 2 deletions(-)\n❌ Stage 'docs' failed: test run failed: build failed: Tests failed for stage docs: Command exited with code 1\nError: test stage 'docs' failed: test run failed: build failed: Tests failed for stage docs: Command exited with code 1\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "07e086d8-fd98-4dd7-a5ff-cb86ac7e14d4",
+        "stage": "no-hardcoding",
+        "status": "passed",
+        "startTime": "2026-09-08T10:41:42.856645356Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-08T10:41:42.866239914Z",
+        "updatedAt": "2026-09-08T10:41:42.866239914Z"
+      },
+      {
+        "id": "21543796-c5c8-4772-8c58-a55bb58532fa",
+        "stage": "git-identity",
+        "status": "passed",
+        "startTime": "2026-09-08T10:41:59.486304996Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-08T10:41:59.496705817Z",
+        "updatedAt": "2026-09-08T10:41:59.496705817Z"
+      },
+      {
+        "id": "24ae17be-0a9c-4b87-8b3c-43d2265c383e",
+        "stage": "generated",
+        "status": "passed",
+        "startTime": "2026-09-08T10:41:44.824119221Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-08T10:41:44.833534464Z",
+        "updatedAt": "2026-09-08T10:41:44.833534464Z"
+      },
+      {
+        "id": "36514fdb-e768-48de-87b7-4a52dd48de3e",
+        "stage": "lint",
+        "status": "passed",
+        "startTime": "2026-09-08T10:41:29.569372471Z",
+        "duration": 12.52525008,
+        "testStats": {
+          "total": 0,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-08T10:41:42.104778749Z",
+        "updatedAt": "2026-09-08T10:41:42.104778749Z"
+      },
+      {
+        "id": "61638008-fddc-4a49-a890-c113579d3ef9",
+        "stage": "standalone",
+        "status": "passed",
+        "startTime": "2026-09-08T10:41:50.993363542Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-08T10:41:51.004085304Z",
+        "updatedAt": "2026-09-08T10:41:51.004085304Z"
+      },
+      {
+        "id": "a8f4cc99-6218-4607-aa1e-0f3003247a4a",
+        "stage": "architecture",
+        "status": "passed",
+        "startTime": "2026-09-08T10:41:59.332584558Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-08T10:41:59.343267356Z",
+        "updatedAt": "2026-09-08T10:41:59.343267356Z"
+      },
+      {
+        "id": "af35eb40-1783-4eb3-8afa-b48eec7f96b7",
+        "stage": "wire-boundary",
+        "status": "passed",
+        "startTime": "2026-09-08T10:41:59.732015826Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-08T10:41:59.742232474Z",
+        "updatedAt": "2026-09-08T10:41:59.742232474Z"
+      },
+      {
+        "id": "bc076fbd-baec-42e3-968f-a10b3506bfcc",
+        "stage": "one-version-authority",
+        "status": "passed",
+        "startTime": "2026-09-08T10:41:59.042623243Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-08T10:41:59.05274099Z",
+        "updatedAt": "2026-09-08T10:41:59.05274099Z"
+      },
+      {
+        "id": "fa401a8c-b936-4574-9cf9-d8f85351bfbf",
+        "stage": "unwired",
+        "status": "passed",
+        "startTime": "2026-09-08T10:41:58.877450205Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-08T10:41:58.887903849Z",
+        "updatedAt": "2026-09-08T10:41:58.887903849Z"
+      },
+      {
+        "id": "fc93fd3c-943f-4ce6-bfd8-247316e9373c",
+        "stage": "engine-docs",
+        "status": "passed",
+        "startTime": "2026-09-08T10:41:54.152612393Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-08T10:41:54.162658533Z",
+        "updatedAt": "2026-09-08T10:41:54.162658533Z"
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "gen-ci-trigger-watch",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch",
+        "timestamp": "2026-09-08T10:41:43Z",
+        "version": "sha256:9cd8486402581bf9092a10bfe90dbd818349fc468152a1147cb1958b5bf4299f",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/forge-dev.yaml",
+            "digest": "sha256:6337cb25fb3330b08c1801bed3ab7ba41340e5a462dbc46cfa34b66aa76ba589"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/docs/usage.md",
+            "digest": "sha256:9e01850ac6605df67284e5e1806e68503e6defcb0cd19b879db3106e97f6a820"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.runnable.yaml",
+            "digest": "sha256:c3845320b43f27b220130bb40c5971beb3d1434afcd5fd8c6d88428657be775e"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.spec.go",
+            "digest": "sha256:44cdd3b57d4be1dfb1f5d1fc66d70d8353be768f7a6005367427267181b02ab9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.validate.go",
+            "digest": "sha256:88c7e749507a0cbf26341feb2787d6d48729c614eb1d067897eeda335266b494"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.mcp.go",
+            "digest": "sha256:55c41f923576cc175b395ad1174f76e7b06c5a6b1f798bb47ab9df03895ce87e"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go",
+            "digest": "sha256:ee81f8763ec79cc023e617d8920a8a8f46096e649b2282ee81e34285ad2576ee"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.docs.go",
+            "digest": "sha256:08935e001527f7ebce3f00e1979f416c72a14c17647f0d1229696985d982dd49"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/docs/schema.md",
+            "digest": "sha256:0f929a9d862442e5f67784f38f4e098cdaaabe9cc2146d61637eb23084c8bc7f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/docs/list.yaml",
+            "digest": "sha256:83370c2a999e4358e952f172850baa73ec7b31ba9bc5fca06b351b49119037f2"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "ci-manager-local",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-manager-local_linux_arm64",
+        "timestamp": "2026-09-08T10:40:59Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:48304b47b9fac09cfeef32d5f50d254977a4996194ddf39503b9bcd63b0005e8",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/handlers.go",
+            "digest": "sha256:4658e6803c8885568d40286b8e97169fd96c306c1c36a3cf2ef20719af40025a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "digest": "sha256:56e148fb0984c59558c7862999a8d66ead91d9e91bc81aee6fccd86e7f6d35d4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "digest": "sha256:5ce7a2d5b75558d3e4814e3e3e0b5d5d52ca8018156ad67b6410c3112a8b06de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "digest": "sha256:6bf7b643fc4f37d0b45f047841820e6c51d41d4d01e832a0931239c4f3e88517"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "digest": "sha256:5a5953970395fb6c8e6ab3ba8a1c7be10420a88c7807692c20146bd331758a9f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/talosrealizer.go",
+            "digest": "sha256:066341fff3729c4a051032fa1f47d0e689679fb737841f822cd2619fd2f83a2a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.docs.go",
+            "digest": "sha256:43e684a915bc98d4883002d67947a55cd2563517b88694e6686e1df8851b77f2"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.main.go",
+            "digest": "sha256:3121f7cea021a2a6992bf136a731245ec63e545ac3c10229b9338b317bd66d67"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.mcp.go",
+            "digest": "sha256:87552a9841e6c92cd5cc837138645037a4349c75bc08a0df6a5bd984b88bd975"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.spec.go",
+            "digest": "sha256:781ce54314c04070e209a25a850e21f966ce46b1e7236b170752a09601578710"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.validate.go",
+            "digest": "sha256:145b0cd6cb303a486f732b913e3b844d7d07064c6a407ef584bc60fd88145746"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-compute-local",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local",
+        "timestamp": "2026-09-08T10:41:43Z",
+        "version": "sha256:5bb99bde915098a038a56e7eccc04037529d123626a9456fc5fb047cfe944a1c",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/forge-dev.yaml",
+            "digest": "sha256:f074e33526afbb93c7b41dc37cb3fd361d9666187b65b7197597bde73caac47f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/docs/usage.md",
+            "digest": "sha256:2aae1079a720855447f7c1e530768b305c54bad2b68f35749accf03d46ce505a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.runnable.yaml",
+            "digest": "sha256:a0fb52ab99789237cd9038cf90842ec5c41585608cfad00b19ba22cf2fa730fb"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.spec.go",
+            "digest": "sha256:064fe962a222d97d06233f27c35b73fdd5f999e2cacce7e869ae802eaa192f05"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.validate.go",
+            "digest": "sha256:573620a902f7742460b80b513002b28c42b04a0082f681f3b0bef29d4cfdbd54"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.mcp.go",
+            "digest": "sha256:39da699a4bfce970295d70eeed2cd2c4ee8ea170520f248c58f1e8e15f085751"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go",
+            "digest": "sha256:c2a17017397a07f361b745747b2d1c9fb9de3cb99f13f83a815aad91c4c6d777"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.docs.go",
+            "digest": "sha256:253a7d5db319da946dfbb614da516949079ecff756b1de66d09fda6b363c46a0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/docs/schema.md",
+            "digest": "sha256:92c3bdd7356ca93a914c9e8d5a209c0460c3128d675dc04da3702c142f56719a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/docs/list.yaml",
+            "digest": "sha256:4620c502c138229649bd3421ef75bae4eb5eb460e6129feaeee43ae683e8e2f9"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "forge-ci",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/forge-ci_linux_arm64",
+        "timestamp": "2026-09-08T10:40:57Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:6965cfc9792cf93a92429a96c8f6a2144737de65569bc55046039ad9124c9d86",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/forge-ci/main.go",
+            "digest": "sha256:d6c90c2cbcdb85e15eb3ecfc4060b2e657290e24d700c64da7eaa4df19b4c89c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/engineadapter/engineadapter.go",
+            "digest": "sha256:8f656f080113843052913942dce528d6745ad15f6886f2ebaa936d9798c8444b"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/engineadapter/resolver.go",
+            "digest": "sha256:5322169e9dd9bfbd87e8ba1b97619ed6a9b5f25e1c057ded62a026f95f026c56"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/carried.go",
+            "digest": "sha256:e4038a4f88b28b2f3f18a837373a2b0c76f6efa92c41385d284b8039a4d3dd6e"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/config/config.go",
+            "digest": "sha256:615033fa992fbf2bc796372f17b566e23145f312d51abba22bca0d85af754caa"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/index.go",
+            "digest": "sha256:7de030c677b7ab4790c57c3ce5652436b55f9a9739d050412704900edf8ad5b7"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/pinned.go",
+            "digest": "sha256:c26aa78be14ebd27d6a2d90cf54282bfdf640305b7935486b62bcb58cab89229"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/publish.go",
+            "digest": "sha256:3fa07e671cfc20e42c79ab8aa270940016cbfc5ee33b7eda5838b1bde87a1e99"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/artifactcontroller.go",
+            "digest": "sha256:df5f26a174b915420e2719b58dd69b7c11cae3ff487b1a2c12d8fbadcab13a41"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/index.go",
+            "digest": "sha256:4f6516999353acf64419dd66fbf37d614cfb2217588454b5a2915c1b863c294b"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/version.go",
+            "digest": "sha256:1ae2e5c8dc90f84a2f0acf49a2b6717160dece7656c0bc6762829804edcdac13"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/reconcilecontroller.go",
+            "digest": "sha256:59367d6f4d680db5942ecfa7009fca07602089ca361bea4c5936002212688427"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/release.go",
+            "digest": "sha256:ec1dab575c89296cae30fd0d6bb04d38f41aa8ae52ed287a4e66c0512b0d8404"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/revisionwire.go",
+            "digest": "sha256:8b218066f5ab99e6cce14c7c427f52e8435b92e150ce6674da27a546bf73d002"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/stagephase.go",
+            "digest": "sha256:984c74998b841092ced1927056bd6d184696edf4822252db40ded86c82407bbe"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/verbs.go",
+            "digest": "sha256:6f8ce0687bce33736a463325b097cac646b736e173a9bd030d30833dff344ded"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/releasecontroller/releasecontroller.go",
+            "digest": "sha256:e0bf4e455740d97e8eb9dcc6719452140afa8b4b859a1d8c3a736d6e393e3a05"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/driver/clidriver/clidriver.go",
+            "digest": "sha256:ceccd825145e6e46c40b3d6980e964a6856ca6c2295ef52626c4a867a74e3e13"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/driver/clidriver/github.go",
+            "digest": "sha256:07101c4d7adbf2cd8f89b680526f0ef072a46f07191817a11d0514ef3dfc85a0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/driver/clidriver/graph.go",
+            "digest": "sha256:71f5a57d167c170be58a916e6b4913e9b7e981b6fc1d122688279d4671a7fe4a"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-compute-github",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-compute-github_linux_arm64",
+        "timestamp": "2026-09-08T10:41:09Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:565861d5fe81239fcd60c53c27b8d683ff2b94810bdb38ebf202f2a98c190ba0",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/handlers.go",
+            "digest": "sha256:13e85e0ad0216b5e8923444120fe4747a039da30cf7fdbdf757053f73014a535"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/artifacts.go",
+            "digest": "sha256:0bf540ce3416a842e40c0194bb1860bf55407c1e49271c6bd08d1d5682f6e2e4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/computecontroller.go",
+            "digest": "sha256:f2aa6664facfce70f226498c1927bbaa24b398b41db92615c35e989f6e2aab76"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/forgeadapter/forgeadapter.go",
+            "digest": "sha256:7b896386403ef876c6b9096ddf4e4fce902023c3a44ebbaa482402df51831ca0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/workflowcontroller/templates.go",
+            "digest": "sha256:4ce38f16bf49611cd737368e9dcf43b4bf5d134b3521a17f88041a2fe981d490"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/workflowcontroller/workflowcontroller.go",
+            "digest": "sha256:3d0a5ef32c828d2ed6f92ea333bd1cbfc25f04e478e50a1d30fcd906c64b1aef"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "digest": "sha256:56e148fb0984c59558c7862999a8d66ead91d9e91bc81aee6fccd86e7f6d35d4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "digest": "sha256:5ce7a2d5b75558d3e4814e3e3e0b5d5d52ca8018156ad67b6410c3112a8b06de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "digest": "sha256:6bf7b643fc4f37d0b45f047841820e6c51d41d4d01e832a0931239c4f3e88517"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "digest": "sha256:5a5953970395fb6c8e6ab3ba8a1c7be10420a88c7807692c20146bd331758a9f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/talosrealizer.go",
+            "digest": "sha256:066341fff3729c4a051032fa1f47d0e689679fb737841f822cd2619fd2f83a2a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.docs.go",
+            "digest": "sha256:b6d9196eb4262c96ca3a36a472517381c8d79359e18fa63e3b1bcd27f6659a86"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.main.go",
+            "digest": "sha256:88487562a0d43e0254a88add3651d25d49fb4c45f088025f33265b46c7f9c758"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.mcp.go",
+            "digest": "sha256:fee643157a5b73b9a71928b334d5f7c25fbc1ce2bde9d4485f106e62cd3a3494"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.spec.go",
+            "digest": "sha256:9c612221285fdfd577305173ffee1dff7e1273570cef6fbdd17608c7bf097661"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.validate.go",
+            "digest": "sha256:88b7c1d0ecdc3f14346a0d8d0877a49d7ca6da5469560ba1d75ffd7adc9abb6a"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-artifact-container",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container",
+        "timestamp": "2026-09-08T10:41:43Z",
+        "version": "sha256:957f2665ec9312f48c71bc1ac827953cf6f8e423cced3e4367db8c096946bdd6",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/forge-dev.yaml",
+            "digest": "sha256:9759089f48753cf810ddfec205775e7ce6b24ae78315a271b09444d5f90d3c9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/docs/usage.md",
+            "digest": "sha256:66aff04a79e8ae91fe17640adca26738cfeb6376423f6509071f76b7718cb4a7"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.runnable.yaml",
+            "digest": "sha256:cc1d7b4e22829b7b9a51407bd406cc921378f5cf6470a94f8928bd289c141583"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.spec.go",
+            "digest": "sha256:379000d99ce6735322dbcd1ae617e0350f475409e8f8c26b7bf400d69bf55578"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.validate.go",
+            "digest": "sha256:43a326243d0ff7998778ffbdd28627009dcb75ebdbfcb736af41aba2ecdf0277"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.mcp.go",
+            "digest": "sha256:8a86502c067ec535d81cd2e36f92a12c2e7a2e7289dcb468a2b25ed4a0000a6f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go",
+            "digest": "sha256:0b802a42e06e713153af8d1a402d4fb0471bb2e68f5524736c18e4cf8550477d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.docs.go",
+            "digest": "sha256:1a0e6b0dcef6060e45e72f0fff1e0445616c3c7b16e37497044f605ec7a40894"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/docs/schema.md",
+            "digest": "sha256:bf8d014bfeab2a4318d45dd05ed2f1e7481ea187d91573b1d9d4761bab5702f3"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/docs/list.yaml",
+            "digest": "sha256:4f81dbf414abfff6ee48bf8da2d4c5dd9cc632926238b2815d3db7ec4fdddda6"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "ci-artifact-release",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-artifact-release_linux_arm64",
+        "timestamp": "2026-09-08T10:41:22Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:5e043611c8c1bd250729f08eb8e5ce8db36d0735c4dd89d4856b330ca4473d72",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/handlers.go",
+            "digest": "sha256:3abed1bbc6300a0afeec61e48aa7fffea977771917e3864673ff901d9d9a9709"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/artifactcontroller.go",
+            "digest": "sha256:df5f26a174b915420e2719b58dd69b7c11cae3ff487b1a2c12d8fbadcab13a41"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/index.go",
+            "digest": "sha256:4f6516999353acf64419dd66fbf37d614cfb2217588454b5a2915c1b863c294b"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/version.go",
+            "digest": "sha256:1ae2e5c8dc90f84a2f0acf49a2b6717160dece7656c0bc6762829804edcdac13"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/config/config.go",
+            "digest": "sha256:615033fa992fbf2bc796372f17b566e23145f312d51abba22bca0d85af754caa"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.docs.go",
+            "digest": "sha256:4581a4710c310ca093c0276fa3e6db24edbf79fe6a649916c4a41d8a11004e60"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go",
+            "digest": "sha256:1a81f7eaa8c651be9e0b1f950d031a79f1955f6eb063a19fd82f4831015fd464"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.mcp.go",
+            "digest": "sha256:96d0c400708550eba192b1f7217b0c831d31be98f659ea3054565ea3782fc4dc"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.spec.go",
+            "digest": "sha256:4dcd65ef688e36b6c33e98b9a3d72e1bd1fcc6c1b70eb7155cd0458c758fe7a8"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.validate.go",
+            "digest": "sha256:a4388237cad4501eddda2d9f1bd313871143ba0603b3a8a29c2b6587d3425056"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-state-git",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git",
+        "timestamp": "2026-09-08T10:41:43Z",
+        "version": "sha256:5aab53dd416fad314f962bbd003d2784ba831092c5d7f1c9e128cc84fbd69095",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/forge-dev.yaml",
+            "digest": "sha256:46572ff366fae7f2fa572fd4db5e252b52d8f9050eb2866efa06c3997ec05e4c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/revision/revision.v1.yaml",
+            "digest": "sha256:9450191f5b7a1235ff443eb2de34d9124e95705c479f9bb53efcac8e16da1b0f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/docs/usage.md",
+            "digest": "sha256:49a2903522584b8fce7511b999fa13d3cb62b501298b71905a04021a210d4723"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.runnable.yaml",
+            "digest": "sha256:0534223b6e4fd534856b23e4c912717589f87fbc33f846cdf1a140de938dff45"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.spec.go",
+            "digest": "sha256:b2a26a1ad92797749268724e3f3378ac9c30b134674a4ac975eb2ea8b83d6adc"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.validate.go",
+            "digest": "sha256:bffdbd79de8587d040bd92bfe8a750dc909c8233dfb9109dcdeb3d1e6e712c11"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.mcp.go",
+            "digest": "sha256:340ba80bb49870300a297669324758dc0be6dbe55ff2d41c5fc03e45f7ff848a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go",
+            "digest": "sha256:4dfad9a7ec147640c89fc9411a3785720694d9a2375182245e967565d7692ca4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.docs.go",
+            "digest": "sha256:b525b34739a5105ff897ecde65633cba1977937455e6f7fa76da499a306e354a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/docs/schema.md",
+            "digest": "sha256:e20c881dbad30a7674d8804cef886e3bdb2492748b4c5992d91fac96c67aaa8f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/docs/list.yaml",
+            "digest": "sha256:207f92754814ee0d8293755fdf597eb3323dc24d0428c33c37db63e24e408661"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "gen-ci-artifact-release",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release",
+        "timestamp": "2026-09-08T10:41:43Z",
+        "version": "sha256:367e10188e1be065f12e0bdaec20b56062784c30ffa7ca1d94eefab27415403a",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/forge-dev.yaml",
+            "digest": "sha256:ea58cd47e9e0ff8fbd6a6e4aeae54bfd81f9bb89c6f3820cf684b4242fe2f529"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/docs/usage.md",
+            "digest": "sha256:0c827c698248eea7af54bcf22151014f09f6273593ef5442710cc8ea1f3d2d70"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.runnable.yaml",
+            "digest": "sha256:d4ddbe4ccfa6235462a463b117094fca5ed803f906f4507bcb451ed10c1061f9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.spec.go",
+            "digest": "sha256:4dcd65ef688e36b6c33e98b9a3d72e1bd1fcc6c1b70eb7155cd0458c758fe7a8"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.validate.go",
+            "digest": "sha256:a4388237cad4501eddda2d9f1bd313871143ba0603b3a8a29c2b6587d3425056"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.mcp.go",
+            "digest": "sha256:96d0c400708550eba192b1f7217b0c831d31be98f659ea3054565ea3782fc4dc"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go",
+            "digest": "sha256:1a81f7eaa8c651be9e0b1f950d031a79f1955f6eb063a19fd82f4831015fd464"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.docs.go",
+            "digest": "sha256:4581a4710c310ca093c0276fa3e6db24edbf79fe6a649916c4a41d8a11004e60"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/docs/schema.md",
+            "digest": "sha256:6f18006c95531a8e47cb562ce6d0d3e642c291a9fb2db3f8c22e8c488d75a992"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/docs/list.yaml",
+            "digest": "sha256:7097b5e16751591f7b01bd13416bf304ae5fbda1f138c6b6095916aaabdd6a95"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "generate-mocks",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-08T10:41:44Z",
+        "version": "mockery-exit0"
+      },
+      {
+        "name": "ci-trigger-watch",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-trigger-watch",
+        "timestamp": "2026-09-08T10:41:23Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:6c709bffb891d981c9496cb66f623bbaea09cca6fab0ee43b4a055a78eb6175b",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/handlers.go",
+            "digest": "sha256:661332c3a085fbaf0dd63b326c0269447954f254128e815eb61b19a9e5e75e48"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/triggercontroller/notify.go",
+            "digest": "sha256:aa96caf5d0059545e3de3ac48f6e4159ed8f53c4ae69a929ef0c7da835b4f774"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "digest": "sha256:56e148fb0984c59558c7862999a8d66ead91d9e91bc81aee6fccd86e7f6d35d4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "digest": "sha256:5ce7a2d5b75558d3e4814e3e3e0b5d5d52ca8018156ad67b6410c3112a8b06de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "digest": "sha256:6bf7b643fc4f37d0b45f047841820e6c51d41d4d01e832a0931239c4f3e88517"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "digest": "sha256:5a5953970395fb6c8e6ab3ba8a1c7be10420a88c7807692c20146bd331758a9f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/talosrealizer.go",
+            "digest": "sha256:066341fff3729c4a051032fa1f47d0e689679fb737841f822cd2619fd2f83a2a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/triggercontroller/triggercontroller.go",
+            "digest": "sha256:94ffb4a4bc37a0012f1afbd832df7d882508607106c39b39b6545083c379b121"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.docs.go",
+            "digest": "sha256:08935e001527f7ebce3f00e1979f416c72a14c17647f0d1229696985d982dd49"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go",
+            "digest": "sha256:ee81f8763ec79cc023e617d8920a8a8f46096e649b2282ee81e34285ad2576ee"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.mcp.go",
+            "digest": "sha256:55c41f923576cc175b395ad1174f76e7b06c5a6b1f798bb47ab9df03895ce87e"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.spec.go",
+            "digest": "sha256:44cdd3b57d4be1dfb1f5d1fc66d70d8353be768f7a6005367427267181b02ab9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.validate.go",
+            "digest": "sha256:88c7e749507a0cbf26341feb2787d6d48729c614eb1d067897eeda335266b494"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-manager-github",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-manager-github",
+        "timestamp": "2026-09-08T10:41:03Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:04e0df17e1028fc5f2281fe696c931e6cb11ec4e95813e9377c7a4b349577514",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/handlers.go",
+            "digest": "sha256:53c412a88835f17f57cb66e203bc97506300a5fecee96a10bc6a292b37ff04f7"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "digest": "sha256:56e148fb0984c59558c7862999a8d66ead91d9e91bc81aee6fccd86e7f6d35d4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "digest": "sha256:5ce7a2d5b75558d3e4814e3e3e0b5d5d52ca8018156ad67b6410c3112a8b06de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "digest": "sha256:6bf7b643fc4f37d0b45f047841820e6c51d41d4d01e832a0931239c4f3e88517"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "digest": "sha256:5a5953970395fb6c8e6ab3ba8a1c7be10420a88c7807692c20146bd331758a9f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/talosrealizer.go",
+            "digest": "sha256:066341fff3729c4a051032fa1f47d0e689679fb737841f822cd2619fd2f83a2a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.docs.go",
+            "digest": "sha256:db87b985fb0ae8b19ff33c7533ecf95ce515c6122d22880c70afd402139738de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.main.go",
+            "digest": "sha256:a1af2955513dc874754ba90045f2838351237888f56c8f1d1faf9a4d76075c29"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.mcp.go",
+            "digest": "sha256:7666d4d86f274c7fcea5af7c27b2c5a967975a775738edf468e71ac1e289368a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.spec.go",
+            "digest": "sha256:c83ab57582d25147815c5a465e634618c746f7e556d5fd252b38cefb231d2fde"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.validate.go",
+            "digest": "sha256:e2eddea50b85e367a7685a18cc81b55a8aa766c448463125aa1f01eaa841890e"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-manager-dryrun",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun",
+        "timestamp": "2026-09-08T10:41:43Z",
+        "version": "sha256:4a3f4924abae8d5871f5ccc696bb025c9b767ab9e8f867efc45d8ba2c406bcf3",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/forge-dev.yaml",
+            "digest": "sha256:18b458236be484494a70dbcca3bbd64c41c785ba58d16c6432c529e5a2b9cf30"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/docs/usage.md",
+            "digest": "sha256:82cf746d97e5ad4a0940f793983a3f4c69406fbb040d13607080dea63140133d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.runnable.yaml",
+            "digest": "sha256:66cc17777f673b701e7eb5e68c146043f712633be41e248ad586554d79332c85"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.spec.go",
+            "digest": "sha256:2c55b33814a79cbb5fdfdd3d9ec7ec78cdee396663b5bbe0abe106f6d23e4988"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.validate.go",
+            "digest": "sha256:df0c67e21ad9b51ae12989d2df9b36eb357949105862f604930ed2a289cd0b09"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.mcp.go",
+            "digest": "sha256:18d0213783b83160ad87eb2f8ad1c8288e99e2d91830c24a58cdcd5ee67f92d7"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.main.go",
+            "digest": "sha256:4275088dd490c3814c95b64678391916cbbbe4e1711d5094f363339cc57fb966"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.docs.go",
+            "digest": "sha256:e43865e6fe6ddd62871c594d35f86040ab93e02ffbf306c6be4e9f1287f5640d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/docs/schema.md",
+            "digest": "sha256:9eb5281f4dd8b24d7cd9d9114626fb115d73cea8c09b22e0e5de40c430cb7e95"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/docs/list.yaml",
+            "digest": "sha256:aa891941f435bd6d80b471a0eaec6bb9c11abcd4f6dd1d6f72be516552ae9230"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "forge-ci",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/forge-ci",
+        "timestamp": "2026-09-08T10:40:42Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:f7d43bf8fc18d1dabbfb77a0cfe0c9fbb2a3883487516b3ca8de6fb5d31df895",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/forge-ci/main.go",
+            "digest": "sha256:d6c90c2cbcdb85e15eb3ecfc4060b2e657290e24d700c64da7eaa4df19b4c89c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/engineadapter/engineadapter.go",
+            "digest": "sha256:8f656f080113843052913942dce528d6745ad15f6886f2ebaa936d9798c8444b"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/engineadapter/resolver.go",
+            "digest": "sha256:5322169e9dd9bfbd87e8ba1b97619ed6a9b5f25e1c057ded62a026f95f026c56"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/carried.go",
+            "digest": "sha256:e4038a4f88b28b2f3f18a837373a2b0c76f6efa92c41385d284b8039a4d3dd6e"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/config/config.go",
+            "digest": "sha256:615033fa992fbf2bc796372f17b566e23145f312d51abba22bca0d85af754caa"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/index.go",
+            "digest": "sha256:7de030c677b7ab4790c57c3ce5652436b55f9a9739d050412704900edf8ad5b7"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/pinned.go",
+            "digest": "sha256:c26aa78be14ebd27d6a2d90cf54282bfdf640305b7935486b62bcb58cab89229"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/publish.go",
+            "digest": "sha256:3fa07e671cfc20e42c79ab8aa270940016cbfc5ee33b7eda5838b1bde87a1e99"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/artifactcontroller.go",
+            "digest": "sha256:df5f26a174b915420e2719b58dd69b7c11cae3ff487b1a2c12d8fbadcab13a41"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/index.go",
+            "digest": "sha256:4f6516999353acf64419dd66fbf37d614cfb2217588454b5a2915c1b863c294b"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/version.go",
+            "digest": "sha256:1ae2e5c8dc90f84a2f0acf49a2b6717160dece7656c0bc6762829804edcdac13"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/reconcilecontroller.go",
+            "digest": "sha256:59367d6f4d680db5942ecfa7009fca07602089ca361bea4c5936002212688427"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/release.go",
+            "digest": "sha256:ec1dab575c89296cae30fd0d6bb04d38f41aa8ae52ed287a4e66c0512b0d8404"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/revisionwire.go",
+            "digest": "sha256:8b218066f5ab99e6cce14c7c427f52e8435b92e150ce6674da27a546bf73d002"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/stagephase.go",
+            "digest": "sha256:984c74998b841092ced1927056bd6d184696edf4822252db40ded86c82407bbe"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/reconcilecontroller/verbs.go",
+            "digest": "sha256:6f8ce0687bce33736a463325b097cac646b736e173a9bd030d30833dff344ded"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/releasecontroller/releasecontroller.go",
+            "digest": "sha256:e0bf4e455740d97e8eb9dcc6719452140afa8b4b859a1d8c3a736d6e393e3a05"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/driver/clidriver/clidriver.go",
+            "digest": "sha256:ceccd825145e6e46c40b3d6980e964a6856ca6c2295ef52626c4a867a74e3e13"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/driver/clidriver/github.go",
+            "digest": "sha256:07101c4d7adbf2cd8f89b680526f0ef072a46f07191817a11d0514ef3dfc85a0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/driver/clidriver/graph.go",
+            "digest": "sha256:71f5a57d167c170be58a916e6b4913e9b7e981b6fc1d122688279d4671a7fe4a"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-manager-dryrun",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-manager-dryrun",
+        "timestamp": "2026-09-08T10:41:01Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:de23610cf3e56ba1712e9061f9bd569c050749fdff4be23edfbea85e378ea753",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/handlers.go",
+            "digest": "sha256:cec8bb3366f699d1e6d839f1eea5976a74663a5452020cad82543481679ceda3"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "digest": "sha256:56e148fb0984c59558c7862999a8d66ead91d9e91bc81aee6fccd86e7f6d35d4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "digest": "sha256:5ce7a2d5b75558d3e4814e3e3e0b5d5d52ca8018156ad67b6410c3112a8b06de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "digest": "sha256:6bf7b643fc4f37d0b45f047841820e6c51d41d4d01e832a0931239c4f3e88517"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "digest": "sha256:5a5953970395fb6c8e6ab3ba8a1c7be10420a88c7807692c20146bd331758a9f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/talosrealizer.go",
+            "digest": "sha256:066341fff3729c4a051032fa1f47d0e689679fb737841f822cd2619fd2f83a2a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.docs.go",
+            "digest": "sha256:e43865e6fe6ddd62871c594d35f86040ab93e02ffbf306c6be4e9f1287f5640d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.main.go",
+            "digest": "sha256:4275088dd490c3814c95b64678391916cbbbe4e1711d5094f363339cc57fb966"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.mcp.go",
+            "digest": "sha256:18d0213783b83160ad87eb2f8ad1c8288e99e2d91830c24a58cdcd5ee67f92d7"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.spec.go",
+            "digest": "sha256:2c55b33814a79cbb5fdfdd3d9ec7ec78cdee396663b5bbe0abe106f6d23e4988"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.validate.go",
+            "digest": "sha256:df0c67e21ad9b51ae12989d2df9b36eb357949105862f604930ed2a289cd0b09"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-trigger-watch",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-trigger-watch_linux_arm64",
+        "timestamp": "2026-09-08T10:41:24Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:47b69b48bc8423ad0a0894228f70d4d8512178c68dbb3816f9583a92cda44a30",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/handlers.go",
+            "digest": "sha256:661332c3a085fbaf0dd63b326c0269447954f254128e815eb61b19a9e5e75e48"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/triggercontroller/notify.go",
+            "digest": "sha256:aa96caf5d0059545e3de3ac48f6e4159ed8f53c4ae69a929ef0c7da835b4f774"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "digest": "sha256:56e148fb0984c59558c7862999a8d66ead91d9e91bc81aee6fccd86e7f6d35d4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "digest": "sha256:5ce7a2d5b75558d3e4814e3e3e0b5d5d52ca8018156ad67b6410c3112a8b06de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "digest": "sha256:6bf7b643fc4f37d0b45f047841820e6c51d41d4d01e832a0931239c4f3e88517"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "digest": "sha256:5a5953970395fb6c8e6ab3ba8a1c7be10420a88c7807692c20146bd331758a9f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/talosrealizer.go",
+            "digest": "sha256:066341fff3729c4a051032fa1f47d0e689679fb737841f822cd2619fd2f83a2a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/triggercontroller/triggercontroller.go",
+            "digest": "sha256:94ffb4a4bc37a0012f1afbd832df7d882508607106c39b39b6545083c379b121"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.docs.go",
+            "digest": "sha256:08935e001527f7ebce3f00e1979f416c72a14c17647f0d1229696985d982dd49"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go",
+            "digest": "sha256:ee81f8763ec79cc023e617d8920a8a8f46096e649b2282ee81e34285ad2576ee"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.mcp.go",
+            "digest": "sha256:55c41f923576cc175b395ad1174f76e7b06c5a6b1f798bb47ab9df03895ce87e"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.spec.go",
+            "digest": "sha256:44cdd3b57d4be1dfb1f5d1fc66d70d8353be768f7a6005367427267181b02ab9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.validate.go",
+            "digest": "sha256:88c7e749507a0cbf26341feb2787d6d48729c614eb1d067897eeda335266b494"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-artifact-container",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-artifact-container_linux_arm64",
+        "timestamp": "2026-09-08T10:41:20Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:c3112192b7c7383568c4ee7b06a1516d1a4f7ca916311a587c893eccd4eba93a",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/handlers.go",
+            "digest": "sha256:352f14a80ab5274aba268d626574aa91a30f48bc445e67f1ba51ea4b286be5b0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/containeradapter/containeradapter.go",
+            "digest": "sha256:be99a730247029a466086ec086965f6831e009053f3eed5386b7027adf22e37f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/containercontroller/containercontroller.go",
+            "digest": "sha256:832622b3259d402c62caf45bb763d4297470d05c1020b6a5bbd0d6f4fa39afa9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.docs.go",
+            "digest": "sha256:1a0e6b0dcef6060e45e72f0fff1e0445616c3c7b16e37497044f605ec7a40894"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go",
+            "digest": "sha256:0b802a42e06e713153af8d1a402d4fb0471bb2e68f5524736c18e4cf8550477d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.mcp.go",
+            "digest": "sha256:8a86502c067ec535d81cd2e36f92a12c2e7a2e7289dcb468a2b25ed4a0000a6f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.spec.go",
+            "digest": "sha256:379000d99ce6735322dbcd1ae617e0350f475409e8f8c26b7bf400d69bf55578"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.validate.go",
+            "digest": "sha256:43a326243d0ff7998778ffbdd28627009dcb75ebdbfcb736af41aba2ecdf0277"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-compute-local",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-compute-local",
+        "timestamp": "2026-09-08T10:41:10Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:af57b43f091e744318add8dd3ff3d5adee6169e295f52b8f6248872a0610245c",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/handlers.go",
+            "digest": "sha256:eaad66e4d05916bcdc0568f4b1838354efbdf82eec071fd1c0e3b6775298a0cb"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/forgeadapter/forgeadapter.go",
+            "digest": "sha256:7b896386403ef876c6b9096ddf4e4fce902023c3a44ebbaa482402df51831ca0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/artifacts.go",
+            "digest": "sha256:0bf540ce3416a842e40c0194bb1860bf55407c1e49271c6bd08d1d5682f6e2e4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/computecontroller.go",
+            "digest": "sha256:f2aa6664facfce70f226498c1927bbaa24b398b41db92615c35e989f6e2aab76"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.docs.go",
+            "digest": "sha256:253a7d5db319da946dfbb614da516949079ecff756b1de66d09fda6b363c46a0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go",
+            "digest": "sha256:c2a17017397a07f361b745747b2d1c9fb9de3cb99f13f83a815aad91c4c6d777"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.mcp.go",
+            "digest": "sha256:39da699a4bfce970295d70eeed2cd2c4ee8ea170520f248c58f1e8e15f085751"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.spec.go",
+            "digest": "sha256:064fe962a222d97d06233f27c35b73fdd5f999e2cacce7e869ae802eaa192f05"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.validate.go",
+            "digest": "sha256:573620a902f7742460b80b513002b28c42b04a0082f681f3b0bef29d4cfdbd54"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-manager-talos",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-manager-talos",
+        "timestamp": "2026-09-08T10:41:05Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:5c58bdc676346fccefa0d4fe8bdf3e99fce8e7d09cca21e4a66b18670d274fca",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/handlers.go",
+            "digest": "sha256:452319aca01e5eaabdb92cd392b4a48a4cdc5590f50007dc96eabb92887ea7fb"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "digest": "sha256:56e148fb0984c59558c7862999a8d66ead91d9e91bc81aee6fccd86e7f6d35d4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "digest": "sha256:5ce7a2d5b75558d3e4814e3e3e0b5d5d52ca8018156ad67b6410c3112a8b06de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "digest": "sha256:6bf7b643fc4f37d0b45f047841820e6c51d41d4d01e832a0931239c4f3e88517"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "digest": "sha256:5a5953970395fb6c8e6ab3ba8a1c7be10420a88c7807692c20146bd331758a9f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/talosrealizer.go",
+            "digest": "sha256:066341fff3729c4a051032fa1f47d0e689679fb737841f822cd2619fd2f83a2a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.docs.go",
+            "digest": "sha256:878ee0ce289a03d92728517fb7fb9c3aa74b7a752a2ea9f8704c31124ca0e708"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.main.go",
+            "digest": "sha256:c61d980c600afbdf2a876955f03cc26171f522b16cb6921166af972baedb04df"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.mcp.go",
+            "digest": "sha256:f4b0c90dcf24308ef932e8f9bb4db8ffd5e2cc004ed8a68aefa58edc7ddbc85f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.spec.go",
+            "digest": "sha256:afca5d781f0a8813a8e5dee8e6076f809030c25248092771161dbee8476dfe13"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.validate.go",
+            "digest": "sha256:9bd92db92f8dca29ed82c015eeed8270f1421a6ff881b60f44bf93d59bf6f277"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-compute-github",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github",
+        "timestamp": "2026-09-08T10:41:43Z",
+        "version": "sha256:3667aa5c0346112343ae968095763784ca271c3229d47e1a74c33daf63bd243a",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/forge-dev.yaml",
+            "digest": "sha256:755b838eef4a99b39a56941b9021752208770b754be8ff1635ac3105376a240c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/docs/usage.md",
+            "digest": "sha256:d9ba920b657cb1d33155b1d47f1697111fe76b6d8f2f187e64810199119928e7"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.runnable.yaml",
+            "digest": "sha256:bc88c196301642793c6e66d9c8b6168aa0949493aba07540b756f1e79baf9709"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.spec.go",
+            "digest": "sha256:9c612221285fdfd577305173ffee1dff7e1273570cef6fbdd17608c7bf097661"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.validate.go",
+            "digest": "sha256:88b7c1d0ecdc3f14346a0d8d0877a49d7ca6da5469560ba1d75ffd7adc9abb6a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.mcp.go",
+            "digest": "sha256:fee643157a5b73b9a71928b334d5f7c25fbc1ce2bde9d4485f106e62cd3a3494"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.main.go",
+            "digest": "sha256:88487562a0d43e0254a88add3651d25d49fb4c45f088025f33265b46c7f9c758"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.docs.go",
+            "digest": "sha256:b6d9196eb4262c96ca3a36a472517381c8d79359e18fa63e3b1bcd27f6659a86"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/docs/schema.md",
+            "digest": "sha256:07c5a245ae00173947089559c8c2ed76b39de48e4aa7c017d86b9277dfcaaa4a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/docs/list.yaml",
+            "digest": "sha256:e915233f8eec9a783f19a637fbc9133d3f5c1b578683a6e6d46fdea26e5079bf"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "gen-ci-manager-github",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github",
+        "timestamp": "2026-09-08T10:41:43Z",
+        "version": "sha256:1f25682d694b4742dd7e49eb5fef06026dc9c3a7372b0016bca087c0992ac507",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/forge-dev.yaml",
+            "digest": "sha256:5d1a9361b49ccd6643e5e3d653726839e9e1a570d4fc67d39fbad0611a56f292"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/docs/usage.md",
+            "digest": "sha256:a310cbefbb9009cfe0e5cca2db32b4cfa09ed4c0b8cdfd7e144f707ab0bd4414"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.runnable.yaml",
+            "digest": "sha256:987ee614a4d6a426641fb214420faefdb8ff3160c969374a8f2c6e7063278b51"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.spec.go",
+            "digest": "sha256:c83ab57582d25147815c5a465e634618c746f7e556d5fd252b38cefb231d2fde"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.validate.go",
+            "digest": "sha256:e2eddea50b85e367a7685a18cc81b55a8aa766c448463125aa1f01eaa841890e"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.mcp.go",
+            "digest": "sha256:7666d4d86f274c7fcea5af7c27b2c5a967975a775738edf468e71ac1e289368a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.main.go",
+            "digest": "sha256:a1af2955513dc874754ba90045f2838351237888f56c8f1d1faf9a4d76075c29"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.docs.go",
+            "digest": "sha256:db87b985fb0ae8b19ff33c7533ecf95ce515c6122d22880c70afd402139738de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/docs/schema.md",
+            "digest": "sha256:437336e6b6882e7eff774fc2204141205f4c8751b7ccb6fbfba55dcf0022b2d9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/docs/list.yaml",
+            "digest": "sha256:d9a8fc4a873fc71af0a0ff3036595725ed993e274d6031ebe74c86b7f99e7866"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "ci-artifact-release",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-artifact-release",
+        "timestamp": "2026-09-08T10:41:21Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:e0275e124034fa2c48e887613ded8cff5cf2398af4f316ca3487fd5484a44af5",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/handlers.go",
+            "digest": "sha256:3abed1bbc6300a0afeec61e48aa7fffea977771917e3864673ff901d9d9a9709"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/artifactcontroller.go",
+            "digest": "sha256:df5f26a174b915420e2719b58dd69b7c11cae3ff487b1a2c12d8fbadcab13a41"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/index.go",
+            "digest": "sha256:4f6516999353acf64419dd66fbf37d614cfb2217588454b5a2915c1b863c294b"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/artifactcontroller/version.go",
+            "digest": "sha256:1ae2e5c8dc90f84a2f0acf49a2b6717160dece7656c0bc6762829804edcdac13"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/config/config.go",
+            "digest": "sha256:615033fa992fbf2bc796372f17b566e23145f312d51abba22bca0d85af754caa"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.docs.go",
+            "digest": "sha256:4581a4710c310ca093c0276fa3e6db24edbf79fe6a649916c4a41d8a11004e60"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go",
+            "digest": "sha256:1a81f7eaa8c651be9e0b1f950d031a79f1955f6eb063a19fd82f4831015fd464"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.mcp.go",
+            "digest": "sha256:96d0c400708550eba192b1f7217b0c831d31be98f659ea3054565ea3782fc4dc"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.spec.go",
+            "digest": "sha256:4dcd65ef688e36b6c33e98b9a3d72e1bd1fcc6c1b70eb7155cd0458c758fe7a8"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.validate.go",
+            "digest": "sha256:a4388237cad4501eddda2d9f1bd313871143ba0603b3a8a29c2b6587d3425056"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-manager-github",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-manager-github_linux_arm64",
+        "timestamp": "2026-09-08T10:41:03Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:365476b6b9e2c04c92ab054a203b4a0e3dc804506dc2ce5fbdee3d87a5eb99f7",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/handlers.go",
+            "digest": "sha256:53c412a88835f17f57cb66e203bc97506300a5fecee96a10bc6a292b37ff04f7"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "digest": "sha256:56e148fb0984c59558c7862999a8d66ead91d9e91bc81aee6fccd86e7f6d35d4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "digest": "sha256:5ce7a2d5b75558d3e4814e3e3e0b5d5d52ca8018156ad67b6410c3112a8b06de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "digest": "sha256:6bf7b643fc4f37d0b45f047841820e6c51d41d4d01e832a0931239c4f3e88517"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "digest": "sha256:5a5953970395fb6c8e6ab3ba8a1c7be10420a88c7807692c20146bd331758a9f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/talosrealizer.go",
+            "digest": "sha256:066341fff3729c4a051032fa1f47d0e689679fb737841f822cd2619fd2f83a2a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.docs.go",
+            "digest": "sha256:db87b985fb0ae8b19ff33c7533ecf95ce515c6122d22880c70afd402139738de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.main.go",
+            "digest": "sha256:a1af2955513dc874754ba90045f2838351237888f56c8f1d1faf9a4d76075c29"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.mcp.go",
+            "digest": "sha256:7666d4d86f274c7fcea5af7c27b2c5a967975a775738edf468e71ac1e289368a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.spec.go",
+            "digest": "sha256:c83ab57582d25147815c5a465e634618c746f7e556d5fd252b38cefb231d2fde"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.validate.go",
+            "digest": "sha256:e2eddea50b85e367a7685a18cc81b55a8aa766c448463125aa1f01eaa841890e"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-manager-local",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-manager-local",
+        "timestamp": "2026-09-08T10:40:58Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:70d49a35eb1c5424861620c41349fe9e4b5c5cb731b811a28f0a39a22a8bfe4e",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/handlers.go",
+            "digest": "sha256:4658e6803c8885568d40286b8e97169fd96c306c1c36a3cf2ef20719af40025a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "digest": "sha256:56e148fb0984c59558c7862999a8d66ead91d9e91bc81aee6fccd86e7f6d35d4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "digest": "sha256:5ce7a2d5b75558d3e4814e3e3e0b5d5d52ca8018156ad67b6410c3112a8b06de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "digest": "sha256:6bf7b643fc4f37d0b45f047841820e6c51d41d4d01e832a0931239c4f3e88517"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "digest": "sha256:5a5953970395fb6c8e6ab3ba8a1c7be10420a88c7807692c20146bd331758a9f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/talosrealizer.go",
+            "digest": "sha256:066341fff3729c4a051032fa1f47d0e689679fb737841f822cd2619fd2f83a2a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.docs.go",
+            "digest": "sha256:43e684a915bc98d4883002d67947a55cd2563517b88694e6686e1df8851b77f2"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.main.go",
+            "digest": "sha256:3121f7cea021a2a6992bf136a731245ec63e545ac3c10229b9338b317bd66d67"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.mcp.go",
+            "digest": "sha256:87552a9841e6c92cd5cc837138645037a4349c75bc08a0df6a5bd984b88bd975"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.spec.go",
+            "digest": "sha256:781ce54314c04070e209a25a850e21f966ce46b1e7236b170752a09601578710"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.validate.go",
+            "digest": "sha256:145b0cd6cb303a486f732b913e3b844d7d07064c6a407ef584bc60fd88145746"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-compute-local",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-compute-local_linux_arm64",
+        "timestamp": "2026-09-08T10:41:11Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:a6342e5c61cac65ce4cacd3c018f9791952d65ec15ba15ee6bacb37cfeb99d1b",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/handlers.go",
+            "digest": "sha256:eaad66e4d05916bcdc0568f4b1838354efbdf82eec071fd1c0e3b6775298a0cb"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/forgeadapter/forgeadapter.go",
+            "digest": "sha256:7b896386403ef876c6b9096ddf4e4fce902023c3a44ebbaa482402df51831ca0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/artifacts.go",
+            "digest": "sha256:0bf540ce3416a842e40c0194bb1860bf55407c1e49271c6bd08d1d5682f6e2e4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/computecontroller.go",
+            "digest": "sha256:f2aa6664facfce70f226498c1927bbaa24b398b41db92615c35e989f6e2aab76"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.docs.go",
+            "digest": "sha256:253a7d5db319da946dfbb614da516949079ecff756b1de66d09fda6b363c46a0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go",
+            "digest": "sha256:c2a17017397a07f361b745747b2d1c9fb9de3cb99f13f83a815aad91c4c6d777"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.mcp.go",
+            "digest": "sha256:39da699a4bfce970295d70eeed2cd2c4ee8ea170520f248c58f1e8e15f085751"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.spec.go",
+            "digest": "sha256:064fe962a222d97d06233f27c35b73fdd5f999e2cacce7e869ae802eaa192f05"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.validate.go",
+            "digest": "sha256:573620a902f7742460b80b513002b28c42b04a0082f681f3b0bef29d4cfdbd54"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-promotion-all",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all",
+        "timestamp": "2026-09-08T10:41:43Z",
+        "version": "sha256:9116c25482800945907c758a2232d8cecf4a35f141fef2c754483692c312c8cc",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/forge-dev.yaml",
+            "digest": "sha256:0bb972db7d0e8fe680af3e37fa9b39fa087f620cd4bb1ec70b69fec528a529a0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/docs/usage.md",
+            "digest": "sha256:b082b80e83d70de5cf64d15e1732527c6c9ea87c0e158ab7edc03478fba17848"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.runnable.yaml",
+            "digest": "sha256:cbe158c9f9d8844b5b873a8f488a2fe506c49d25b1647ea8e3a43b7670e6d730"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.spec.go",
+            "digest": "sha256:d9b9682f936bffc8428aa3dc362e795d6081b308d5cdbbd99033e4085d56fa78"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.validate.go",
+            "digest": "sha256:3eb1454ed35e82ccdd4f7e80361c7907a46b969d4c97054197f5a6af3c3f45c1"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.mcp.go",
+            "digest": "sha256:5e2e9aa098c8b550005db0103756bd7ddf9ecf364a09772687d0d3b8a5674e00"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go",
+            "digest": "sha256:9f2d4dfba4646625b3fccc19615bfa51034b46088b5fbf7f3fa7b3146949c6e2"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.docs.go",
+            "digest": "sha256:6471bb01f36f663367e8183d8a7d11d594388bb720d04a110fb3492c203dd0f5"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/docs/schema.md",
+            "digest": "sha256:e254f3a9efb75fcca70ba8022255e0f3db8c37101fe56e0e90544cc10a1c5488"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/docs/list.yaml",
+            "digest": "sha256:ebb03df9a843999b1eb8226a132f53d87f8bbf541fc2b9364680d8b717d07331"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "ci-manager-talos",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-manager-talos_linux_arm64",
+        "timestamp": "2026-09-08T10:41:06Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:bb2f141e147a5a7075b076189d5f7da942d8774b7e84772bd56d89864abb427e",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/handlers.go",
+            "digest": "sha256:452319aca01e5eaabdb92cd392b4a48a4cdc5590f50007dc96eabb92887ea7fb"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "digest": "sha256:56e148fb0984c59558c7862999a8d66ead91d9e91bc81aee6fccd86e7f6d35d4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "digest": "sha256:5ce7a2d5b75558d3e4814e3e3e0b5d5d52ca8018156ad67b6410c3112a8b06de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "digest": "sha256:6bf7b643fc4f37d0b45f047841820e6c51d41d4d01e832a0931239c4f3e88517"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "digest": "sha256:5a5953970395fb6c8e6ab3ba8a1c7be10420a88c7807692c20146bd331758a9f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/talosrealizer.go",
+            "digest": "sha256:066341fff3729c4a051032fa1f47d0e689679fb737841f822cd2619fd2f83a2a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.docs.go",
+            "digest": "sha256:878ee0ce289a03d92728517fb7fb9c3aa74b7a752a2ea9f8704c31124ca0e708"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.main.go",
+            "digest": "sha256:c61d980c600afbdf2a876955f03cc26171f522b16cb6921166af972baedb04df"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.mcp.go",
+            "digest": "sha256:f4b0c90dcf24308ef932e8f9bb4db8ffd5e2cc004ed8a68aefa58edc7ddbc85f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.spec.go",
+            "digest": "sha256:afca5d781f0a8813a8e5dee8e6076f809030c25248092771161dbee8476dfe13"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.validate.go",
+            "digest": "sha256:9bd92db92f8dca29ed82c015eeed8270f1421a6ff881b60f44bf93d59bf6f277"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "resolve-spec",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-08T10:41:43Z",
+        "version": "sh-exit0"
+      },
+      {
+        "name": "ci-state-git",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-state-git_linux_arm64",
+        "timestamp": "2026-09-08T10:41:13Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:a267ff5ff3ab1ec406a7721ebf645d1ed877fd68322b7cafbd5e1aa2eee297ba",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/handlers.go",
+            "digest": "sha256:ba3fa7cb93d4ddb6a6338476fa7f1c09908497cd025908d9b3a92f7e75470ca6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/statecontroller/statecontroller.go",
+            "digest": "sha256:51848e0fef3c50005a61ad05302bc3811b1324771af4cc0c49566f91cdceceac"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.docs.go",
+            "digest": "sha256:b525b34739a5105ff897ecde65633cba1977937455e6f7fa76da499a306e354a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go",
+            "digest": "sha256:4dfad9a7ec147640c89fc9411a3785720694d9a2375182245e967565d7692ca4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.mcp.go",
+            "digest": "sha256:340ba80bb49870300a297669324758dc0be6dbe55ff2d41c5fc03e45f7ff848a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.spec.go",
+            "digest": "sha256:b2a26a1ad92797749268724e3f3378ac9c30b134674a4ac975eb2ea8b83d6adc"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.validate.go",
+            "digest": "sha256:bffdbd79de8587d040bd92bfe8a750dc909c8233dfb9109dcdeb3d1e6e712c11"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-manager-talos",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos",
+        "timestamp": "2026-09-08T10:41:43Z",
+        "version": "sha256:42702abdab3873590b9010248812af34b289d5dd1c32e3b960f89ee14c44e4af",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/forge-dev.yaml",
+            "digest": "sha256:c52dced073ef8b9ee66809c7124c5ea6a26c128848dc2cbbd326bffccf921121"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/docs/usage.md",
+            "digest": "sha256:35546a5f8cd12333032a68c7c4947ad522aab6f36f18a74f8f030e7eafc8e3dc"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.runnable.yaml",
+            "digest": "sha256:8ee052a5072c6ee50b4039a8e848fc2d6aae78bda1b5601439e70f393e671e0c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.spec.go",
+            "digest": "sha256:afca5d781f0a8813a8e5dee8e6076f809030c25248092771161dbee8476dfe13"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.validate.go",
+            "digest": "sha256:9bd92db92f8dca29ed82c015eeed8270f1421a6ff881b60f44bf93d59bf6f277"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.mcp.go",
+            "digest": "sha256:f4b0c90dcf24308ef932e8f9bb4db8ffd5e2cc004ed8a68aefa58edc7ddbc85f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.main.go",
+            "digest": "sha256:c61d980c600afbdf2a876955f03cc26171f522b16cb6921166af972baedb04df"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.docs.go",
+            "digest": "sha256:878ee0ce289a03d92728517fb7fb9c3aa74b7a752a2ea9f8704c31124ca0e708"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/docs/schema.md",
+            "digest": "sha256:75c5a5b653c5bc6b46af72bc5d31c52bc47e593a3467a38239cb0d0c64e515a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/docs/list.yaml",
+            "digest": "sha256:23f11e8d8d51139377be275bc7754545b784322694e0e8772fbe44b73bcb69d9"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "ci-compute-github",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-compute-github",
+        "timestamp": "2026-09-08T10:41:08Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:c4b17b8912427fe4e8449238b45493fdac58fc5cb3042de6f19bdf74c98573d4",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/handlers.go",
+            "digest": "sha256:13e85e0ad0216b5e8923444120fe4747a039da30cf7fdbdf757053f73014a535"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/artifacts.go",
+            "digest": "sha256:0bf540ce3416a842e40c0194bb1860bf55407c1e49271c6bd08d1d5682f6e2e4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/computecontroller/computecontroller.go",
+            "digest": "sha256:f2aa6664facfce70f226498c1927bbaa24b398b41db92615c35e989f6e2aab76"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/forgeadapter/forgeadapter.go",
+            "digest": "sha256:7b896386403ef876c6b9096ddf4e4fce902023c3a44ebbaa482402df51831ca0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/workflowcontroller/templates.go",
+            "digest": "sha256:4ce38f16bf49611cd737368e9dcf43b4bf5d134b3521a17f88041a2fe981d490"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/workflowcontroller/workflowcontroller.go",
+            "digest": "sha256:3d0a5ef32c828d2ed6f92ea333bd1cbfc25f04e478e50a1d30fcd906c64b1aef"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "digest": "sha256:56e148fb0984c59558c7862999a8d66ead91d9e91bc81aee6fccd86e7f6d35d4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "digest": "sha256:5ce7a2d5b75558d3e4814e3e3e0b5d5d52ca8018156ad67b6410c3112a8b06de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "digest": "sha256:6bf7b643fc4f37d0b45f047841820e6c51d41d4d01e832a0931239c4f3e88517"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "digest": "sha256:5a5953970395fb6c8e6ab3ba8a1c7be10420a88c7807692c20146bd331758a9f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/talosrealizer.go",
+            "digest": "sha256:066341fff3729c4a051032fa1f47d0e689679fb737841f822cd2619fd2f83a2a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.docs.go",
+            "digest": "sha256:b6d9196eb4262c96ca3a36a472517381c8d79359e18fa63e3b1bcd27f6659a86"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.main.go",
+            "digest": "sha256:88487562a0d43e0254a88add3651d25d49fb4c45f088025f33265b46c7f9c758"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.mcp.go",
+            "digest": "sha256:fee643157a5b73b9a71928b334d5f7c25fbc1ce2bde9d4485f106e62cd3a3494"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.spec.go",
+            "digest": "sha256:9c612221285fdfd577305173ffee1dff7e1273570cef6fbdd17608c7bf097661"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.validate.go",
+            "digest": "sha256:88b7c1d0ecdc3f14346a0d8d0877a49d7ca6da5469560ba1d75ffd7adc9abb6a"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-manager-local",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local",
+        "timestamp": "2026-09-08T10:41:43Z",
+        "version": "sha256:8ef2c194f03ae1e8c6e7ca28bde634c756f3534a3e9d5a051e12d6d62612f59c",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/forge-dev.yaml",
+            "digest": "sha256:7e6961193a18a1898492c277337e9516518526621f24098f7c5293d1f7ea9e4f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/docs/usage.md",
+            "digest": "sha256:4b0edf4b302f6b5c8b57197ad0ada0d7e17698df16c895508ad698b835c0e6fb"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.runnable.yaml",
+            "digest": "sha256:4ffb543da68383e2a071315fb15748391220475054826b37f47fe1b4ab0b4908"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.spec.go",
+            "digest": "sha256:781ce54314c04070e209a25a850e21f966ce46b1e7236b170752a09601578710"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.validate.go",
+            "digest": "sha256:145b0cd6cb303a486f732b913e3b844d7d07064c6a407ef584bc60fd88145746"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.mcp.go",
+            "digest": "sha256:87552a9841e6c92cd5cc837138645037a4349c75bc08a0df6a5bd984b88bd975"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.main.go",
+            "digest": "sha256:3121f7cea021a2a6992bf136a731245ec63e545ac3c10229b9338b317bd66d67"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.docs.go",
+            "digest": "sha256:43e684a915bc98d4883002d67947a55cd2563517b88694e6686e1df8851b77f2"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/docs/schema.md",
+            "digest": "sha256:54e2cd828fe44473d068a5fd944934c1a843dfc1aa054881089bc69a1fc3a383"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/docs/list.yaml",
+            "digest": "sha256:835a840b57cb5a4bf509c94479f9ed7fa231b3f9411d582f34dc25fabd4ce4d4"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "format-code",
+        "type": "generated",
+        "location": "forge-ci",
+        "timestamp": "2026-09-08T10:41:44Z",
+        "version": ""
+      },
+      {
+        "name": "ci-gate-manual",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-gate-manual",
+        "timestamp": "2026-09-08T10:41:25Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:e029e12f206943da4ba10a8328f12e9062797c749426148b3cfaa7c4508754e4",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/handlers.go",
+            "digest": "sha256:8aa601027ff24faf31cc006ea78a95f087d092a27fc2f14c26cac4f7d67c332a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/gatecontroller/gatecontroller.go",
+            "digest": "sha256:e45095526f614a40e9ed758ef00e7a89db98c475a222f56e065fdb4b05f835c0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.docs.go",
+            "digest": "sha256:4720936a114416750326b469458df6e21d636cbdaef5181fad661c740b46703c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go",
+            "digest": "sha256:06a9f24297b1deabf0b07f614b964e768bd6f081c2fed5cb77d2994d6a900c28"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.mcp.go",
+            "digest": "sha256:fae04b76682196f5d7cca7a86a80920dc810bb54064abf32b850fa02212ecc6b"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.spec.go",
+            "digest": "sha256:23adf5f15e6911aaba9847599b587bf58cfd8e50679eb1c3b48b4c7a70815724"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.validate.go",
+            "digest": "sha256:9aa69470aa4a5dd57531f189054ff7b6fe209a91a3da54bd59c0c4a7b4fb550f"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "generate-docs",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-08T10:41:44Z",
+        "version": "go-exit0"
+      },
+      {
+        "name": "ci-promotion-all",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-promotion-all_linux_arm64",
+        "timestamp": "2026-09-08T10:41:28Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:2ba9fb1b2937d70f1b00bc0444074d3def7dc9f41b3f6725a64d6241e9729907",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/handlers.go",
+            "digest": "sha256:11742077ef245f84dd9957f516ff3496411aeb782a73df763575efa22c52a55b"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/promotioncontroller/promotioncontroller.go",
+            "digest": "sha256:8c8ca79295a48e6fd0c532675c23fb7f8e44979be9a80689b453c92992ad51ca"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.docs.go",
+            "digest": "sha256:6471bb01f36f663367e8183d8a7d11d594388bb720d04a110fb3492c203dd0f5"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go",
+            "digest": "sha256:9f2d4dfba4646625b3fccc19615bfa51034b46088b5fbf7f3fa7b3146949c6e2"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.mcp.go",
+            "digest": "sha256:5e2e9aa098c8b550005db0103756bd7ddf9ecf364a09772687d0d3b8a5674e00"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.spec.go",
+            "digest": "sha256:d9b9682f936bffc8428aa3dc362e795d6081b308d5cdbbd99033e4085d56fa78"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.validate.go",
+            "digest": "sha256:3eb1454ed35e82ccdd4f7e80361c7907a46b969d4c97054197f5a6af3c3f45c1"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-artifact-container",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-artifact-container",
+        "timestamp": "2026-09-08T10:41:17Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:604e0268efcb7faf9b3dee9d393119a8aa6ded1c94f2e7f7603489611d3502f7",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/handlers.go",
+            "digest": "sha256:352f14a80ab5274aba268d626574aa91a30f48bc445e67f1ba51ea4b286be5b0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/containeradapter/containeradapter.go",
+            "digest": "sha256:be99a730247029a466086ec086965f6831e009053f3eed5386b7027adf22e37f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/containercontroller/containercontroller.go",
+            "digest": "sha256:832622b3259d402c62caf45bb763d4297470d05c1020b6a5bbd0d6f4fa39afa9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.docs.go",
+            "digest": "sha256:1a0e6b0dcef6060e45e72f0fff1e0445616c3c7b16e37497044f605ec7a40894"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go",
+            "digest": "sha256:0b802a42e06e713153af8d1a402d4fb0471bb2e68f5524736c18e4cf8550477d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.mcp.go",
+            "digest": "sha256:8a86502c067ec535d81cd2e36f92a12c2e7a2e7289dcb468a2b25ed4a0000a6f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.spec.go",
+            "digest": "sha256:379000d99ce6735322dbcd1ae617e0350f475409e8f8c26b7bf400d69bf55578"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.validate.go",
+            "digest": "sha256:43a326243d0ff7998778ffbdd28627009dcb75ebdbfcb736af41aba2ecdf0277"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-gate-manual",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-gate-manual_linux_arm64",
+        "timestamp": "2026-09-08T10:41:26Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:5dd96e125055b1b27469d49d8d5b5c10fed1093b69b809858a4f56445ec9bd3e",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/handlers.go",
+            "digest": "sha256:8aa601027ff24faf31cc006ea78a95f087d092a27fc2f14c26cac4f7d67c332a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/gatecontroller/gatecontroller.go",
+            "digest": "sha256:e45095526f614a40e9ed758ef00e7a89db98c475a222f56e065fdb4b05f835c0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.docs.go",
+            "digest": "sha256:4720936a114416750326b469458df6e21d636cbdaef5181fad661c740b46703c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go",
+            "digest": "sha256:06a9f24297b1deabf0b07f614b964e768bd6f081c2fed5cb77d2994d6a900c28"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.mcp.go",
+            "digest": "sha256:fae04b76682196f5d7cca7a86a80920dc810bb54064abf32b850fa02212ecc6b"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.spec.go",
+            "digest": "sha256:23adf5f15e6911aaba9847599b587bf58cfd8e50679eb1c3b48b4c7a70815724"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.validate.go",
+            "digest": "sha256:9aa69470aa4a5dd57531f189054ff7b6fe209a91a3da54bd59c0c4a7b4fb550f"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-gate-manual",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual",
+        "timestamp": "2026-09-08T10:41:43Z",
+        "version": "sha256:1077f569dbd4dcb1db8f2faf60b2c1d3f55476b6d2ac86e1de2835a8db364b3f",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/forge-dev.yaml",
+            "digest": "sha256:e15f531bf41c20290dba16f5fba592c1ae172135ef1a1dc1720738bfb0075188"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/docs/usage.md",
+            "digest": "sha256:b013dbb8979fccdb0f0af4db0ac728e2de1b7dbaa91f7285625ada290350cb79"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.runnable.yaml",
+            "digest": "sha256:07ad04c217c834efc7a27397b0e6fbddb3e20826de1547f74cc913f7863477c7"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.spec.go",
+            "digest": "sha256:23adf5f15e6911aaba9847599b587bf58cfd8e50679eb1c3b48b4c7a70815724"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.validate.go",
+            "digest": "sha256:9aa69470aa4a5dd57531f189054ff7b6fe209a91a3da54bd59c0c4a7b4fb550f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.mcp.go",
+            "digest": "sha256:fae04b76682196f5d7cca7a86a80920dc810bb54064abf32b850fa02212ecc6b"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go",
+            "digest": "sha256:06a9f24297b1deabf0b07f614b964e768bd6f081c2fed5cb77d2994d6a900c28"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.docs.go",
+            "digest": "sha256:4720936a114416750326b469458df6e21d636cbdaef5181fad661c740b46703c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/docs/schema.md",
+            "digest": "sha256:829808f6c4b983b672282d23a5c84a872ba1258ef6381884ea71a954c5681be5"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/docs/list.yaml",
+            "digest": "sha256:d0175fea20301dea8fb82e1122fa4af8d8fef735a2ae24149cdf19bd63168570"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "ci-manager-dryrun",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-manager-dryrun_linux_arm64",
+        "timestamp": "2026-09-08T10:41:01Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:029700d4a989418985814aaf0776dfca372fbbc59ebd5a44d512795685079e1c",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/handlers.go",
+            "digest": "sha256:cec8bb3366f699d1e6d839f1eea5976a74663a5452020cad82543481679ceda3"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/githubrealizer.go",
+            "digest": "sha256:56e148fb0984c59558c7862999a8d66ead91d9e91bc81aee6fccd86e7f6d35d4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/githubadapter.go",
+            "digest": "sha256:ccf4ec32a3f65533df1615744d5a3dba615db56dbd5f7e48874ed2af25f53308"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/githubadapter/releases.go",
+            "digest": "sha256:65ace4dd84bc82344e4091d5656d3808d6b81644bc62219e9528bd7207c7fe9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/managercontroller.go",
+            "digest": "sha256:5ce7a2d5b75558d3e4814e3e3e0b5d5d52ca8018156ad67b6410c3112a8b06de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/realizer.go",
+            "digest": "sha256:6bf7b643fc4f37d0b45f047841820e6c51d41d4d01e832a0931239c4f3e88517"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/settle.go",
+            "digest": "sha256:5a5953970395fb6c8e6ab3ba8a1c7be10420a88c7807692c20146bd331758a9f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/managercontroller/talosrealizer.go",
+            "digest": "sha256:066341fff3729c4a051032fa1f47d0e689679fb737841f822cd2619fd2f83a2a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.docs.go",
+            "digest": "sha256:e43865e6fe6ddd62871c594d35f86040ab93e02ffbf306c6be4e9f1287f5640d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.main.go",
+            "digest": "sha256:4275088dd490c3814c95b64678391916cbbbe4e1711d5094f363339cc57fb966"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.mcp.go",
+            "digest": "sha256:18d0213783b83160ad87eb2f8ad1c8288e99e2d91830c24a58cdcd5ee67f92d7"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.spec.go",
+            "digest": "sha256:2c55b33814a79cbb5fdfdd3d9ec7ec78cdee396663b5bbe0abe106f6d23e4988"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.validate.go",
+            "digest": "sha256:df0c67e21ad9b51ae12989d2df9b36eb357949105862f604930ed2a289cd0b09"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-promotion-all",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-promotion-all",
+        "timestamp": "2026-09-08T10:41:28Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:9fe5df445896735ee7cda0d19921563eeaedde9b73d88b5847517150b68c6253",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/handlers.go",
+            "digest": "sha256:11742077ef245f84dd9957f516ff3496411aeb782a73df763575efa22c52a55b"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/promotioncontroller/promotioncontroller.go",
+            "digest": "sha256:8c8ca79295a48e6fd0c532675c23fb7f8e44979be9a80689b453c92992ad51ca"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.docs.go",
+            "digest": "sha256:6471bb01f36f663367e8183d8a7d11d594388bb720d04a110fb3492c203dd0f5"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go",
+            "digest": "sha256:9f2d4dfba4646625b3fccc19615bfa51034b46088b5fbf7f3fa7b3146949c6e2"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.mcp.go",
+            "digest": "sha256:5e2e9aa098c8b550005db0103756bd7ddf9ecf364a09772687d0d3b8a5674e00"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.spec.go",
+            "digest": "sha256:d9b9682f936bffc8428aa3dc362e795d6081b308d5cdbbd99033e4085d56fa78"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.validate.go",
+            "digest": "sha256:3eb1454ed35e82ccdd4f7e80361c7907a46b969d4c97054197f5a6af3c3f45c1"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-state-git",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-state-git",
+        "timestamp": "2026-09-08T10:41:13Z",
+        "version": "9cc88ae608aad026d2d06209cfcb24d8bd96c17e",
+        "digest": "sha256:d80e91e4c41eb155614688539f2d6aaa24af3814d57953b0c191c671667ceaca",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.mod",
+            "digest": "sha256:a685f306f0c441e6cb22c4aadb7755229355b99de3a9dcffdbf7b4fd861c351a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/go.sum",
+            "digest": "sha256:ef386c1ff33a20fcf7218040d3523f77f9055fde5d220342ddf87601264446a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/handlers.go",
+            "digest": "sha256:ba3fa7cb93d4ddb6a6338476fa7f1c09908497cd025908d9b3a92f7e75470ca6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/execadapter/execadapter.go",
+            "digest": "sha256:248d55fe74f131f15d745d8def9707c5771d7574b760e6801a228fce07ff91f6"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/fsadapter/fsadapter.go",
+            "digest": "sha256:e9db61c38518c6bdb9e9822ec98d9d64ec32846c7367b34e078da53dc9b7ee4d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/adapter/gitadapter/gitadapter.go",
+            "digest": "sha256:27a44b965bdfc0628d8627a08b1c574c410eb7ac2de4afc407319e8c40cd8442"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/citypes.go",
+            "digest": "sha256:055fc97dafe6063af1a1e876ef251ada3d17434c151840e6ee8870c2053dd8d0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/pkg/citypes/waves.go",
+            "digest": "sha256:44135c177defaf5945a5bca065455d158e7ae7cac4c85c372a63e37518dcc828"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/gitident/gitident.go",
+            "digest": "sha256:4145355712cb5cbff31feddc4f6aea32131fa736d4c134517bc0b8583e6ee445"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/internal/controller/statecontroller/statecontroller.go",
+            "digest": "sha256:51848e0fef3c50005a61ad05302bc3811b1324771af4cc0c49566f91cdceceac"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.docs.go",
+            "digest": "sha256:b525b34739a5105ff897ecde65633cba1977937455e6f7fa76da499a306e354a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go",
+            "digest": "sha256:4dfad9a7ec147640c89fc9411a3785720694d9a2375182245e967565d7692ca4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.mcp.go",
+            "digest": "sha256:340ba80bb49870300a297669324758dc0be6dbe55ff2d41c5fc03e45f7ff848a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.spec.go",
+            "digest": "sha256:b2a26a1ad92797749268724e3f3378ac9c30b134674a4ac975eb2ea8b83d6adc"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.validate.go",
+            "digest": "sha256:bffdbd79de8587d040bd92bfe8a750dc909c8233dfb9109dcdeb3d1e6e712c11"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      }
+    ]
+  }
+}
