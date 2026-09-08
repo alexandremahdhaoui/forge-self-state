@@ -1,0 +1,44 @@
+{
+  "revision": {
+    "id": "3e5699c4d83b",
+    "createdAt": "2026-09-08T12:47:25.24342053Z",
+    "repos": {
+      "forge": "9432809ee5a61c2112394f0c127acdf901e33501",
+      "forge-ci": "6baafb8f9494b6bea0b8eb3b08beeac2e0c31b77",
+      "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+      "forge-dev-codegen": "bb3d97b937c6f05b4b7b427adebc0166ad8594f4",
+      "forge-factory": "48bf192aa53bbaaf8104eec589a740d0e899774b",
+      "forge-register": "713172fc0b2f5039663cb78637ad1bc44021eaa5",
+      "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+      "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+      "forge-self-factory": "014c7b7a59e884046bf76918180e4cf6f21b96dd",
+      "forge-self-register": "3f7867c6d04c0f0f8ef3e1c13dc82049eeef4bdb"
+    }
+  },
+  "version": "v0.49.0",
+  "tag": "v0.49.0",
+  "previous": "v0.48.3",
+  "reason": "Release v0.49.0 (major): \"refactor!: delivery-gen becomes containerfile-gen and answers zz_generated.Containerfile\" in forge-dev-codegen.",
+  "repos": {
+    "forge": "9432809ee5a61c2112394f0c127acdf901e33501",
+    "forge-ci": "6baafb8f9494b6bea0b8eb3b08beeac2e0c31b77",
+    "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+    "forge-dev-codegen": "bb3d97b937c6f05b4b7b427adebc0166ad8594f4",
+    "forge-factory": "48bf192aa53bbaaf8104eec589a740d0e899774b",
+    "forge-register": "713172fc0b2f5039663cb78637ad1bc44021eaa5",
+    "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+    "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+    "forge-self-factory": "014c7b7a59e884046bf76918180e4cf6f21b96dd"
+  },
+  "trees": {
+    "forge": "c5d50c9fefba6c0aa154f78a0cf1adb347818540c044295c37ae7258b94f61b1",
+    "forge-ci": "dde5f4c1c848367ddf64c74836d05500264659e6cff22efdd340c36e97c37a82",
+    "forge-ci-spec": "7e2d4883e1744f4eb726a321e34edec5a6c9fc122e68e8898aa7c1cd5559dbb2",
+    "forge-dev-codegen": "c988822313be9769b6a3592e29dba7491ce55d17deecc4017f4c7d6bd92580cf",
+    "forge-factory": "836d754fabfaf3b01cf8e27c01ae6746e0da3eed4df89478f312a6acf6068544",
+    "forge-register": "456f1279c688bde15fc4184d9203b5d0b3b82747f335038d568e3cdc4bf09e2b",
+    "forge-register-spec": "b42326423d7fb5890d671b2e1888377f6acc12aee4a224b779cad8380d144a39",
+    "forge-revision-spec": "b9883679f357c187ca80faf038b38890140163ee5742eea3309cf1e5490c12e2",
+    "forge-self-factory": "758d1f2b008859f7c7a49c9931536f0e42e90d49286ec17480548605c9c88cc1"
+  }
+}
