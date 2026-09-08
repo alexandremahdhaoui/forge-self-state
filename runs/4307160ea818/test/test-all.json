@@ -1,0 +1,2176 @@
+{
+  "revision": "4307160ea818",
+  "stage": "test",
+  "substage": "test-all",
+  "engine": "here",
+  "status": "failed",
+  "startedAt": "2026-09-08T03:28:31.156583419Z",
+  "duration": 83.231830768,
+  "message": "target \"test-all\" exited 1 in /__w/forge-self-factory/forge-self-factory/forge-ci",
+  "output": "... earlier output dropped ...\no, attempting dependency detection\n2026/09/08 03:29:22 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 03:29:22 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.main.go funcName=main\n2026/09/08 03:29:22 Detected 25 dependencies for ci-compute-github\nBuilt binary: ci-compute-github for linux/arm64 (version: 1c980e34e029dfa850a1a4a881539ed9cf822568)\n2026/09/08 03:29:22 Building ci-compute-local using go-build\n2026/09/08 03:29:22 Building binary: ci-compute-local from ./cmd/ci-compute-local for linux/amd64, linux/arm64\nall modules verified\n2026/09/08 03:29:23 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-compute-local (artifact: ci-compute-local)\n2026/09/08 03:29:23 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go\n2026/09/08 03:29:23 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go, attempting dependency detection\n2026/09/08 03:29:23 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 03:29:23 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go funcName=main\n2026/09/08 03:29:23 Detected 15 dependencies for ci-compute-local\nBuilt binary: ci-compute-local for linux/amd64 (version: 1c980e34e029dfa850a1a4a881539ed9cf822568)\n2026/09/08 03:29:24 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-compute-local (artifact: ci-compute-local)\n2026/09/08 03:29:24 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go\n2026/09/08 03:29:24 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go, attempting dependency detection\n2026/09/08 03:29:24 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 03:29:24 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go funcName=main\n2026/09/08 03:29:24 Detected 15 dependencies for ci-compute-local\nBuilt binary: ci-compute-local for linux/arm64 (version: 1c980e34e029dfa850a1a4a881539ed9cf822568)\n2026/09/08 03:29:24 Building ci-state-git using go-build\n2026/09/08 03:29:24 Building binary: ci-state-git from ./cmd/ci-state-git for linux/amd64, linux/arm64\nall modules verified\n2026/09/08 03:29:25 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-state-git (artifact: ci-state-git)\n2026/09/08 03:29:25 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go\n2026/09/08 03:29:25 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go, attempting dependency detection\n2026/09/08 03:29:25 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 03:29:25 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go funcName=main\n2026/09/08 03:29:25 Detected 15 dependencies for ci-state-git\nBuilt binary: ci-state-git for linux/amd64 (version: 1c980e34e029dfa850a1a4a881539ed9cf822568)\n2026/09/08 03:29:26 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-state-git (artifact: ci-state-git)\n2026/09/08 03:29:26 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go\n2026/09/08 03:29:26 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go, attempting dependency detection\n2026/09/08 03:29:26 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 03:29:26 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go funcName=main\n2026/09/08 03:29:26 Detected 15 dependencies for ci-state-git\nBuilt binary: ci-state-git for linux/arm64 (version: 1c980e34e029dfa850a1a4a881539ed9cf822568)\n2026/09/08 03:29:26 Building ci-artifact-container using go-build\n2026/09/08 03:29:26 Building binary: ci-artifact-container from ./cmd/ci-artifact-container for linux/amd64, linux/arm64\nall modules verified\n2026/09/08 03:29:29 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-artifact-container (artifact: ci-artifact-container)\n2026/09/08 03:29:29 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go\n2026/09/08 03:29:29 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go, attempting dependency detection\n2026/09/08 03:29:29 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 03:29:29 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go funcName=main\n2026/09/08 03:29:29 Detected 12 dependencies for ci-artifact-container\nBuilt binary: ci-artifact-container for linux/amd64 (version: 1c980e34e029dfa850a1a4a881539ed9cf822568)\n2026/09/08 03:29:32 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-artifact-container (artifact: ci-artifact-container)\n2026/09/08 03:29:32 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go\n2026/09/08 03:29:32 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go, attempting dependency detection\n2026/09/08 03:29:32 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 03:29:32 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go funcName=main\n2026/09/08 03:29:32 Detected 12 dependencies for ci-artifact-container\nBuilt binary: ci-artifact-container for linux/arm64 (version: 1c980e34e029dfa850a1a4a881539ed9cf822568)\n2026/09/08 03:29:32 Building ci-artifact-release using go-build\n2026/09/08 03:29:32 Building binary: ci-artifact-release from ./cmd/ci-artifact-release for linux/amd64, linux/arm64\nall modules verified\n2026/09/08 03:29:33 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-artifact-release (artifact: ci-artifact-release)\n2026/09/08 03:29:33 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go\n2026/09/08 03:29:33 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go, attempting dependency detection\n2026/09/08 03:29:34 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 03:29:34 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go funcName=main\n2026/09/08 03:29:34 Detected 20 dependencies for ci-artifact-release\nBuilt binary: ci-artifact-release for linux/amd64 (version: 1c980e34e029dfa850a1a4a881539ed9cf822568)\n2026/09/08 03:29:34 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-artifact-release (artifact: ci-artifact-release)\n2026/09/08 03:29:34 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go\n2026/09/08 03:29:34 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go, attempting dependency detection\n2026/09/08 03:29:34 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 03:29:34 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go funcName=main\n2026/09/08 03:29:34 Detected 20 dependencies for ci-artifact-release\nBuilt binary: ci-artifact-release for linux/arm64 (version: 1c980e34e029dfa850a1a4a881539ed9cf822568)\n2026/09/08 03:29:34 Building ci-trigger-watch using go-build\n2026/09/08 03:29:34 Building binary: ci-trigger-watch from ./cmd/ci-trigger-watch for linux/amd64, linux/arm64\nall modules verified\n2026/09/08 03:29:36 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-trigger-watch (artifact: ci-trigger-watch)\n2026/09/08 03:29:36 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go\n2026/09/08 03:29:36 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go, attempting dependency detection\n2026/09/08 03:29:36 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 03:29:36 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go funcName=main\n2026/09/08 03:29:36 Detected 22 dependencies for ci-trigger-watch\nBuilt binary: ci-trigger-watch for linux/amd64 (version: 1c980e34e029dfa850a1a4a881539ed9cf822568)\n2026/09/08 03:29:36 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-trigger-watch (artifact: ci-trigger-watch)\n2026/09/08 03:29:36 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go\n2026/09/08 03:29:36 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go, attempting dependency detection\n2026/09/08 03:29:37 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 03:29:37 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go funcName=main\n2026/09/08 03:29:37 Detected 22 dependencies for ci-trigger-watch\nBuilt binary: ci-trigger-watch for linux/arm64 (version: 1c980e34e029dfa850a1a4a881539ed9cf822568)\n2026/09/08 03:29:37 Building ci-gate-manual using go-build\n2026/09/08 03:29:37 Building binary: ci-gate-manual from ./cmd/ci-gate-manual for linux/amd64, linux/arm64\nall modules verified\n2026/09/08 03:29:38 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-gate-manual (artifact: ci-gate-manual)\n2026/09/08 03:29:38 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go\n2026/09/08 03:29:38 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go, attempting dependency detection\n2026/09/08 03:29:38 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 03:29:38 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go funcName=main\n2026/09/08 03:29:38 Detected 12 dependencies for ci-gate-manual\nBuilt binary: ci-gate-manual for linux/amd64 (version: 1c980e34e029dfa850a1a4a881539ed9cf822568)\n2026/09/08 03:29:39 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-gate-manual (artifact: ci-gate-manual)\n2026/09/08 03:29:39 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go\n2026/09/08 03:29:39 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go, attempting dependency detection\n2026/09/08 03:29:39 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 03:29:39 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go funcName=main\n2026/09/08 03:29:39 Detected 12 dependencies for ci-gate-manual\nBuilt binary: ci-gate-manual for linux/arm64 (version: 1c980e34e029dfa850a1a4a881539ed9cf822568)\n2026/09/08 03:29:39 Building ci-promotion-all using go-build\n2026/09/08 03:29:39 Building binary: ci-promotion-all from ./cmd/ci-promotion-all for linux/amd64, linux/arm64\nall modules verified\n2026/09/08 03:29:40 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-promotion-all (artifact: ci-promotion-all)\n2026/09/08 03:29:40 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go\n2026/09/08 03:29:40 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go, attempting dependency detection\n2026/09/08 03:29:40 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 03:29:40 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go funcName=main\n2026/09/08 03:29:40 Detected 11 dependencies for ci-promotion-all\nBuilt binary: ci-promotion-all for linux/amd64 (version: 1c980e34e029dfa850a1a4a881539ed9cf822568)\n2026/09/08 03:29:41 [DEBUG] detectDependenciesForArtifact called for: ./cmd/ci-promotion-all (artifact: ci-promotion-all)\n2026/09/08 03:29:41 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go\n2026/09/08 03:29:41 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go, attempting dependency detection\n2026/09/08 03:29:41 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 03:29:41 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go funcName=main\n2026/09/08 03:29:41 Detected 11 dependencies for ci-promotion-all\nBuilt binary: ci-promotion-all for linux/arm64 (version: 1c980e34e029dfa850a1a4a881539ed9cf822568)\n✅ Successfully built 39 artifact(s)\n✅ Build completed successfully\n\n🧪 Running 17 test stage(s)...\n\n--- Running test stage: lint ---\n2026/09/08 03:29:42 Running tests for stage lint using go-lint\n2026/09/08 03:29:42 Running linter: stage=lint, name=lint-20260908-032942\n0 issues.\n✅ Stage 'lint' passed\n\n--- Running test stage: no-hardcoding ---\n2026/09/08 03:29:54 Running tests for stage no-hardcoding using generic-test-runner\n2026/09/08 03:29:54 Running tests: stage=no-hardcoding name=no-hardcoding-20260908-032954 command=sh\n2026/09/08 03:29:54 Stdout: forge-ci names no project, no language toolchain, no floating version, and no platform word outside the engines that adapt it\n✅ Stage 'no-hardcoding' passed\n\n--- Running test stage: generated ---\n2026/09/08 03:29:54 Running tests for stage generated using generic-test-runner\n2026/09/08 03:29:54 Running tests: stage=generated name=generated-20260908-032954 command=sh\n2026/09/08 03:29:54 Stderr: Sourced 1 environment variables from .envrc\nError: unknown flag \"--force\": a build builds what forge.yaml declares; there is no flag to narrow or widen it\n❌ Stage 'generated' failed: test run failed: build failed: Tests failed for stage generated: Command exited with code 1\nError: test stage 'generated' failed: test run failed: build failed: Tests failed for stage generated: Command exited with code 1\n",
+  "forge": {
+    "testReports": [
+      {
+        "id": "35a12ea0-3cf2-43ac-bed0-eb6c0218bd06",
+        "stage": "lint",
+        "status": "passed",
+        "startTime": "2026-09-08T03:29:42.027796771Z",
+        "duration": 11.427965674,
+        "testStats": {
+          "total": 0,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-08T03:29:53.46435596Z",
+        "updatedAt": "2026-09-08T03:29:53.46435596Z"
+      },
+      {
+        "id": "82580898-751b-4201-9272-fdbaadd025d3",
+        "stage": "no-hardcoding",
+        "status": "passed",
+        "startTime": "2026-09-08T03:29:54.217065632Z",
+        "duration": 0,
+        "testStats": {
+          "total": 1,
+          "passed": 1,
+          "failed": 0,
+          "skipped": 0
+        },
+        "coverage": {
+          "enabled": false,
+          "percentage": 0
+        },
+        "createdAt": "2026-09-08T03:29:54.226045034Z",
+        "updatedAt": "2026-09-08T03:29:54.226045034Z"
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "gen-ci-compute-github",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github",
+        "timestamp": "2026-09-08T03:28:37Z",
+        "version": "sha256:3667aa5c0346112343ae968095763784ca271c3229d47e1a74c33daf63bd243a",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "ci-compute-github",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-compute-github",
+        "timestamp": "2026-09-08T03:29:20Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "forge-ci",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/forge-ci_linux_arm64",
+        "timestamp": "2026-09-08T03:29:12Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-artifact-container",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-artifact-container_linux_arm64",
+        "timestamp": "2026-09-08T03:29:32Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-manager-github",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github",
+        "timestamp": "2026-09-08T03:28:37Z",
+        "version": "sha256:1f25682d694b4742dd7e49eb5fef06026dc9c3a7372b0016bca087c0992ac507",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "gen-ci-trigger-watch",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch",
+        "timestamp": "2026-09-08T03:28:37Z",
+        "version": "sha256:9cd8486402581bf9092a10bfe90dbd818349fc468152a1147cb1958b5bf4299f",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "ci-gate-manual",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-gate-manual",
+        "timestamp": "2026-09-08T03:29:38Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-compute-local",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-compute-local",
+        "timestamp": "2026-09-08T03:29:23Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-manager-dryrun",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-manager-dryrun_linux_arm64",
+        "timestamp": "2026-09-08T03:29:16Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-gate-manual",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual",
+        "timestamp": "2026-09-08T03:28:37Z",
+        "version": "sha256:1077f569dbd4dcb1db8f2faf60b2c1d3f55476b6d2ac86e1de2835a8db364b3f",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "ci-manager-local",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-manager-local_linux_arm64",
+        "timestamp": "2026-09-08T03:29:14Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-promotion-all",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all",
+        "timestamp": "2026-09-08T03:28:37Z",
+        "version": "sha256:9116c25482800945907c758a2232d8cecf4a35f141fef2c754483692c312c8cc",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "gen-ci-manager-dryrun",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun",
+        "timestamp": "2026-09-08T03:28:37Z",
+        "version": "sha256:4a3f4924abae8d5871f5ccc696bb025c9b767ab9e8f867efc45d8ba2c406bcf3",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "ci-compute-github",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-compute-github_linux_arm64",
+        "timestamp": "2026-09-08T03:29:21Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-state-git",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git",
+        "timestamp": "2026-09-08T03:28:37Z",
+        "version": "sha256:5aab53dd416fad314f962bbd003d2784ba831092c5d7f1c9e128cc84fbd69095",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "ci-artifact-release",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-artifact-release_linux_arm64",
+        "timestamp": "2026-09-08T03:29:34Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "generate-mocks",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-08T03:28:38Z",
+        "version": "mockery-exit0"
+      },
+      {
+        "name": "generate-docs",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-08T03:28:38Z",
+        "version": "go-exit0"
+      },
+      {
+        "name": "ci-artifact-release",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-artifact-release",
+        "timestamp": "2026-09-08T03:29:33Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-manager-local",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-manager-local",
+        "timestamp": "2026-09-08T03:29:13Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-artifact-container",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container",
+        "timestamp": "2026-09-08T03:28:37Z",
+        "version": "sha256:957f2665ec9312f48c71bc1ac827953cf6f8e423cced3e4367db8c096946bdd6",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "ci-manager-github",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-manager-github",
+        "timestamp": "2026-09-08T03:29:18Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-state-git",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-state-git_linux_arm64",
+        "timestamp": "2026-09-08T03:29:26Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-compute-local",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-compute-local_linux_arm64",
+        "timestamp": "2026-09-08T03:29:24Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-artifact-release",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release",
+        "timestamp": "2026-09-08T03:28:37Z",
+        "version": "sha256:367e10188e1be065f12e0bdaec20b56062784c30ffa7ca1d94eefab27415403a",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "ci-gate-manual",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-gate-manual_linux_arm64",
+        "timestamp": "2026-09-08T03:29:39Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-promotion-all",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-promotion-all_linux_arm64",
+        "timestamp": "2026-09-08T03:29:41Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-trigger-watch",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-trigger-watch_linux_arm64",
+        "timestamp": "2026-09-08T03:29:36Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-manager-dryrun",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-manager-dryrun",
+        "timestamp": "2026-09-08T03:29:15Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-trigger-watch",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-trigger-watch",
+        "timestamp": "2026-09-08T03:29:36Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "resolve-spec",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-08T03:28:32Z",
+        "version": "sh-exit0"
+      },
+      {
+        "name": "ci-artifact-container",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-artifact-container",
+        "timestamp": "2026-09-08T03:29:29Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-manager-local",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local",
+        "timestamp": "2026-09-08T03:28:37Z",
+        "version": "sha256:8ef2c194f03ae1e8c6e7ca28bde634c756f3534a3e9d5a051e12d6d62612f59c",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "ci-promotion-all",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-promotion-all",
+        "timestamp": "2026-09-08T03:29:40Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-manager-github",
+        "type": "binary",
+        "os": "linux",
+        "arch": "arm64",
+        "location": "forge-ci/build/bin/ci-manager-github_linux_arm64",
+        "timestamp": "2026-09-08T03:29:18Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "forge-ci",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/forge-ci",
+        "timestamp": "2026-09-08T03:28:57Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "ci-state-git",
+        "type": "binary",
+        "os": "linux",
+        "arch": "amd64",
+        "location": "forge-ci/build/bin/ci-state-git",
+        "timestamp": "2026-09-08T03:29:25Z",
+        "version": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://go-dependency-detector"
+      },
+      {
+        "name": "gen-ci-compute-local",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local",
+        "timestamp": "2026-09-08T03:28:37Z",
+        "version": "sha256:5bb99bde915098a038a56e7eccc04037529d123626a9456fc5fb047cfe944a1c",
+        "dependencies": [
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          },
+          {
+            "type": ""
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "format-code",
+        "type": "generated",
+        "location": "forge-ci",
+        "timestamp": "2026-09-08T03:28:42Z",
+        "version": ""
+      }
+    ]
+  }
+}
