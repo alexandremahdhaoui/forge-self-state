@@ -1,0 +1,691 @@
+{
+  "revision": "a004387cdbcd",
+  "stage": "test",
+  "substage": "test-all",
+  "engine": "here",
+  "status": "failed",
+  "startedAt": "2026-09-08T13:25:00.355625978Z",
+  "duration": 80.182081705,
+  "message": "target \"test-all\" exited 1 in /__w/forge-self-factory/forge-self-factory/forge-ci",
+  "output": "... earlier output dropped ...\n generating code for /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release\n2026/09/08 13:25:05 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.runnable.yaml\n2026/09/08 13:25:05 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.spec.go\n2026/09/08 13:25:05 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.validate.go\n2026/09/08 13:25:05 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.mcp.go\n2026/09/08 13:25:05 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go\n2026/09/08 13:25:05 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.docs.go\n2026/09/08 13:25:05 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/docs/schema.md\n2026/09/08 13:25:05 forge-dev: generated /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/docs/list.yaml\n2026/09/08 13:25:05 forge-dev: successfully generated 8 files for ci-artifact-release\nBuilding 2 artifact(s) with forge://generic-builder...\n2026/09/08 13:25:06 Building 2 artifacts in batch using generic-builder\n2026/09/08 13:25:06 Building generate-mocks using generic-builder\n2026/09/08 13:25:06 Executing command: mockery [] (context: /__w/forge-self-factory/forge-self-factory/forge-ci) for linux/amd64\n2026/09/08 13:25:06 Stderr: 2026-09-08T13:25:06.095308043Z INF Starting mockery config-file=/__w/forge-self-factory/forge-self-factory/forge-ci/.mockery.yaml version=v3.7.3\n2026-09-08T13:25:06.095386859Z INF Parsing configured packages... version=v3.7.3\n2026-09-08T13:25:06.740153268Z INF Done parsing configured packages. version=v3.7.3\n2026-09-08T13:25:06.740454610Z INF adding interface to collection collection=internal/mocks/execadaptermock/zz_generated.Runner.go interface=Runner package-path=github.com/alexandremahdhaoui/forge-ci/internal/adapter/execadapter version=v3.7.3\n2026-09-08T13:25:06.740740803Z INF adding interface to collection collection=internal/mocks/engineadaptermock/zz_generated.Caller.go interface=Caller package-path=github.com/alexandremahdhaoui/forge-ci/internal/adapter/engineadapter version=v3.7.3\n2026-09-08T13:25:06.740974579Z INF adding interface to collection collection=internal/mocks/githubadaptermock/zz_generated.API.go interface=API package-path=github.com/alexandremahdhaoui/forge-ci/internal/adapter/githubadapter version=v3.7.3\n2026-09-08T13:25:06.741202395Z INF adding interface to collection collection=internal/mocks/fsadaptermock/zz_generated.FS.go interface=FS package-path=github.com/alexandremahdhaoui/forge-ci/internal/adapter/fsadapter version=v3.7.3\n2026-09-08T13:25:06.741396296Z INF adding interface to collection collection=internal/mocks/gitadaptermock/zz_generated.Git.go interface=Git package-path=github.com/alexandremahdhaoui/forge-ci/internal/adapter/gitadapter version=v3.7.3\n2026-09-08T13:25:06.741615936Z INF adding interface to collection collection=internal/mocks/managercontrollermock/zz_generated.Talos.go interface=Talos package-path=github.com/alexandremahdhaoui/forge-ci/internal/controller/managercontroller version=v3.7.3\n2026-09-08T13:25:06.741932927Z INF adding interface to collection collection=internal/mocks/clidrivermock/zz_generated.Reconciler.go interface=Reconciler package-path=github.com/alexandremahdhaoui/forge-ci/internal/driver/clidriver version=v3.7.3\n2026-09-08T13:25:06.742038133Z INF Executing template file=internal/mocks/execadaptermock/zz_generated.Runner.go version=v3.7.3\n2026-09-08T13:25:06.744691211Z INF Writing template to file file=internal/mocks/execadaptermock/zz_generated.Runner.go version=v3.7.3\n2026-09-08T13:25:06.744907695Z INF Executing template file=internal/mocks/engineadaptermock/zz_generated.Caller.go version=v3.7.3\n2026-09-08T13:25:06.746192721Z INF Writing template to file file=internal/mocks/engineadaptermock/zz_generated.Caller.go version=v3.7.3\n2026-09-08T13:25:06.746350716Z INF Executing template file=internal/mocks/githubadaptermock/zz_generated.API.go version=v3.7.3\n2026-09-08T13:25:06.756876640Z INF Writing template to file file=internal/mocks/githubadaptermock/zz_generated.API.go version=v3.7.3\n2026-09-08T13:25:06.757081372Z INF Executing template file=internal/mocks/fsadaptermock/zz_generated.FS.go version=v3.7.3\n2026-09-08T13:25:06.761702660Z INF Writing template to file file=internal/mocks/fsadaptermock/zz_generated.FS.go version=v3.7.3\n2026-09-08T13:25:06.761887776Z INF Executing template file=internal/mocks/gitadaptermock/zz_generated.Git.go version=v3.7.3\n2026-09-08T13:25:06.772973400Z INF Writing template to file file=internal/mocks/gitadaptermock/zz_generated.Git.go version=v3.7.3\n2026-09-08T13:25:06.773174926Z INF Executing template file=internal/mocks/managercontrollermock/zz_generated.Talos.go version=v3.7.3\n2026-09-08T13:25:06.775060222Z INF Writing template to file file=internal/mocks/managercontrollermock/zz_generated.Talos.go version=v3.7.3\n2026-09-08T13:25:06.775245468Z INF Executing template file=internal/mocks/clidrivermock/zz_generated.Reconciler.go version=v3.7.3\n2026-09-08T13:25:06.778538329Z INF Writing template to file file=internal/mocks/clidrivermock/zz_generated.Reconciler.go version=v3.7.3\n2026/09/08 13:25:06 Building generate-docs using generic-builder\n2026/09/08 13:25:06 Executing command: go [run ./cmd/docgen] (context: /__w/forge-self-factory/forge-self-factory/forge-ci) for linux/amd64\n2026/09/08 13:25:06 Stdout: docgen: wrote cmd/ci-artifact-container/docs/usage.md\ndocgen: wrote cmd/ci-artifact-container/docs/schema.md\ndocgen: wrote cmd/ci-artifact-container/docs/list.yaml\ndocgen: wrote cmd/ci-artifact-release/docs/usage.md\ndocgen: wrote cmd/ci-artifact-release/docs/schema.md\ndocgen: wrote cmd/ci-artifact-release/docs/list.yaml\ndocgen: wrote cmd/ci-compute-github/docs/usage.md\ndocgen: wrote cmd/ci-compute-github/docs/schema.md\ndocgen: wrote cmd/ci-compute-github/docs/list.yaml\ndocgen: wrote cmd/ci-compute-local/docs/usage.md\ndocgen: wrote cmd/ci-compute-local/docs/schema.md\ndocgen: wrote cmd/ci-compute-local/docs/list.yaml\ndocgen: wrote cmd/ci-gate-manual/docs/usage.md\ndocgen: wrote cmd/ci-gate-manual/docs/schema.md\ndocgen: wrote cmd/ci-gate-manual/docs/list.yaml\ndocgen: wrote cmd/ci-manager-dryrun/docs/usage.md\ndocgen: wrote cmd/ci-manager-dryrun/docs/schema.md\ndocgen: wrote cmd/ci-manager-dryrun/docs/list.yaml\ndocgen: wrote cmd/ci-manager-github/docs/usage.md\ndocgen: wrote cmd/ci-manager-github/docs/schema.md\ndocgen: wrote cmd/ci-manager-github/docs/list.yaml\ndocgen: wrote cmd/ci-manager-local/docs/usage.md\ndocgen: wrote cmd/ci-manager-local/docs/schema.md\ndocgen: wrote cmd/ci-manager-local/docs/list.yaml\ndocgen: wrote cmd/ci-manager-talos/docs/usage.md\ndocgen: wrote cmd/ci-manager-talos/docs/schema.md\ndocgen: wrote cmd/ci-manager-talos/docs/list.yaml\ndocgen: wrote cmd/ci-promotion-all/docs/usage.md\ndocgen: wrote cmd/ci-promotion-all/docs/schema.md\ndocgen: wrote cmd/ci-promotion-all/docs/list.yaml\ndocgen: wrote cmd/ci-state-git/docs/usage.md\ndocgen: wrote cmd/ci-state-git/docs/schema.md\ndocgen: wrote cmd/ci-state-git/docs/list.yaml\ndocgen: wrote cmd/ci-trigger-watch/docs/usage.md\ndocgen: wrote cmd/ci-trigger-watch/docs/schema.md\ndocgen: wrote cmd/ci-trigger-watch/docs/list.yaml\ndocgen: wrote docs/concepts.md\ndocgen: wrote docs/decisions.md\nBuilding 1 artifact(s) with forge://go-format...\n2026/09/08 13:25:07 Building format-code using go-format\n2026/09/08 13:25:07 Formatting Go code at: .\ngo: downloading mvdan.cc/gofumpt v0.6.0\ngo: downloading golang.org/x/sync v0.6.0\ngo: downloading github.com/google/go-cmp v0.6.0\ngo: downloading golang.org/x/mod v0.14.0\ngo: downloading golang.org/x/tools v0.17.0\nFormatted Go code at .\nBuilding 13 artifact(s) with forge://go-build...\n2026/09/08 13:25:10 Building 13 artifacts in batch using go-build\n2026/09/08 13:25:10 Building forge-ci using go-build\n2026/09/08 13:25:10 Building binary: forge-ci from ./cmd/forge-ci for linux/amd64, linux/arm64\nall modules verified\n2026/09/08 13:25:25 [DEBUG] detectDependenciesForArtifact called for: ./cmd/forge-ci (artifact: forge-ci)\n2026/09/08 13:25:25 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/forge-ci/main.go\n2026/09/08 13:25:25 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/forge-ci/main.go, attempting dependency detection\n2026/09/08 13:25:26 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 13:25:26 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/forge-ci/main.go funcName=main\n2026/09/08 13:25:26 Detected 31 dependencies for forge-ci\nBuilt binary: forge-ci for linux/amd64 (version: 6baafb8f9494b6bea0b8eb3b08beeac2e0c31b77)\n2026/09/08 13:25:41 [DEBUG] detectDependenciesForArtifact called for: ./cmd/forge-ci (artifact: forge-ci)\n2026/09/08 13:25:41 [DEBUG] findMainPackageFile result: isMain=true, mainFile=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/forge-ci/main.go\n2026/09/08 13:25:41 Detected main package in /__w/forge-self-factory/forge-self-factory/forge-ci/cmd/forge-ci/main.go, attempting dependency detection\n2026/09/08 13:25:41 Resolved dependency detector: /__w/forge-self-factory/forge-self-factory/forge/build/local-engines/go-dependency-detector []\n2026/09/08 13:25:41 Detecting dependencies: filepath=/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/forge-ci/main.go funcName=main\n2026/09/08 13:25:41 Detected 31 dependencies for forge-ci\nBuilt binary: forge-ci for linux/arm64 (version: 6baafb8f9494b6bea0b8eb3b08beeac2e0c31b77)\n2026/09/08 13:25:41 Building ci-manager-local using go-build\n2026/09/08 13:25:41 Building binary: ci-manager-local from ./cmd/ci-manager-local for linux/amd64, linux/arm64\nall modules verified\n# github.com/alexandremahdhaoui/forge-ci/cmd/ci-manager-local\ncmd/ci-manager-local/zz_generated.mcp.go:79:9: output.Kind undefined (type *mcptypes.ConfigValidateOutput has no field or method Kind)\n2026/09/08 13:26:02 Building ci-manager-dryrun using go-build\n2026/09/08 13:26:02 Building binary: ci-manager-dryrun from ./cmd/ci-manager-dryrun for linux/amd64, linux/arm64\nall modules verified\n# github.com/alexandremahdhaoui/forge-ci/cmd/ci-manager-dryrun\ncmd/ci-manager-dryrun/zz_generated.mcp.go:79:9: output.Kind undefined (type *mcptypes.ConfigValidateOutput has no field or method Kind)\n2026/09/08 13:26:03 Building ci-manager-github using go-build\n2026/09/08 13:26:03 Building binary: ci-manager-github from ./cmd/ci-manager-github for linux/amd64, linux/arm64\nall modules verified\n# github.com/alexandremahdhaoui/forge-ci/cmd/ci-manager-github\ncmd/ci-manager-github/zz_generated.mcp.go:79:9: output.Kind undefined (type *mcptypes.ConfigValidateOutput has no field or method Kind)\n2026/09/08 13:26:05 Building ci-manager-talos using go-build\n2026/09/08 13:26:05 Building binary: ci-manager-talos from ./cmd/ci-manager-talos for linux/amd64, linux/arm64\nall modules verified\n# github.com/alexandremahdhaoui/forge-ci/cmd/ci-manager-talos\ncmd/ci-manager-talos/zz_generated.mcp.go:79:9: output.Kind undefined (type *mcptypes.ConfigValidateOutput has no field or method Kind)\n2026/09/08 13:26:09 Building ci-compute-github using go-build\n2026/09/08 13:26:09 Building binary: ci-compute-github from ./cmd/ci-compute-github for linux/amd64, linux/arm64\nall modules verified\n# github.com/alexandremahdhaoui/forge-ci/cmd/ci-compute-github\ncmd/ci-compute-github/zz_generated.mcp.go:187:9: output.Kind undefined (type *mcptypes.ConfigValidateOutput has no field or method Kind)\n2026/09/08 13:26:10 Building ci-compute-local using go-build\n2026/09/08 13:26:10 Building binary: ci-compute-local from ./cmd/ci-compute-local for linux/amd64, linux/arm64\nall modules verified\n# github.com/alexandremahdhaoui/forge-ci/cmd/ci-compute-local\ncmd/ci-compute-local/zz_generated.mcp.go:187:9: output.Kind undefined (type *mcptypes.ConfigValidateOutput has no field or method Kind)\n2026/09/08 13:26:11 Building ci-state-git using go-build\n2026/09/08 13:26:11 Building binary: ci-state-git from ./cmd/ci-state-git for linux/amd64, linux/arm64\nall modules verified\n# github.com/alexandremahdhaoui/forge-ci/cmd/ci-state-git\ncmd/ci-state-git/zz_generated.mcp.go:187:9: output.Kind undefined (type *mcptypes.ConfigValidateOutput has no field or method Kind)\n2026/09/08 13:26:13 Building ci-artifact-container using go-build\n2026/09/08 13:26:13 Building binary: ci-artifact-container from ./cmd/ci-artifact-container for linux/amd64, linux/arm64\nall modules verified\n# github.com/alexandremahdhaoui/forge-ci/cmd/ci-artifact-container\ncmd/ci-artifact-container/zz_generated.mcp.go:115:9: output.Kind undefined (type *mcptypes.ConfigValidateOutput has no field or method Kind)\n2026/09/08 13:26:15 Building ci-artifact-release using go-build\n2026/09/08 13:26:15 Building binary: ci-artifact-release from ./cmd/ci-artifact-release for linux/amd64, linux/arm64\nall modules verified\n# github.com/alexandremahdhaoui/forge-ci/cmd/ci-artifact-release\ncmd/ci-artifact-release/zz_generated.mcp.go:115:9: output.Kind undefined (type *mcptypes.ConfigValidateOutput has no field or method Kind)\n2026/09/08 13:26:16 Building ci-trigger-watch using go-build\n2026/09/08 13:26:16 Building binary: ci-trigger-watch from ./cmd/ci-trigger-watch for linux/amd64, linux/arm64\nall modules verified\n# github.com/alexandremahdhaoui/forge-ci/cmd/ci-trigger-watch\ncmd/ci-trigger-watch/zz_generated.mcp.go:115:9: output.Kind undefined (type *mcptypes.ConfigValidateOutput has no field or method Kind)\n2026/09/08 13:26:18 Building ci-gate-manual using go-build\n2026/09/08 13:26:18 Building binary: ci-gate-manual from ./cmd/ci-gate-manual for linux/amd64, linux/arm64\nall modules verified\n# github.com/alexandremahdhaoui/forge-ci/cmd/ci-gate-manual\ncmd/ci-gate-manual/zz_generated.mcp.go:115:9: output.Kind undefined (type *mcptypes.ConfigValidateOutput has no field or method Kind)\n2026/09/08 13:26:19 Building ci-promotion-all using go-build\n2026/09/08 13:26:19 Building binary: ci-promotion-all from ./cmd/ci-promotion-all for linux/amd64, linux/arm64\nall modules verified\n# github.com/alexandremahdhaoui/forge-ci/cmd/ci-promotion-all\ncmd/ci-promotion-all/zz_generated.mcp.go:115:9: output.Kind undefined (type *mcptypes.ConfigValidateOutput has no field or method Kind)\n❌ Build failed: build completed with errors: [build failed for forge://go-build: build failed: Batch build completed with errors: [Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1]]\nError: build failed: build completed with errors: [build failed for forge://go-build: build failed: Batch build completed with errors: [Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1 Build failed: go build for linux/amd64 failed: exit status 1]]\n",
+  "forge": {
+    "artifacts": [
+      {
+        "name": "resolve-spec",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-08T13:25:01Z",
+        "version": "sh-exit0"
+      },
+      {
+        "name": "gen-ci-state-git",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git",
+        "timestamp": "2026-09-08T13:25:05Z",
+        "version": "sha256:5aab53dd416fad314f962bbd003d2784ba831092c5d7f1c9e128cc84fbd69095",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/forge-dev.yaml",
+            "digest": "sha256:46572ff366fae7f2fa572fd4db5e252b52d8f9050eb2866efa06c3997ec05e4c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/revision/revision.v1.yaml",
+            "digest": "sha256:9450191f5b7a1235ff443eb2de34d9124e95705c479f9bb53efcac8e16da1b0f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/docs/usage.md",
+            "digest": "sha256:49a2903522584b8fce7511b999fa13d3cb62b501298b71905a04021a210d4723"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.runnable.yaml",
+            "digest": "sha256:0534223b6e4fd534856b23e4c912717589f87fbc33f846cdf1a140de938dff45"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.spec.go",
+            "digest": "sha256:b2a26a1ad92797749268724e3f3378ac9c30b134674a4ac975eb2ea8b83d6adc"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.validate.go",
+            "digest": "sha256:bffdbd79de8587d040bd92bfe8a750dc909c8233dfb9109dcdeb3d1e6e712c11"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.mcp.go",
+            "digest": "sha256:fc28c469aa2715ad5275813e15634d40fb63783103e0fcd4714bc3f2ebf8bd17"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.main.go",
+            "digest": "sha256:4dfad9a7ec147640c89fc9411a3785720694d9a2375182245e967565d7692ca4"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/zz_generated.docs.go",
+            "digest": "sha256:b525b34739a5105ff897ecde65633cba1977937455e6f7fa76da499a306e354a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/docs/schema.md",
+            "digest": "sha256:e20c881dbad30a7674d8804cef886e3bdb2492748b4c5992d91fac96c67aaa8f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-state-git/docs/list.yaml",
+            "digest": "sha256:207f92754814ee0d8293755fdf597eb3323dc24d0428c33c37db63e24e408661"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "gen-ci-manager-github",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github",
+        "timestamp": "2026-09-08T13:25:05Z",
+        "version": "sha256:1f25682d694b4742dd7e49eb5fef06026dc9c3a7372b0016bca087c0992ac507",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/forge-dev.yaml",
+            "digest": "sha256:5d1a9361b49ccd6643e5e3d653726839e9e1a570d4fc67d39fbad0611a56f292"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/docs/usage.md",
+            "digest": "sha256:a310cbefbb9009cfe0e5cca2db32b4cfa09ed4c0b8cdfd7e144f707ab0bd4414"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.runnable.yaml",
+            "digest": "sha256:987ee614a4d6a426641fb214420faefdb8ff3160c969374a8f2c6e7063278b51"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.spec.go",
+            "digest": "sha256:c83ab57582d25147815c5a465e634618c746f7e556d5fd252b38cefb231d2fde"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.validate.go",
+            "digest": "sha256:e2eddea50b85e367a7685a18cc81b55a8aa766c448463125aa1f01eaa841890e"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.mcp.go",
+            "digest": "sha256:a02950a36afe869562f54ff3cbca09aa0105b92272e860801d92c8a59b191fd9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.main.go",
+            "digest": "sha256:a1af2955513dc874754ba90045f2838351237888f56c8f1d1faf9a4d76075c29"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/zz_generated.docs.go",
+            "digest": "sha256:db87b985fb0ae8b19ff33c7533ecf95ce515c6122d22880c70afd402139738de"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/docs/schema.md",
+            "digest": "sha256:437336e6b6882e7eff774fc2204141205f4c8751b7ccb6fbfba55dcf0022b2d9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-github/docs/list.yaml",
+            "digest": "sha256:d9a8fc4a873fc71af0a0ff3036595725ed993e274d6031ebe74c86b7f99e7866"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "gen-ci-manager-talos",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos",
+        "timestamp": "2026-09-08T13:25:05Z",
+        "version": "sha256:42702abdab3873590b9010248812af34b289d5dd1c32e3b960f89ee14c44e4af",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/forge-dev.yaml",
+            "digest": "sha256:c52dced073ef8b9ee66809c7124c5ea6a26c128848dc2cbbd326bffccf921121"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/docs/usage.md",
+            "digest": "sha256:931425e91115373e8293ccfc59c271fe3a86dbbf03622263d1dcf25111cfa38f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.runnable.yaml",
+            "digest": "sha256:8ee052a5072c6ee50b4039a8e848fc2d6aae78bda1b5601439e70f393e671e0c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.spec.go",
+            "digest": "sha256:afca5d781f0a8813a8e5dee8e6076f809030c25248092771161dbee8476dfe13"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.validate.go",
+            "digest": "sha256:9bd92db92f8dca29ed82c015eeed8270f1421a6ff881b60f44bf93d59bf6f277"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.mcp.go",
+            "digest": "sha256:f789042a519463201a63a5065d09d379b27070043a06819956529f95d68d5582"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.main.go",
+            "digest": "sha256:c61d980c600afbdf2a876955f03cc26171f522b16cb6921166af972baedb04df"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/zz_generated.docs.go",
+            "digest": "sha256:878ee0ce289a03d92728517fb7fb9c3aa74b7a752a2ea9f8704c31124ca0e708"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/docs/schema.md",
+            "digest": "sha256:75c5a5b653c5bc6b46af72bc5d31c52bc47e593a3467a38239cb0d0c64e515a9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-talos/docs/list.yaml",
+            "digest": "sha256:23f11e8d8d51139377be275bc7754545b784322694e0e8772fbe44b73bcb69d9"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "generate-mocks",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-08T13:25:06Z",
+        "version": "mockery-exit0"
+      },
+      {
+        "name": "format-code",
+        "type": "generated",
+        "location": "forge-ci",
+        "timestamp": "2026-09-08T13:25:09Z",
+        "version": ""
+      },
+      {
+        "name": "gen-ci-trigger-watch",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch",
+        "timestamp": "2026-09-08T13:25:05Z",
+        "version": "sha256:9cd8486402581bf9092a10bfe90dbd818349fc468152a1147cb1958b5bf4299f",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/forge-dev.yaml",
+            "digest": "sha256:6337cb25fb3330b08c1801bed3ab7ba41340e5a462dbc46cfa34b66aa76ba589"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/docs/usage.md",
+            "digest": "sha256:9e01850ac6605df67284e5e1806e68503e6defcb0cd19b879db3106e97f6a820"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.runnable.yaml",
+            "digest": "sha256:c3845320b43f27b220130bb40c5971beb3d1434afcd5fd8c6d88428657be775e"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.spec.go",
+            "digest": "sha256:44cdd3b57d4be1dfb1f5d1fc66d70d8353be768f7a6005367427267181b02ab9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.validate.go",
+            "digest": "sha256:88c7e749507a0cbf26341feb2787d6d48729c614eb1d067897eeda335266b494"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.mcp.go",
+            "digest": "sha256:9edbeb3aad08c1b49cb51dd1739b094ff9272cb243ceab3519ed8d3ad50c62cb"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.main.go",
+            "digest": "sha256:ee81f8763ec79cc023e617d8920a8a8f46096e649b2282ee81e34285ad2576ee"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/zz_generated.docs.go",
+            "digest": "sha256:08935e001527f7ebce3f00e1979f416c72a14c17647f0d1229696985d982dd49"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/docs/schema.md",
+            "digest": "sha256:0f929a9d862442e5f67784f38f4e098cdaaabe9cc2146d61637eb23084c8bc7f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-trigger-watch/docs/list.yaml",
+            "digest": "sha256:83370c2a999e4358e952f172850baa73ec7b31ba9bc5fca06b351b49119037f2"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "gen-ci-artifact-container",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container",
+        "timestamp": "2026-09-08T13:25:05Z",
+        "version": "sha256:957f2665ec9312f48c71bc1ac827953cf6f8e423cced3e4367db8c096946bdd6",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/forge-dev.yaml",
+            "digest": "sha256:9759089f48753cf810ddfec205775e7ce6b24ae78315a271b09444d5f90d3c9a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/docs/usage.md",
+            "digest": "sha256:66aff04a79e8ae91fe17640adca26738cfeb6376423f6509071f76b7718cb4a7"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.runnable.yaml",
+            "digest": "sha256:cc1d7b4e22829b7b9a51407bd406cc921378f5cf6470a94f8928bd289c141583"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.spec.go",
+            "digest": "sha256:379000d99ce6735322dbcd1ae617e0350f475409e8f8c26b7bf400d69bf55578"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.validate.go",
+            "digest": "sha256:43a326243d0ff7998778ffbdd28627009dcb75ebdbfcb736af41aba2ecdf0277"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.mcp.go",
+            "digest": "sha256:56e51737f18709135893ab095543a18b695eb906612a8d62608136c4f5e5887e"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.main.go",
+            "digest": "sha256:0b802a42e06e713153af8d1a402d4fb0471bb2e68f5524736c18e4cf8550477d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/zz_generated.docs.go",
+            "digest": "sha256:1a0e6b0dcef6060e45e72f0fff1e0445616c3c7b16e37497044f605ec7a40894"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/docs/schema.md",
+            "digest": "sha256:bf8d014bfeab2a4318d45dd05ed2f1e7481ea187d91573b1d9d4761bab5702f3"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-container/docs/list.yaml",
+            "digest": "sha256:4f81dbf414abfff6ee48bf8da2d4c5dd9cc632926238b2815d3db7ec4fdddda6"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "gen-ci-manager-local",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local",
+        "timestamp": "2026-09-08T13:25:05Z",
+        "version": "sha256:8ef2c194f03ae1e8c6e7ca28bde634c756f3534a3e9d5a051e12d6d62612f59c",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/forge-dev.yaml",
+            "digest": "sha256:7e6961193a18a1898492c277337e9516518526621f24098f7c5293d1f7ea9e4f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/docs/usage.md",
+            "digest": "sha256:4b0edf4b302f6b5c8b57197ad0ada0d7e17698df16c895508ad698b835c0e6fb"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.runnable.yaml",
+            "digest": "sha256:4ffb543da68383e2a071315fb15748391220475054826b37f47fe1b4ab0b4908"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.spec.go",
+            "digest": "sha256:781ce54314c04070e209a25a850e21f966ce46b1e7236b170752a09601578710"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.validate.go",
+            "digest": "sha256:145b0cd6cb303a486f732b913e3b844d7d07064c6a407ef584bc60fd88145746"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.mcp.go",
+            "digest": "sha256:25f487ca194fc71593fb963b9eae233bc10e909847c49e81480aa9135a2d78ce"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.main.go",
+            "digest": "sha256:3121f7cea021a2a6992bf136a731245ec63e545ac3c10229b9338b317bd66d67"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/zz_generated.docs.go",
+            "digest": "sha256:43e684a915bc98d4883002d67947a55cd2563517b88694e6686e1df8851b77f2"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/docs/schema.md",
+            "digest": "sha256:54e2cd828fe44473d068a5fd944934c1a843dfc1aa054881089bc69a1fc3a383"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-local/docs/list.yaml",
+            "digest": "sha256:835a840b57cb5a4bf509c94479f9ed7fa231b3f9411d582f34dc25fabd4ce4d4"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "gen-ci-manager-dryrun",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun",
+        "timestamp": "2026-09-08T13:25:05Z",
+        "version": "sha256:4a3f4924abae8d5871f5ccc696bb025c9b767ab9e8f867efc45d8ba2c406bcf3",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/forge-dev.yaml",
+            "digest": "sha256:18b458236be484494a70dbcca3bbd64c41c785ba58d16c6432c529e5a2b9cf30"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/docs/usage.md",
+            "digest": "sha256:82cf746d97e5ad4a0940f793983a3f4c69406fbb040d13607080dea63140133d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.runnable.yaml",
+            "digest": "sha256:66cc17777f673b701e7eb5e68c146043f712633be41e248ad586554d79332c85"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.spec.go",
+            "digest": "sha256:2c55b33814a79cbb5fdfdd3d9ec7ec78cdee396663b5bbe0abe106f6d23e4988"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.validate.go",
+            "digest": "sha256:df0c67e21ad9b51ae12989d2df9b36eb357949105862f604930ed2a289cd0b09"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.mcp.go",
+            "digest": "sha256:1fc691eea869e0859e8333ad9dfe079ae8c5c426aac9c7105e611cb0053e4ff0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.main.go",
+            "digest": "sha256:4275088dd490c3814c95b64678391916cbbbe4e1711d5094f363339cc57fb966"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/zz_generated.docs.go",
+            "digest": "sha256:e43865e6fe6ddd62871c594d35f86040ab93e02ffbf306c6be4e9f1287f5640d"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/docs/schema.md",
+            "digest": "sha256:9eb5281f4dd8b24d7cd9d9114626fb115d73cea8c09b22e0e5de40c430cb7e95"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-manager-dryrun/docs/list.yaml",
+            "digest": "sha256:aa891941f435bd6d80b471a0eaec6bb9c11abcd4f6dd1d6f72be516552ae9230"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "gen-ci-artifact-release",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release",
+        "timestamp": "2026-09-08T13:25:05Z",
+        "version": "sha256:367e10188e1be065f12e0bdaec20b56062784c30ffa7ca1d94eefab27415403a",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/forge-dev.yaml",
+            "digest": "sha256:ea58cd47e9e0ff8fbd6a6e4aeae54bfd81f9bb89c6f3820cf684b4242fe2f529"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/docs/usage.md",
+            "digest": "sha256:0c827c698248eea7af54bcf22151014f09f6273593ef5442710cc8ea1f3d2d70"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.runnable.yaml",
+            "digest": "sha256:d4ddbe4ccfa6235462a463b117094fca5ed803f906f4507bcb451ed10c1061f9"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.spec.go",
+            "digest": "sha256:4dcd65ef688e36b6c33e98b9a3d72e1bd1fcc6c1b70eb7155cd0458c758fe7a8"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.validate.go",
+            "digest": "sha256:a4388237cad4501eddda2d9f1bd313871143ba0603b3a8a29c2b6587d3425056"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.mcp.go",
+            "digest": "sha256:65099d06abaef5f1e8c6954ab10abad481494b9c5aebd1fbd1d3877c49f8f4bc"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.main.go",
+            "digest": "sha256:1a81f7eaa8c651be9e0b1f950d031a79f1955f6eb063a19fd82f4831015fd464"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/zz_generated.docs.go",
+            "digest": "sha256:4581a4710c310ca093c0276fa3e6db24edbf79fe6a649916c4a41d8a11004e60"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/docs/schema.md",
+            "digest": "sha256:6f18006c95531a8e47cb562ce6d0d3e642c291a9fb2db3f8c22e8c488d75a992"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-artifact-release/docs/list.yaml",
+            "digest": "sha256:7097b5e16751591f7b01bd13416bf304ae5fbda1f138c6b6095916aaabdd6a95"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "generate-docs",
+        "type": "command-output",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci",
+        "timestamp": "2026-09-08T13:25:06Z",
+        "version": "go-exit0"
+      },
+      {
+        "name": "gen-ci-compute-github",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github",
+        "timestamp": "2026-09-08T13:25:05Z",
+        "version": "sha256:3667aa5c0346112343ae968095763784ca271c3229d47e1a74c33daf63bd243a",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/forge-dev.yaml",
+            "digest": "sha256:755b838eef4a99b39a56941b9021752208770b754be8ff1635ac3105376a240c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/docs/usage.md",
+            "digest": "sha256:d9ba920b657cb1d33155b1d47f1697111fe76b6d8f2f187e64810199119928e7"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.runnable.yaml",
+            "digest": "sha256:bc88c196301642793c6e66d9c8b6168aa0949493aba07540b756f1e79baf9709"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.spec.go",
+            "digest": "sha256:9c612221285fdfd577305173ffee1dff7e1273570cef6fbdd17608c7bf097661"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.validate.go",
+            "digest": "sha256:88b7c1d0ecdc3f14346a0d8d0877a49d7ca6da5469560ba1d75ffd7adc9abb6a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.mcp.go",
+            "digest": "sha256:bd2f41730c449648e204f42517f82b1cc86b48716d84c2298b00ff399041537b"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.main.go",
+            "digest": "sha256:88487562a0d43e0254a88add3651d25d49fb4c45f088025f33265b46c7f9c758"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/zz_generated.docs.go",
+            "digest": "sha256:b6d9196eb4262c96ca3a36a472517381c8d79359e18fa63e3b1bcd27f6659a86"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/docs/schema.md",
+            "digest": "sha256:07c5a245ae00173947089559c8c2ed76b39de48e4aa7c017d86b9277dfcaaa4a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-github/docs/list.yaml",
+            "digest": "sha256:e915233f8eec9a783f19a637fbc9133d3f5c1b578683a6e6d46fdea26e5079bf"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "gen-ci-gate-manual",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual",
+        "timestamp": "2026-09-08T13:25:05Z",
+        "version": "sha256:1077f569dbd4dcb1db8f2faf60b2c1d3f55476b6d2ac86e1de2835a8db364b3f",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/forge-dev.yaml",
+            "digest": "sha256:e15f531bf41c20290dba16f5fba592c1ae172135ef1a1dc1720738bfb0075188"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/docs/usage.md",
+            "digest": "sha256:b013dbb8979fccdb0f0af4db0ac728e2de1b7dbaa91f7285625ada290350cb79"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.runnable.yaml",
+            "digest": "sha256:07ad04c217c834efc7a27397b0e6fbddb3e20826de1547f74cc913f7863477c7"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.spec.go",
+            "digest": "sha256:23adf5f15e6911aaba9847599b587bf58cfd8e50679eb1c3b48b4c7a70815724"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.validate.go",
+            "digest": "sha256:9aa69470aa4a5dd57531f189054ff7b6fe209a91a3da54bd59c0c4a7b4fb550f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.mcp.go",
+            "digest": "sha256:b4fb4bad781c75dc7701693932c7fcdbe1620e0d25b435f60cbfaf5a84993297"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.main.go",
+            "digest": "sha256:06a9f24297b1deabf0b07f614b964e768bd6f081c2fed5cb77d2994d6a900c28"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/zz_generated.docs.go",
+            "digest": "sha256:4720936a114416750326b469458df6e21d636cbdaef5181fad661c740b46703c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/docs/schema.md",
+            "digest": "sha256:829808f6c4b983b672282d23a5c84a872ba1258ef6381884ea71a954c5681be5"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-gate-manual/docs/list.yaml",
+            "digest": "sha256:d0175fea20301dea8fb82e1122fa4af8d8fef735a2ae24149cdf19bd63168570"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "gen-ci-promotion-all",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all",
+        "timestamp": "2026-09-08T13:25:05Z",
+        "version": "sha256:9116c25482800945907c758a2232d8cecf4a35f141fef2c754483692c312c8cc",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/forge-dev.yaml",
+            "digest": "sha256:0bb972db7d0e8fe680af3e37fa9b39fa087f620cd4bb1ec70b69fec528a529a0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/docs/usage.md",
+            "digest": "sha256:b082b80e83d70de5cf64d15e1732527c6c9ea87c0e158ab7edc03478fba17848"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.runnable.yaml",
+            "digest": "sha256:cbe158c9f9d8844b5b873a8f488a2fe506c49d25b1647ea8e3a43b7670e6d730"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.spec.go",
+            "digest": "sha256:d9b9682f936bffc8428aa3dc362e795d6081b308d5cdbbd99033e4085d56fa78"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.validate.go",
+            "digest": "sha256:3eb1454ed35e82ccdd4f7e80361c7907a46b969d4c97054197f5a6af3c3f45c1"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.mcp.go",
+            "digest": "sha256:bbded51bf34e5837fed43576bbb922dd099d2f483bd52669f6850651270367a7"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.main.go",
+            "digest": "sha256:9f2d4dfba4646625b3fccc19615bfa51034b46088b5fbf7f3fa7b3146949c6e2"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/zz_generated.docs.go",
+            "digest": "sha256:6471bb01f36f663367e8183d8a7d11d594388bb720d04a110fb3492c203dd0f5"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/docs/schema.md",
+            "digest": "sha256:e254f3a9efb75fcca70ba8022255e0f3db8c37101fe56e0e90544cc10a1c5488"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-promotion-all/docs/list.yaml",
+            "digest": "sha256:ebb03df9a843999b1eb8226a132f53d87f8bbf541fc2b9364680d8b717d07331"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      },
+      {
+        "name": "gen-ci-compute-local",
+        "type": "generated",
+        "location": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local",
+        "timestamp": "2026-09-08T13:25:05Z",
+        "version": "sha256:5bb99bde915098a038a56e7eccc04037529d123626a9456fc5fb047cfe944a1c",
+        "dependencies": [
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/forge-dev.yaml",
+            "digest": "sha256:f074e33526afbb93c7b41dc37cb3fd361d9666187b65b7197597bde73caac47f"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/.forge/spec-cache/engines.v1.yaml",
+            "digest": "sha256:4b74e8f455e6e3bdc7a1d705a08af081f97ca0d22557bbca7a4f6e6f0ec7062c"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/docs/usage.md",
+            "digest": "sha256:2aae1079a720855447f7c1e530768b305c54bad2b68f35749accf03d46ce505a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.runnable.yaml",
+            "digest": "sha256:a0fb52ab99789237cd9038cf90842ec5c41585608cfad00b19ba22cf2fa730fb"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.spec.go",
+            "digest": "sha256:064fe962a222d97d06233f27c35b73fdd5f999e2cacce7e869ae802eaa192f05"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.validate.go",
+            "digest": "sha256:573620a902f7742460b80b513002b28c42b04a0082f681f3b0bef29d4cfdbd54"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.mcp.go",
+            "digest": "sha256:810c28660b3bf5dafa1325cdf6e8c6b5b8b7efee7d77381c8de86540f9458b7e"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.main.go",
+            "digest": "sha256:c2a17017397a07f361b745747b2d1c9fb9de3cb99f13f83a815aad91c4c6d777"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/zz_generated.docs.go",
+            "digest": "sha256:253a7d5db319da946dfbb614da516949079ecff756b1de66d09fda6b363c46a0"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/docs/schema.md",
+            "digest": "sha256:92c3bdd7356ca93a914c9e8d5a209c0460c3128d675dc04da3702c142f56719a"
+          },
+          {
+            "path": "/__w/forge-self-factory/forge-self-factory/forge-ci/cmd/ci-compute-local/docs/list.yaml",
+            "digest": "sha256:4620c502c138229649bd3421ef75bae4eb5eb460e6129feaeee43ae683e8e2f9"
+          }
+        ],
+        "dependencyDetectorEngine": "forge://forge-dev"
+      }
+    ]
+  }
+}
