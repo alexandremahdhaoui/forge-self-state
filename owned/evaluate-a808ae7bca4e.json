@@ -1,0 +1,21 @@
+{
+  "revision": {
+    "id": "a808ae7bca4e",
+    "createdAt": "2026-09-08T14:31:44.714512466Z",
+    "repos": {
+      "forge": "0815e338b659a600c5427d2942f5f3eb00778bbb",
+      "forge-ci": "90b84c254f060b6f16301dc9547a5d896547137a",
+      "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+      "forge-dev-codegen": "9646e9080b4ed179c9edc701985dc40570f04c2e",
+      "forge-factory": "efefea33d666cf4ef899d25c434dfbb0e12352ce",
+      "forge-register": "713172fc0b2f5039663cb78637ad1bc44021eaa5",
+      "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+      "forge-revision-spec": "f9a44a242755fb8ba09ce3bc1ccc2953e8461ef2",
+      "forge-self-factory": "6fa96546b6e82da775f72ddef445700e61ec5fd0",
+      "forge-self-register": "61b7f1b0189d2c59f979439a75ac2b83b6b15012"
+    }
+  },
+  "previous": "v0.49.0",
+  "skip": true,
+  "reason": "Nothing to release. 1 commit since v0.49.0, and it is a kind that never releases: \"forge-ci: self reconcile\" in forge-self-factory."
+}
