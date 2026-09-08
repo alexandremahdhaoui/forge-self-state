@@ -1,0 +1,41 @@
+{
+  "revision": {
+    "id": "2702312f2fa6",
+    "createdAt": "2026-09-08T03:32:44.770336135Z",
+    "repos": {
+      "forge": "def7cb92d582046f6ae1fc725a7cea5fbb53b2f1",
+      "forge-ci": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+      "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+      "forge-factory": "b86ebf14138241e7879ed476f5d54c4b1025ed8a",
+      "forge-register": "5452ed7bb59e6be80c389a484c22e78a48b6fca8",
+      "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+      "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+      "forge-self-factory": "e778ad049dba12942c368429fb5fd3c25a7a2ef4",
+      "forge-self-register": "179afd6b10577306709b6e71b713c2a4eebe8474"
+    }
+  },
+  "version": "v0.47.1",
+  "tag": "v0.47.1",
+  "previous": "v0.47.0",
+  "reason": "Release v0.47.1 (patch): \"fix: no engine has a top-level key, run-local has one owner, delegation is data\" in forge.",
+  "repos": {
+    "forge": "def7cb92d582046f6ae1fc725a7cea5fbb53b2f1",
+    "forge-ci": "1c980e34e029dfa850a1a4a881539ed9cf822568",
+    "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+    "forge-factory": "b86ebf14138241e7879ed476f5d54c4b1025ed8a",
+    "forge-register": "5452ed7bb59e6be80c389a484c22e78a48b6fca8",
+    "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+    "forge-revision-spec": "f57f837c82cee66ccfdd23e37bce3fb9ad563d1c",
+    "forge-self-factory": "e778ad049dba12942c368429fb5fd3c25a7a2ef4"
+  },
+  "trees": {
+    "forge": "5b922d9519d35d40533a131b0a7c7bcc1d3a9152ad18f1b3bc0cde7c3224177f",
+    "forge-ci": "7752c438af825e8f805b35748368488887b95963b6f17eb3c9938c18e3ede07d",
+    "forge-ci-spec": "7e2d4883e1744f4eb726a321e34edec5a6c9fc122e68e8898aa7c1cd5559dbb2",
+    "forge-factory": "4e42e11a1e3c9ae5e57a4c4020b6ded016ac07e89a62dd59d1fbae9e3655e9a8",
+    "forge-register": "3dc0379e76bbc478e9f938ecef1f6cda058eb155cab113bd7dd6586a0d44ee18",
+    "forge-register-spec": "b42326423d7fb5890d671b2e1888377f6acc12aee4a224b779cad8380d144a39",
+    "forge-revision-spec": "b9883679f357c187ca80faf038b38890140163ee5742eea3309cf1e5490c12e2",
+    "forge-self-factory": "d513f5373855eae0b53fcfb18afd3e1dd3733190d53b391f425afceae512daa3"
+  }
+}
