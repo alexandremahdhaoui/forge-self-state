@@ -1,0 +1,44 @@
+{
+  "revision": {
+    "id": "e4a36185caeb",
+    "createdAt": "2026-09-09T13:29:28.668201223Z",
+    "repos": {
+      "forge": "1e5e81b46554d275429bce841e1d705ce527f66b",
+      "forge-ci": "484e66eb1ca10027dcacfc6b4f7d2f5883966268",
+      "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+      "forge-dev-codegen": "9bb9c7b00bbfaa93efddda586de71fec4611762a",
+      "forge-factory": "2cf80622c32f11541e330a1baa53270ad551f46e",
+      "forge-register": "1e0b1702f9a2adb962118d556574fe32ca862186",
+      "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+      "forge-revision-spec": "f9a44a242755fb8ba09ce3bc1ccc2953e8461ef2",
+      "forge-self-factory": "306ce8c7579e26c3a70635101473bccbd258c59f",
+      "forge-self-register": "9cfb4560a16899ebd76160f79a8ec16dcd15850f"
+    }
+  },
+  "version": "v0.50.4",
+  "tag": "v0.50.4",
+  "previous": "v0.50.3",
+  "reason": "Release v0.50.4 (patch): \"🌱 the terraform manager drops four guards its refusal already answers\" in forge-ci.",
+  "repos": {
+    "forge": "1e5e81b46554d275429bce841e1d705ce527f66b",
+    "forge-ci": "484e66eb1ca10027dcacfc6b4f7d2f5883966268",
+    "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+    "forge-dev-codegen": "9bb9c7b00bbfaa93efddda586de71fec4611762a",
+    "forge-factory": "2cf80622c32f11541e330a1baa53270ad551f46e",
+    "forge-register": "1e0b1702f9a2adb962118d556574fe32ca862186",
+    "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+    "forge-revision-spec": "f9a44a242755fb8ba09ce3bc1ccc2953e8461ef2",
+    "forge-self-factory": "306ce8c7579e26c3a70635101473bccbd258c59f"
+  },
+  "trees": {
+    "forge": "3b9e2b08d09fd5bca5952ffe59a5a3e2cd9b6a4412c740a99b29c0e1fd14c43b",
+    "forge-ci": "acf7b5278f333c75060e61dda77f96dd4e927ccb68f783e0a29407972ac9a36c",
+    "forge-ci-spec": "7e2d4883e1744f4eb726a321e34edec5a6c9fc122e68e8898aa7c1cd5559dbb2",
+    "forge-dev-codegen": "d42149553ce6f2c961d485be0e162142660c329514502fcd6b3c35dba51769e2",
+    "forge-factory": "ea51febd60671e15885cc36a6aedb2d2ef8b34808701e981749e068791ca44d3",
+    "forge-register": "bc1bcf2f11e98fd094505956f07dc353bda21bcd16f3dabd7f320046a3bbe1f1",
+    "forge-register-spec": "b42326423d7fb5890d671b2e1888377f6acc12aee4a224b779cad8380d144a39",
+    "forge-revision-spec": "793510ede0a5270da13ac33007b3124a37d7b662d14296e2f530ab3c2350e4f0",
+    "forge-self-factory": "e0956e05287035fa8ee021868efb8780e97e4de4596a34978722cdd87519c546"
+  }
+}
