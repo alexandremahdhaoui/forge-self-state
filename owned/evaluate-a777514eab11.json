@@ -1,0 +1,44 @@
+{
+  "revision": {
+    "id": "a777514eab11",
+    "createdAt": "2026-09-09T16:13:51.752005762Z",
+    "repos": {
+      "forge": "1e5e81b46554d275429bce841e1d705ce527f66b",
+      "forge-ci": "4287c20c056483cc2abd206df1581963381ea47e",
+      "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+      "forge-dev-codegen": "13bc68897d250b46ae56dbe907460684594f5f0f",
+      "forge-factory": "2cf80622c32f11541e330a1baa53270ad551f46e",
+      "forge-register": "1e0b1702f9a2adb962118d556574fe32ca862186",
+      "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+      "forge-revision-spec": "f9a44a242755fb8ba09ce3bc1ccc2953e8461ef2",
+      "forge-self-factory": "748aed621a85f6b9efe8ba23c81b6348fe18e552",
+      "forge-self-register": "e7149cf45e8077120b56ebc2266bc67da479f1bc"
+    }
+  },
+  "version": "v0.50.6",
+  "tag": "v0.50.6",
+  "previous": "v0.50.5",
+  "reason": "Release v0.50.6 (patch): \"🐛 the kubernetes manager never echoes a pasted secret into its refusal\" in forge-ci.",
+  "repos": {
+    "forge": "1e5e81b46554d275429bce841e1d705ce527f66b",
+    "forge-ci": "4287c20c056483cc2abd206df1581963381ea47e",
+    "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+    "forge-dev-codegen": "13bc68897d250b46ae56dbe907460684594f5f0f",
+    "forge-factory": "2cf80622c32f11541e330a1baa53270ad551f46e",
+    "forge-register": "1e0b1702f9a2adb962118d556574fe32ca862186",
+    "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+    "forge-revision-spec": "f9a44a242755fb8ba09ce3bc1ccc2953e8461ef2",
+    "forge-self-factory": "748aed621a85f6b9efe8ba23c81b6348fe18e552"
+  },
+  "trees": {
+    "forge": "3b9e2b08d09fd5bca5952ffe59a5a3e2cd9b6a4412c740a99b29c0e1fd14c43b",
+    "forge-ci": "f21781f120c2d281b543ee7e6a632f38702262130349d421316a081e649390b5",
+    "forge-ci-spec": "7e2d4883e1744f4eb726a321e34edec5a6c9fc122e68e8898aa7c1cd5559dbb2",
+    "forge-dev-codegen": "cedfe46a454c9df6eb37e5bc7b4c4e2bdcf05bb4477b326bdd76cdc55a2f6ca1",
+    "forge-factory": "ea51febd60671e15885cc36a6aedb2d2ef8b34808701e981749e068791ca44d3",
+    "forge-register": "bc1bcf2f11e98fd094505956f07dc353bda21bcd16f3dabd7f320046a3bbe1f1",
+    "forge-register-spec": "b42326423d7fb5890d671b2e1888377f6acc12aee4a224b779cad8380d144a39",
+    "forge-revision-spec": "793510ede0a5270da13ac33007b3124a37d7b662d14296e2f530ab3c2350e4f0",
+    "forge-self-factory": "975c973186c0b528b422e9f7e36ed09c6f5ccd072ac14990d32fa2be1626424f"
+  }
+}
