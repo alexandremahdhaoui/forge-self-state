@@ -1,0 +1,44 @@
+{
+  "revision": {
+    "id": "fadcd15e581a",
+    "createdAt": "2026-09-10T15:00:52.388399577Z",
+    "repos": {
+      "forge": "1e5e81b46554d275429bce841e1d705ce527f66b",
+      "forge-ci": "8ecd98c7f575a238026e308b47dcf0ec1f172af0",
+      "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+      "forge-dev-codegen": "4caa13981a4782caf675abc323f105ee8946babb",
+      "forge-factory": "2cf80622c32f11541e330a1baa53270ad551f46e",
+      "forge-register": "1e0b1702f9a2adb962118d556574fe32ca862186",
+      "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+      "forge-revision-spec": "f9a44a242755fb8ba09ce3bc1ccc2953e8461ef2",
+      "forge-self-factory": "6d7a1fdb9eaa8f8535f9f7fc67e1cb0039dcf705",
+      "forge-self-register": "b6a7f35cb9b805eb4a5064a98d172785e78a1e32"
+    }
+  },
+  "version": "v0.50.9",
+  "tag": "v0.50.9",
+  "previous": "v0.50.8",
+  "reason": "Release v0.50.9 (patch): \"🐛 a secret value gets a type that cannot print itself\" in forge-ci.",
+  "repos": {
+    "forge": "1e5e81b46554d275429bce841e1d705ce527f66b",
+    "forge-ci": "8ecd98c7f575a238026e308b47dcf0ec1f172af0",
+    "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+    "forge-dev-codegen": "4caa13981a4782caf675abc323f105ee8946babb",
+    "forge-factory": "2cf80622c32f11541e330a1baa53270ad551f46e",
+    "forge-register": "1e0b1702f9a2adb962118d556574fe32ca862186",
+    "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+    "forge-revision-spec": "f9a44a242755fb8ba09ce3bc1ccc2953e8461ef2",
+    "forge-self-factory": "6d7a1fdb9eaa8f8535f9f7fc67e1cb0039dcf705"
+  },
+  "trees": {
+    "forge": "3b9e2b08d09fd5bca5952ffe59a5a3e2cd9b6a4412c740a99b29c0e1fd14c43b",
+    "forge-ci": "4890fefef6f758065d1d9bb1985d2a722097b6f3b3658bfeb10663a645d23c66",
+    "forge-ci-spec": "7e2d4883e1744f4eb726a321e34edec5a6c9fc122e68e8898aa7c1cd5559dbb2",
+    "forge-dev-codegen": "9eea933a5f12d6c433f3e9f953d1b753d1c90c28a45b71f6ef28428274eeeda3",
+    "forge-factory": "ea51febd60671e15885cc36a6aedb2d2ef8b34808701e981749e068791ca44d3",
+    "forge-register": "bc1bcf2f11e98fd094505956f07dc353bda21bcd16f3dabd7f320046a3bbe1f1",
+    "forge-register-spec": "b42326423d7fb5890d671b2e1888377f6acc12aee4a224b779cad8380d144a39",
+    "forge-revision-spec": "793510ede0a5270da13ac33007b3124a37d7b662d14296e2f530ab3c2350e4f0",
+    "forge-self-factory": "f8d02d92bb6790b9db765515fd9c898c30748be63f0bcc97c344f8618017cd3e"
+  }
+}
