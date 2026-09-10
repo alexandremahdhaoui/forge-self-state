@@ -1,0 +1,44 @@
+{
+  "revision": {
+    "id": "1fae61188702",
+    "createdAt": "2026-09-10T15:53:53.312035155Z",
+    "repos": {
+      "forge": "1e5e81b46554d275429bce841e1d705ce527f66b",
+      "forge-ci": "d0d28f4af6ee921fce7b1a09b17a96560e636f9e",
+      "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+      "forge-dev-codegen": "4caa13981a4782caf675abc323f105ee8946babb",
+      "forge-factory": "2cf80622c32f11541e330a1baa53270ad551f46e",
+      "forge-register": "1e0b1702f9a2adb962118d556574fe32ca862186",
+      "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+      "forge-revision-spec": "f9a44a242755fb8ba09ce3bc1ccc2953e8461ef2",
+      "forge-self-factory": "f3f2809f68eb4d7e3cef6e9d591366ab66e7c35f",
+      "forge-self-register": "30d494be382ddd171f9a7a2b6358ef44b6823180"
+    }
+  },
+  "version": "v0.50.10",
+  "tag": "v0.50.10",
+  "previous": "v0.50.9",
+  "reason": "Release v0.50.10 (patch): \"🐛 the talos client configuration never reaches the vendor as a filename\" in forge-ci.",
+  "repos": {
+    "forge": "1e5e81b46554d275429bce841e1d705ce527f66b",
+    "forge-ci": "d0d28f4af6ee921fce7b1a09b17a96560e636f9e",
+    "forge-ci-spec": "0e6d5354a6d46976c3d3df2e9ebf46ec4a48262d",
+    "forge-dev-codegen": "4caa13981a4782caf675abc323f105ee8946babb",
+    "forge-factory": "2cf80622c32f11541e330a1baa53270ad551f46e",
+    "forge-register": "1e0b1702f9a2adb962118d556574fe32ca862186",
+    "forge-register-spec": "75db8b36247bdfa44e9c3082f5c141607cf667c4",
+    "forge-revision-spec": "f9a44a242755fb8ba09ce3bc1ccc2953e8461ef2",
+    "forge-self-factory": "f3f2809f68eb4d7e3cef6e9d591366ab66e7c35f"
+  },
+  "trees": {
+    "forge": "3b9e2b08d09fd5bca5952ffe59a5a3e2cd9b6a4412c740a99b29c0e1fd14c43b",
+    "forge-ci": "ce76906546ebbee61282e818af4b3f23f68b14a668c2e651310a5c7009fb2f5b",
+    "forge-ci-spec": "7e2d4883e1744f4eb726a321e34edec5a6c9fc122e68e8898aa7c1cd5559dbb2",
+    "forge-dev-codegen": "9eea933a5f12d6c433f3e9f953d1b753d1c90c28a45b71f6ef28428274eeeda3",
+    "forge-factory": "ea51febd60671e15885cc36a6aedb2d2ef8b34808701e981749e068791ca44d3",
+    "forge-register": "bc1bcf2f11e98fd094505956f07dc353bda21bcd16f3dabd7f320046a3bbe1f1",
+    "forge-register-spec": "b42326423d7fb5890d671b2e1888377f6acc12aee4a224b779cad8380d144a39",
+    "forge-revision-spec": "793510ede0a5270da13ac33007b3124a37d7b662d14296e2f530ab3c2350e4f0",
+    "forge-self-factory": "218d57c4b4ac1468eeaecd0a536d08c96f02079f5e0e256c52e101026f9fee30"
+  }
+}
